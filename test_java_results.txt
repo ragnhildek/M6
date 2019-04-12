@@ -1,0 +1,12 @@
+number of non-dominated paths: 55
+number of dominated labels: 56
+The best label is: 
+Node: 7, Location: 6 , Tønsberg, Time: 92.53001, Profit: 949824.56, unreachablePickupNodes: [2, 10, 4, 8, 6], openNodes: [], dailyDrivingTime: 6.48, startTimeDailyRest: 73.0, numberDailyRests: 5, StartTimeIntermediateBreak: 89.8, consecutiveDrivingTime: 1.98, workingTime: 1.98, totalDistance: 2075.4658
+Node: 6, Location: 24 , Berkåk, Time: 84.0, Profit: 961551.4, unreachablePickupNodes: [2, 10, 4, 8, 6], openNodes: [6], dailyDrivingTime: 0.0, startTimeDailyRest: 73.0, numberDailyRests: 5, StartTimeIntermediateBreak: 38.939995, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 1560.716
+Node: 11, Location: 15 , Sistranda, Time: 56.83, Profit: 312219.7, unreachablePickupNodes: [2, 10, 4, 8], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 45.83, numberDailyRests: 4, StartTimeIntermediateBreak: 38.939995, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 1387.5819
+Node: 10, Location: 3 ,  Steinkjer, Time: 41.0, Profit: 325784.2, unreachablePickupNodes: [2, 10], openNodes: [10], dailyDrivingTime: 3.6499996, startTimeDailyRest: 24.289997, numberDailyRests: 3, StartTimeIntermediateBreak: 38.939995, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 1118.653
+Node: 3, Location: 33 ,  Oslo, Time: 18.489998, Profit: 104752.234, unreachablePickupNodes: [2], openNodes: [], dailyDrivingTime: 0.9399998, startTimeDailyRest: 4.5, numberDailyRests: 2, StartTimeIntermediateBreak: 17.739998, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 508.658
+Node: 2, Location: 1 ,  Fredrikstad, Time: 16.22, Profit: 107370.08, unreachablePickupNodes: [2], openNodes: [2], dailyDrivingTime: 0.7199998, startTimeDailyRest: 4.5, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.7199998, workingTime: 0.7199998, totalDistance: 414.611
+Node: 0, Location: 26 , Tynset, Time: 0.0, Profit: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 93.83001, Profit: 948956.2, unreachablePickupNodes: [2, 10, 4, 8, 6], openNodes: [], dailyDrivingTime: 6.48, startTimeDailyRest: 73.0, numberDailyRests: 5, StartTimeIntermediateBreak: 89.8, consecutiveDrivingTime: 1.98, workingTime: 3.2800002, totalDistance: 2075.4658
+Took 106 milli seconds

@@ -1,0 +1,7 @@
+number of non-dominated paths: 1
+number of dominated labels: 61
+The best label is: 
+number of non-dominated paths: 1
+number of dominated labels: 124
+The best label is: 
+Took 165 milli seconds
