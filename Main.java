@@ -10,10 +10,9 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		long startTime = System.nanoTime();
 		
-		String datafile = "10P5R2"
-				+ "V_java.txt";
+		String datafile = "14P5R4V_java.txt";
 		
-		File file = new File ("8P5R1V_java_results.txt");
+		File file = new File ("13P5R2V_java_results.txt");
 		
 		if (!file.exists()) {
 			try { file.createNewFile(); 

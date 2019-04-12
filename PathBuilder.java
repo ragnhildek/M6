@@ -48,6 +48,8 @@ public class PathBuilder {
 	// Label extension without any intermediate breaks or daily rests 
 	public Label LabelExtension(Node node, Label L, Float[] dualVisitedPickupsCon) {
 		
+
+		
 		// Cannot return to start depot
 		if(node.number == 0){
 			return null;
@@ -57,7 +59,7 @@ public class PathBuilder {
 		if (L.node.number == 1){
 			return null;
 		}
-
+		
 		// Defining rule related values
 		int maxDailyDrivingTime = 9;
 		int maxConsecutiveWorkingTime = 6;
@@ -138,7 +140,7 @@ public class PathBuilder {
 			for(int i : L.unreachablePickupNodes) {
 				L2.unreachablePickupNodes.add(i);
 			}
-			System.out.println("Extend to depot");
+			
 			// Adding all elements from the predecessor's openNodes to this label's openNodes
 			L2.openNodes = new Vector<Integer>();
 			for(int i : L.openNodes) {
@@ -430,7 +432,7 @@ public class PathBuilder {
 		if (consecutiveDrivingTime > maxConsecutiveDrivingTime || consecutiveWorkingTime > maxConsecutiveWorkingTime) {
 			return null;
 		}
-		
+		System.out.println("TYPE HER" +L.vehicle.nodes.get(node.number).type);
 		// Run preprocessing on the nodes in the open nodes set
 		for(int i : L.openNodes) {
 			if(arrivalTime-zeroTol > preprocess.unreachableDelNodesFromNode.get(node.number)[i+1]) {
@@ -476,6 +478,8 @@ public class PathBuilder {
 			for(int i : L.openNodes) {
 				L2.openNodes.add(i);
 			}
+			
+		
 			
 			// Calculating profit in the depot node
 			L2.profit = L.profit 
@@ -2093,11 +2097,12 @@ public class PathBuilder {
 				
 				// Only extend labels without daily rest if the arc driving time plus the daily driving time is less than 9 (no daily rest necessary)
 				if (arcDrivingTime + dailyDrivingTime < maxDailyDrivingTime) {
-					
+				//	System.out.println("TYPE"+L.vehicle.nodes.get(i+1).type);
 					// Run label extension without daily rest or intermediate break and check dominance
 					Label newLabel = LabelExtension(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 					
 					if(newLabel!=null) {
+						System.out.println(newLabel.toString());
 						if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number))) {
 							unprocessedQueue.add(newLabel); 
 							unprocessedAtNode.get(newLabel.node.number).add(newLabel);
@@ -2108,6 +2113,7 @@ public class PathBuilder {
 					Label newLabel2 = LabelExtensionWithIntermediateBreak(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 					
 					if(newLabel2!=null) {
+						System.out.println(newLabel2.toString());
 						if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number))) {
 							unprocessedQueue.add(newLabel2); 
 							unprocessedAtNode.get(newLabel2.node.number).add(newLabel2);
@@ -2118,6 +2124,7 @@ public class PathBuilder {
 					Label newLabel3 = LabelExtensionWithTwoIntermediateBreaks(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 					
 					if(newLabel3!=null) {
+						System.out.println(newLabel3.toString());
 						if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number))) {
 							unprocessedQueue.add(newLabel3); 
 							unprocessedAtNode.get(newLabel3.node.number).add(newLabel3);
@@ -2130,7 +2137,7 @@ public class PathBuilder {
 				Label newLabel4 = LabelExtensionWithDailyRest(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 				
 				if(newLabel4!=null) {
-				//	System.out.println(newLabel4.toString());
+					System.out.println(newLabel4.toString());
 					if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number))) {
 						unprocessedQueue.add(newLabel4); 
 						unprocessedAtNode.get(newLabel4.node.number).add(newLabel4);
@@ -2145,6 +2152,7 @@ public class PathBuilder {
 					Label newLabel5 = LabelExtensionWithIntermediateBreakBeforeDailyRest(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 					
 					if(newLabel5!=null) {
+						System.out.println(newLabel5.toString());
 						if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number))) {
 							unprocessedQueue.add(newLabel5); 
 							unprocessedAtNode.get(newLabel5.node.number).add(newLabel5);
@@ -2155,7 +2163,7 @@ public class PathBuilder {
 					Label newLabel6 = LabelExtensionWithDailyRestBeforeIntermediateBreak(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 					
 					if(newLabel6!=null) {
-					//	System.out.println(newLabel3.toString());
+						System.out.println(newLabel6.toString());
 						if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number))) {
 							unprocessedQueue.add(newLabel6); 
 							unprocessedAtNode.get(newLabel6.node.number).add(newLabel6);
@@ -2167,18 +2175,24 @@ public class PathBuilder {
 			// Extending labels to the end depot
 			Node node = L.vehicle.nodes.get(1);
 			
+			//System.out.println(L.vehicle.number);
+			//for(Node i : L.vehicle.nodes) {
+			//	System.out.println(i.lateTimeWindow);
+			//}
 			float arcDrivingTime = inputdata.getTime(label.node, node);
 			float dailyDrivingTime = label.dailyDrivingTime;
 			int maxDailyDrivingTime = 9;
-		//	System.out.println("nodeTYPE"+L.vehicle.nodes.get(1).type);
+			
 			// Only extend labels without daily rest if the arc driving time plus the daily driving time is less than 9 (no daily rest necessary)
 			if (arcDrivingTime + dailyDrivingTime < maxDailyDrivingTime) {
 			
 				// Run label extension without daily rest or intermediate break and check dominance
 				Label newLabel = LabelExtension(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon); 
+		//		System.out.println(L.vehicle.nodes.get(1).type);
 				
 				if(newLabel!=null) {
-					System.out.println(newLabel.toString());
+					
+					
 					if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number))) {
 						list.add(newLabel);
 					}
@@ -2189,7 +2203,7 @@ public class PathBuilder {
 				Label newLabel2 = LabelExtensionWithIntermediateBreak(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 				
 				if(newLabel2!=null) {
-					System.out.println(newLabel2.toString());
+					
 					if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number))) {
 						list.add(newLabel2);
 					}
@@ -2199,7 +2213,7 @@ public class PathBuilder {
 				Label newLabel3 = LabelExtensionWithTwoIntermediateBreaks(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 				
 				if(newLabel3!=null) {
-					System.out.println(newLabel3.toString());
+					
 					if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number))) {
 						list.add(newLabel3);
 					}
@@ -2210,7 +2224,7 @@ public class PathBuilder {
 			Label newLabel4 = LabelExtensionWithDailyRest(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 			
 			if(newLabel4!=null) {
-				System.out.println(newLabel4.toString());
+				
 				if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number))) {
 					list.add(newLabel4);
 				}
@@ -2229,7 +2243,7 @@ public class PathBuilder {
 				Label newLabel5 = LabelExtensionWithIntermediateBreakBeforeDailyRest(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 				
 				if(newLabel5!=null) {
-					System.out.println(newLabel5.toString());
+					
 					if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number))) {
 						list.add(newLabel5);
 					}
@@ -2239,7 +2253,7 @@ public class PathBuilder {
 				Label newLabel6 = LabelExtensionWithDailyRestBeforeIntermediateBreak(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 				
 				if(newLabel6!=null) {
-					System.out.println(newLabel6.toString());
+					
 					if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number))) {
 						list.add(newLabel6);
 					}
@@ -2388,7 +2402,7 @@ public class PathBuilder {
 	
 		pw.println(bestLabel.toString());
 		
-	
+		System.out.println(bestLabel.toString());
 		return bestLabel;
 	}
 	

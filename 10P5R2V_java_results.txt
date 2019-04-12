@@ -80,4 +80,4 @@ The best label is:
 number of non-dominated paths: 62
 number of dominated labels: 578
 The best label is: 
-Took 212 milli seconds
+Took 200 milli seconds

@@ -88,7 +88,9 @@ public class InputReader {
 				for(int i = 1; i < list1.length; i++){
 					float number = Float.parseFloat(list1[i].trim());
 					vehicles.get(k).nodes.get(i-1).earlyTimeWindow = number;
-					}
+				//	System.out.println(vehicles.get(k).nodes.get(1).earlyTimeWindow);
+				
+				}
 			}
 			int count = 0;
 			//System.out.println(list1.length);
@@ -115,6 +117,7 @@ public class InputReader {
 				for(int i = 1; i < list1.length; i++){
 					float number = Float.parseFloat(list1[i].trim());
 					vehicles.get(k).nodes.get(i-1).lateTimeWindow = number;
+					
 				}
 			}
 			count = 0;
@@ -195,12 +198,11 @@ public class InputReader {
 			list1 = line.split(",");
 			for(int i = 1; i < list1.length; i++){
 				int number2 = Integer.parseInt(list1[i].trim());
-				Node startDepot = new Node (0);
-				vehicles.get(i-1).nodes.set(0, startDepot);
-				startDepot.location = number2;
-				startDepot.type = "Depot";
-				startDepot.getLocation(number2);
-				vehicles.get(i-1).startDepot = startDepot;
+			//	Node startDepot = new Node (0);
+				vehicles.get(i-1).nodes.get(0).location = number2;
+				vehicles.get(i-1).nodes.get(0).type = "Depot";
+				vehicles.get(i-1).nodes.get(0).getLocation(number2);
+				vehicles.get(i-1).startDepot = vehicles.get(i-1).nodes.get(0);
 				//System.out.println(v.startDepot.location);
 				//depot.get(i-1).location = number2;
 				//depot.get(i-1).getLocation(number2);
@@ -213,17 +215,16 @@ public class InputReader {
 			line = fr.readLine();
 			list1 = line.split(",");
 			int number = Integer.parseInt(list1[1].trim());
-			Node endDepot = new Node(1);
-			endDepot.type = "Depot";
-			endDepot.location = number;
-			endDepot.getLocation(number);
+		//	Node endDepot = new Node(1);
 			for (int k = 0; k<inputdata.numberOfVehicles; k++)  {
-				vehicles.get(k).nodes.set(1, endDepot);
-				
+				vehicles.get(k).nodes.get(1).type = "Depot";
+				vehicles.get(k).nodes.get(1).location = number;
+				vehicles.get(k).nodes.get(1).getLocation(number);
+		
 			//depot.get(1).location = number;
 			//depot.get(1).getLocation(number);
 			}
-			
+			System.out.println(vehicles.get(1).nodes.get(0).type);
 			// Counting the number of cities
 			line = fr.readLine();
 			list1 = line.split(",");
@@ -244,11 +245,7 @@ public class InputReader {
 				
 				}
 			}
-		//	for (Vehicle k: vehicles) {
-		//		for(int i = 0; i < k.nodes.size(); i++){
-		//		System.out.println (k.nodes.get(i).locationName);
-		//	}
-		//	}
+	
 			
 			fr.readLine();
 			
@@ -258,6 +255,11 @@ public class InputReader {
 				for(int j = 0; j < inputdata.numberOfCities; j++){
 				list1 = line.split(",");
 				inputdata.distances[i][j] = Float.parseFloat(list1[j].trim());
+				}
+			}
+				for (Vehicle k: vehicles) {
+					for(int i = 0; i < k.nodes.size(); i++){
+					System.out.println (k.nodes.get(i).type);
 				}
 			}
 			

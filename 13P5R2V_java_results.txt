@@ -1,0 +1,13 @@
+number of non-dominated paths: 3
+number of dominated labels: 1
+The best label is: 
+number of non-dominated paths: 3
+number of dominated labels: 1
+The best label is: 
+number of non-dominated paths: 3
+number of dominated labels: 2
+The best label is: 
+number of non-dominated paths: 3
+number of dominated labels: 2
+The best label is: 
+Took 125 milli seconds
