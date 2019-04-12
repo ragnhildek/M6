@@ -76,6 +76,9 @@ public class PathBuilder {
 		int numberDailyRests = L.numberDailyRests;
 		float startTimeIntermediateBreak = L.startTimeIntermediateBreak;
 		
+	//	System.out.println("TYPE HER" +L.vehicle.nodes.get(node.number).type);
+	//	System.out.println("TYPE WEIGHT" +L.vehicle.nodes.get(node.number).weight);
+	//	System.out.println("TYPE HER" +L.node.weight);
 		// Time in the label equals max of: 1) the predecessor's time plus travel- and service time to this node, 2) early time window in this node
 		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService, node.earlyTimeWindow); 	
 		
@@ -242,6 +245,7 @@ public class PathBuilder {
 		
 		
 		else if(node.type == "DeliveryNode") {
+			
 			
 			// Cannot visit a delivery node whose pickup node has not been visited 
 			if (!L.openNodes.contains((node.number-1))){	
@@ -432,7 +436,7 @@ public class PathBuilder {
 		if (consecutiveDrivingTime > maxConsecutiveDrivingTime || consecutiveWorkingTime > maxConsecutiveWorkingTime) {
 			return null;
 		}
-		System.out.println("TYPE HER" +L.vehicle.nodes.get(node.number).type);
+		
 		// Run preprocessing on the nodes in the open nodes set
 		for(int i : L.openNodes) {
 			if(arrivalTime-zeroTol > preprocess.unreachableDelNodesFromNode.get(node.number)[i+1]) {
@@ -973,7 +977,10 @@ public class PathBuilder {
 		
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and intermediate break time to this node, 2) early time window in this node
 		float arrivalTime =  Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + 2*intermediateBreakTime, node.earlyTimeWindow); 
-		
+	//	System.out.println ("Wegiht " + L.node.weight);
+	//	System.out.println ("Number " + L.node.number);
+	//	System.out.println ("Wegiht2 " + node.weight);
+	//	System.out.println ("Number2' " + node.number);
 		// If the time is greater than the late time window of the next node, do not extend the label 
 		if(arrivalTime > node.lateTimeWindow){
 			return null;
@@ -1986,7 +1993,7 @@ public class PathBuilder {
 		while(!unprocessedQueue.isEmpty()) { 
 			
 			Label label = unprocessedQueue.remove();
-			System.out.println("Remove from unprocessed "+label.toString());
+		//	System.out.println("Remove from unprocessed "+label.toString());
 			counter++;
 			// Print current label every 1000 labels
 			//if(counter%1000 == 0) {

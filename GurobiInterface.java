@@ -254,7 +254,7 @@ import gurobi.*;
 			boolean addedLabel = true;
 			System.out.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			int counter = 0;
-			while(addedLabel && counter<5) {
+			while(addedLabel && counter<10000) {
 			counter++;
 			addedLabel=false;
 			for(int k = 0; k < vehicles.size(); k++) {
@@ -335,6 +335,14 @@ import gurobi.*;
 						//	System.out.println("routeCouter2" +routeNumber);
 							for(int i = 0; i < pathList.get(routeNumber-1).path.size(); i++) {
 								System.out.println(pathList.get(routeNumber-1).path.get(i).number);
+								
+								//System.out.println(pathList.get(routeNumber-1).predesessor.toString());
+								//System.out.println(pathList.get(routeNumber-1).toString());
+							}
+							Label temp = pathList.get(routeNumber-1).predesessor;
+							while(temp!=null) {
+								System.out.println(temp.toString());
+							temp=temp.predesessor;
 							}
 						}
 						

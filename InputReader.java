@@ -147,6 +147,21 @@ public class InputReader {
 				deliveryNodes.get(i-1).weight = number;
 			}
 			
+			
+			for(Vehicle k : vehicles) {
+				int t = 2;
+				for(int i = 1; i < list1.length; i ++){
+					int number = Integer.parseInt(list1[i].trim());
+					k.nodes.get(t).weight = number;
+					k.nodes.get(t+1).weight = number;
+					t += 2;
+					
+					//k.nodes.set(i*2, pickupNodes.get(i-1));
+				}
+			}
+			
+	
+			
 			//Assigning a volume to each node
 			line = fr.readLine();
 			list1 = line.split(",");
@@ -155,6 +170,20 @@ public class InputReader {
 				pickupNodes.get(i-1).volume = number;
 				deliveryNodes.get(i-1).volume = number;
 			}
+			
+		
+			for(Vehicle k : vehicles) {
+				int t = 2;
+				for(int i = 1; i < list1.length; i ++){
+					int number = Integer.parseInt(list1[i].trim());
+					k.nodes.get(t).volume = number;
+					k.nodes.get(t+1).volume = number;
+					//k.nodes.set(i*2, pickupNodes.get(i-1));
+					t += 2;
+				}
+			}
+			
+			
 		
 			//Assigning locations to each pickup node
 			line = fr.readLine();
@@ -169,7 +198,6 @@ public class InputReader {
 			for(int i = 1; i < list1.length; i++){
 				int number = Integer.parseInt(list1[i].trim());
 				pickupNodes.get(i-1).location = number;
-				
 				pickupNodes.get(i-1).getLocation(number);
 			}
 			
@@ -233,6 +261,14 @@ public class InputReader {
 			// Creating empty time and distance matrices
 			inputdata.times = new float[inputdata.numberOfCities][inputdata.numberOfCities];
 			inputdata.distances = new float[inputdata.numberOfCities][inputdata.numberOfCities];
+			
+			
+			for (Vehicle k : vehicles) {
+				for (int i = 0 ; i < k.nodes.size() ; i ++) {
+					System.out.println(k.nodes.get(i).weight);
+				}
+			}
+			
 			
 			fr.readLine();
 			

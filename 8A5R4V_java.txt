@@ -1,14 +1,14 @@
-NumberOfVehicles , 4
+NumberOfVehicles, 4
 NodesVehiclek , 0,1,2,3,4,5,6,7,8,9,10,11,
 VolumeCap , 81
 WeightCap , 30 
-EarlyTimeWindow ,0.00,0.00,66.00,71.45,82.00,89.67,80.00,83.05,47.00,47.07,4.00,38.17,
-LateTimeWindow , 144.00,144.00,78.00,83.45,94.00,101.67,92.00,95.05,59.00,59.07,43.00,50.17,
-WeightLoad , 8,11,14,11,12,
-VolumeLoad , 14,17,28,16,31,
-PickupNodes , 3,19,39,9,46,
-DeliveryNodes , 16,17,11,39,4,
-StartDepots , 35,50,39,42,
+EarlyTimeWindow ,0.00,0.00,2.00,5.32,1.00,7.38,1.00,7.88,0.00,0.75,4.00,8.20,
+LateTimeWindow , 144.00,144.00,7.00,10.32,6.00,12.38,6.00,12.88,5.00,5.75,9.00,13.20,
+WeightLoad , 15,10,8,10,9,
+VolumeLoad , 33,21,21,20,28,
+PickupNodes , 34,39,18,34,21,
+DeliveryNodes , 43,42,13,31,30,
+StartDepots , 23,19,39,32,
 EndDepot , 51 
 NumberOfCities, 51 
 Times: 
@@ -125,12 +125,12 @@ TimeTonService, 0.1
  Revenue, 100
  
 
-!Freight order 1  has pickup in  Steinkjer and delivery in Vinstra
-!Freight order 2  has pickup in  Trondheim and delivery in  Kongsberg
-!Freight order 3  has pickup in  Koppang and delivery in  Meldal
-!Freight order 4  has pickup in  Alvdal and delivery in  Koppang
-!Freight order 5  has pickup in Molde and delivery in Beitostølen
-!Vehicle 1 has startdepot  Lillestrøm
-!Vehicle 2 has startdepot Ålesund
+!Freight order 1  has pickup in Fagernes and delivery in  Flisa
+!Freight order 2  has pickup in  Koppang and delivery in Geiranger
+!Freight order 3  has pickup in Nesbyen and delivery in  Hassdalen
+!Freight order 4  has pickup in Fagernes and delivery in  Lillehammer
+!Freight order 5  has pickup in  Tanem and delivery in Åndalsnes
+!Vehicle 1 has startdepot  Vinjeøra
+!Vehicle 2 has startdepot  Trondheim
 !Vehicle 3 has startdepot  Koppang
-!Vehicle 4 has startdepot Geiranger
+!Vehicle 4 has startdepot Hamar

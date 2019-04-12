@@ -1,13 +1,1617 @@
-number of non-dominated paths: 3
+number of non-dominated paths: 9
 number of dominated labels: 1
 The best label is: 
-number of non-dominated paths: 3
-number of dominated labels: 1
-The best label is: 
-number of non-dominated paths: 3
+Node: 11, Location: 30 , �ndalsnes, Time: 9.099999, Profit: 251817.48, Reduced cost: 251817.48, unreachablePickupNodes: [10, 2, 4, 6, 8], openNodes: [], dailyDrivingTime: 4.47, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 3.25, consecutiveDrivingTime: 4.2, workingTime: 5.1, totalDistance: 377.969, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 10, Predessesor: 0
+Node: 10, Location: 21 ,  Tanem, Time: 4.0, Profit: 258490.9, Reduced cost: 258490.9, unreachablePickupNodes: [10, 2, 4, 6, 8], openNodes: [10], dailyDrivingTime: 0.27, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 3.25, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 86.836, WeightCapacityUsed: 9.0, VolumeCapacityUsed: 28.0, Predessesor: 0
+Node: 0, Location: 23 ,  Vinje�ra, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 9.999999, Profit: 251216.28, Reduced cost: 251216.28, unreachablePickupNodes: [10, 2, 4, 6, 8], openNodes: [], dailyDrivingTime: 4.47, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 3.25, consecutiveDrivingTime: 4.2, workingTime: 6.0, totalDistance: 377.969, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 11, Predessesor: 10, Predessesor: 0
+number of non-dominated paths: 9
 number of dominated labels: 2
 The best label is: 
-number of non-dominated paths: 3
-number of dominated labels: 2
+Node: 11, Location: 30 , �ndalsnes, Time: 9.099999, Profit: 252504.97, Reduced cost: 252504.97, unreachablePickupNodes: [10, 2, 4, 6, 8], openNodes: [], dailyDrivingTime: 4.62, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 3.25, consecutiveDrivingTime: 4.2, workingTime: 5.1, totalDistance: 308.293, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 10, Predessesor: 0
+Node: 10, Location: 21 ,  Tanem, Time: 4.0, Profit: 259178.39, Reduced cost: 259178.39, unreachablePickupNodes: [10, 2, 4, 6, 8], openNodes: [10], dailyDrivingTime: 0.42, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 3.25, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 17.16, WeightCapacityUsed: 9.0, VolumeCapacityUsed: 28.0, Predessesor: 0
+Node: 0, Location: 19 ,  Trondheim, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 9.999999, Profit: 251903.77, Reduced cost: 251903.77, unreachablePickupNodes: [10, 2, 4, 6, 8], openNodes: [], dailyDrivingTime: 4.62, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 3.25, consecutiveDrivingTime: 4.2, workingTime: 6.0, totalDistance: 308.293, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 11, Predessesor: 10, Predessesor: 0
+number of non-dominated paths: 24
+number of dominated labels: 6
 The best label is: 
-Took 125 milli seconds
+Node: 5, Location: 42 , Geiranger, Time: 9.13, Profit: 399893.62, Reduced cost: 399893.62, unreachablePickupNodes: [4, 2, 6, 8, 10], openNodes: [], dailyDrivingTime: 6.38, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 6.5, consecutiveDrivingTime: 1.8800001, workingTime: 1.8800001, totalDistance: 410.662, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 4, Predessesor: 0
+Node: 4, Location: 39 ,  Koppang, Time: 1.0, Profit: 409994.0, Reduced cost: 409994.0, unreachablePickupNodes: [4, 2, 6, 8], openNodes: [4], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 21.0, Predessesor: 0
+Node: 0, Location: 39 ,  Koppang, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 10.13, Profit: 399225.62, Reduced cost: 399225.62, unreachablePickupNodes: [4, 2, 6, 8, 10], openNodes: [], dailyDrivingTime: 6.38, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 6.5, consecutiveDrivingTime: 1.8800001, workingTime: 2.88, totalDistance: 410.662, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 5, Predessesor: 4, Predessesor: 0
+number of non-dominated paths: 24
+number of dominated labels: 17
+The best label is: 
+Node: 5, Location: 42 , Geiranger, Time: 9.13, Profit: 398727.34, Reduced cost: 398727.34, unreachablePickupNodes: [4, 2, 6, 8, 10], openNodes: [], dailyDrivingTime: 7.15, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 5.73, consecutiveDrivingTime: 2.65, workingTime: 2.65, totalDistance: 528.864, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 4, Predessesor: 0
+Node: 4, Location: 39 ,  Koppang, Time: 1.0, Profit: 408827.72, Reduced cost: 408827.72, unreachablePickupNodes: [4, 2, 6, 8], openNodes: [4], dailyDrivingTime: 0.77, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.77, workingTime: 0.77, totalDistance: 118.202, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 21.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 10.13, Profit: 398059.34, Reduced cost: 398059.34, unreachablePickupNodes: [4, 2, 6, 8, 10], openNodes: [], dailyDrivingTime: 7.15, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 5.73, consecutiveDrivingTime: 2.65, workingTime: 3.65, totalDistance: 528.864, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 5, Predessesor: 4, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 18
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 19
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 23
+The best label is: 
+Node: 3, Location: 43 ,  Flisa, Time: 9.02, Profit: 313281.38, Reduced cost: 313281.38, unreachablePickupNodes: [2, 4, 6, 10, 8], openNodes: [], dailyDrivingTime: 6.77, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 6.0, consecutiveDrivingTime: 2.27, workingTime: 2.27, totalDistance: 410.339, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 2, Predessesor: 0
+Node: 2, Location: 34 , Fagernes, Time: 3.45, Profit: 319619.38, Reduced cost: 319619.38, unreachablePickupNodes: [2, 4, 6, 10], openNodes: [2], dailyDrivingTime: 3.45, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.45, workingTime: 3.45, totalDistance: 194.444, WeightCapacityUsed: 15.0, VolumeCapacityUsed: 33.0, Predessesor: 0
+Node: 0, Location: 39 ,  Koppang, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 10.52, Profit: 312279.38, Reduced cost: 312279.38, unreachablePickupNodes: [2, 4, 6, 10, 8], openNodes: [], dailyDrivingTime: 6.77, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 6.0, consecutiveDrivingTime: 2.27, workingTime: 3.77, totalDistance: 410.339, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 3, Predessesor: 2, Predessesor: 0
+number of non-dominated paths: 24
+number of dominated labels: 34
+The best label is: 
+Node: 3, Location: 43 ,  Flisa, Time: 7.8999996, Profit: 314497.72, Reduced cost: 314497.72, unreachablePickupNodes: [2, 4, 10, 6, 8], openNodes: [], dailyDrivingTime: 5.6499996, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 6.0, consecutiveDrivingTime: 1.1499999, workingTime: 1.1499999, totalDistance: 362.88702, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 2, Predessesor: 0
+Node: 2, Location: 34 , Fagernes, Time: 2.33, Profit: 320835.72, Reduced cost: 320835.72, unreachablePickupNodes: [2, 4, 10], openNodes: [2], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 15.0, VolumeCapacityUsed: 33.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 9.4, Profit: 313495.72, Reduced cost: 313495.72, unreachablePickupNodes: [2, 4, 10, 6, 8], openNodes: [], dailyDrivingTime: 5.6499996, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 6.0, consecutiveDrivingTime: 1.1499999, workingTime: 2.6499999, totalDistance: 362.88702, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 3, Predessesor: 2, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 35
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 36
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 40
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 51
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 52
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 53
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 57
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 68
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 69
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 70
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 74
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 85
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 86
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 87
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 91
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 102
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 103
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 104
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 108
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 119
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 120
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 121
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 125
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 136
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 137
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 138
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 142
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 153
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 154
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 155
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 159
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 170
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 171
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 172
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 176
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 187
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 188
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 189
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 193
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 204
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 205
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 206
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 210
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 221
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 222
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 223
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 227
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 238
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 239
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 240
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 244
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 255
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 256
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 257
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 261
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 272
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 273
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 274
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 278
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 289
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 290
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 291
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 295
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 306
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 307
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 308
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 312
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 323
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 324
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 325
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 329
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 340
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 341
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 342
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 346
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 357
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 358
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 359
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 363
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 374
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 375
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 376
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 380
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 391
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 392
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 393
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 397
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 408
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 409
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 410
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 414
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 425
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 426
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 427
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 431
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 442
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 443
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 444
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 448
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 459
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 460
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 461
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 465
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 476
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 477
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 478
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 482
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 493
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 494
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 495
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 499
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 510
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 511
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 512
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 516
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 527
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 528
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 529
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 533
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 544
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 545
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 546
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 550
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 561
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 562
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 563
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 567
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 578
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 579
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 580
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 584
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 595
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 596
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 597
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 601
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 612
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 613
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 614
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 618
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 629
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 630
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 631
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 635
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 646
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 647
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 648
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 652
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 663
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 664
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 665
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 669
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 680
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 681
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 682
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 686
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 697
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 698
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 699
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 703
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 714
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 715
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 716
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 720
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 731
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 732
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 733
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 737
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 748
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 749
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 750
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 754
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 765
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 766
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 767
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 771
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 782
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 783
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 784
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 788
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 799
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 800
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 801
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 805
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 816
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 817
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 818
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 822
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 833
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 834
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 835
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 839
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 850
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 851
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 852
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 856
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 867
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 868
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 869
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 873
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 884
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 885
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 886
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 890
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 901
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 902
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 903
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 907
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 918
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 919
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 920
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 924
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 935
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 936
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 937
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 941
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 952
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 953
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 954
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 958
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 969
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 970
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 971
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 975
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 986
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 987
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 988
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 992
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1003
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1004
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1005
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1009
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1020
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1021
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1022
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1026
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1037
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1038
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1039
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1043
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1054
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1055
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1056
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1060
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1071
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1072
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1073
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1077
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1088
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1089
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1090
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1094
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1105
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1106
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1107
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1111
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1122
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1123
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1124
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1128
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1139
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1140
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1141
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1145
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1156
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1157
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1158
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1162
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1173
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1174
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1175
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1179
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1190
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1191
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1192
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1196
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1207
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1208
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1209
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1213
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1224
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1225
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1226
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1230
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1241
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1242
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1243
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1247
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1258
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1259
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1260
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1264
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1275
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1276
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1277
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1281
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1292
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1293
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1294
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1298
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1309
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1310
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1311
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1315
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1326
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1327
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1328
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1332
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1343
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1344
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1345
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1349
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1360
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1361
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1362
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1366
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1377
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1378
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1379
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1383
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1394
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1395
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1396
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1400
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1411
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1412
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1413
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1417
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1428
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1429
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1430
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1434
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1445
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1446
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1447
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1451
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1462
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1463
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1464
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1468
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1479
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1480
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1481
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1485
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1496
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1497
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1498
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1502
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1513
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1514
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1515
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1519
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1530
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1531
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1532
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1536
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1547
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1548
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1549
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1553
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1564
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1565
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1566
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1570
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1581
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1582
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1583
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1587
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1598
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1599
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1600
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1604
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1615
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1616
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1617
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1621
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1632
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1633
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1634
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1638
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1649
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1650
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1651
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1655
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1666
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1667
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1668
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1672
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1683
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+number of non-dominated paths: 9
+number of dominated labels: 1684
+The best label is: 
+number of non-dominated paths: 9
+number of dominated labels: 1685
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1689
+The best label is: 
+number of non-dominated paths: 24
+number of dominated labels: 1700
+The best label is: 
+Node: 9, Location: 31 ,  Lillehammer, Time: 4.08, Profit: 104715.805, Reduced cost: 104715.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 4.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 8, Predessesor: 0
+Node: 8, Location: 34 , Fagernes, Time: 2.33, Profit: 107137.23, Reduced cost: 107137.23, unreachablePickupNodes: [8, 4, 10], openNodes: [8], dailyDrivingTime: 2.33, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.33, workingTime: 2.33, totalDistance: 146.992, WeightCapacityUsed: 10.0, VolumeCapacityUsed: 20.0, Predessesor: 0
+Node: 0, Location: 32 , Hamar, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
+Node: 1, Location: 51 , EndDepot, Time: 5.08, Profit: 104047.805, Reduced cost: 104047.805, unreachablePickupNodes: [8, 4, 10, 6], openNodes: [], dailyDrivingTime: 3.08, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.08, workingTime: 5.08, totalDistance: 257.136, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0, Predessesor: 9, Predessesor: 8, Predessesor: 0
+Took 1620 milli seconds

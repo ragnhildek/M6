@@ -1,14 +1,14 @@
-NumberOfVehicles , 4
-NodesVehiclek , 0,1,2,3,4,5,6,7,8,9,10,11,
+NumberOfVehicles, 4
+NodesVehiclek , 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,
 VolumeCap , 81
 WeightCap , 30 
-EarlyTimeWindow ,0.00,0.00,66.00,71.45,82.00,89.67,80.00,83.05,47.00,47.07,4.00,38.17,
-LateTimeWindow , 144.00,144.00,78.00,83.45,94.00,101.67,92.00,95.05,59.00,59.07,43.00,50.17,
-WeightLoad , 8,11,14,11,12,
-VolumeLoad , 14,17,28,16,31,
-PickupNodes , 3,19,39,9,46,
-DeliveryNodes , 16,17,11,39,4,
-StartDepots , 35,50,39,42,
+EarlyTimeWindow ,0.00,0.00,65.00,71.53,73.00,75.30,65.00,67.35,45.00,53.28,55.00,57.83,29.00,34.47,75.00,79.92,19.00,23.05,69.00,74.82,18.00,21.10,37.00,40.60,63.00,71.65,78.00,78.22,8.00,10.73,93.00,95.92,
+LateTimeWindow , 144.00,144.00,77.00,83.53,85.00,87.30,77.00,79.35,57.00,65.28,67.00,69.83,41.00,46.47,87.00,91.92,31.00,35.05,81.00,86.82,30.00,33.10,49.00,52.60,75.00,83.65,90.00,90.22,20.00,22.73,105.00,107.92,
+WeightLoad , 13,10,6,8,7,2,4,2,3,4,7,1,14,15,8,
+VolumeLoad , 26,17,20,13,6,10,6,2,15,18,16,9,18,20,9,
+PickupNodes , 7,29,24,1,17,9,40,16,27,9,31,14,33,35,38,
+DeliveryNodes , 23,5,12,46,8,42,27,50,4,23,6,49,1,39,41,
+StartDepots , 39,25,22,23,
 EndDepot , 51 
 NumberOfCities, 51 
 Times: 
@@ -125,12 +125,22 @@ TimeTonService, 0.1
  Revenue, 100
  
 
-!Freight order 1  has pickup in  Steinkjer and delivery in Vinstra
-!Freight order 2  has pickup in  Trondheim and delivery in  Kongsberg
-!Freight order 3  has pickup in  Koppang and delivery in  Meldal
-!Freight order 4  has pickup in  Alvdal and delivery in  Koppang
-!Freight order 5  has pickup in Molde and delivery in Beitostølen
-!Vehicle 1 has startdepot  Lillestrøm
-!Vehicle 2 has startdepot Ålesund
-!Vehicle 3 has startdepot  Koppang
-!Vehicle 4 has startdepot Geiranger
+!Freight order 1  has pickup in  Kongsvinger and delivery in  Vinjeøra
+!Freight order 2  has pickup in  Elverum and delivery in  Drammen
+!Freight order 3  has pickup in Berkåk and delivery in Meråker
+!Freight order 4  has pickup in  Fredrikstad and delivery in Molde
+!Freight order 5  has pickup in  Kongsberg and delivery in Elverum
+!Freight order 6  has pickup in  Alvdal and delivery in Geiranger
+!Freight order 7  has pickup in Brandbu and delivery in  Rennebu
+!Freight order 8  has pickup in Vinstra and delivery in Ålesund
+!Freight order 9  has pickup in  Rennebu and delivery in Beitostølen
+!Freight order 10  has pickup in  Alvdal and delivery in  Vinjeøra
+!Freight order 11  has pickup in  Lillehammer and delivery in Tønsberg
+!Freight order 12  has pickup in Krokstadøra and delivery in  Porsgrunn
+!Freight order 13  has pickup in  Oslo and delivery in  Fredrikstad
+!Freight order 14  has pickup in  Lillestrøm and delivery in  Koppang
+!Freight order 15  has pickup in Grimsbu and delivery in  Raufoss
+!Vehicle 1 has startdepot  Koppang
+!Vehicle 2 has startdepot  Oppdal
+!Vehicle 3 has startdepot Meldal
+!Vehicle 4 has startdepot  Vinjeøra

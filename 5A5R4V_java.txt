@@ -1,14 +1,14 @@
-NumberOfVehicles , 4
+NumberOfVehicles, 4
 NodesVehiclek , 0,1,2,3,4,5,6,7,8,9,10,11,
 VolumeCap , 81
 WeightCap , 30 
-EarlyTimeWindow ,0.00,0.00,66.00,71.45,82.00,89.67,80.00,83.05,47.00,47.07,4.00,38.17,
-LateTimeWindow , 144.00,144.00,78.00,83.45,94.00,101.67,92.00,95.05,59.00,59.07,43.00,50.17,
-WeightLoad , 8,11,14,11,12,
-VolumeLoad , 14,17,28,16,31,
-PickupNodes , 3,19,39,9,46,
-DeliveryNodes , 16,17,11,39,4,
-StartDepots , 35,50,39,42,
+EarlyTimeWindow ,0.00,0.00,99.00,105.67,73.00,73.08,34.00,36.37,58.00,61.62,10.00,14.22,
+LateTimeWindow , 144.00,144.00,111.00,117.67,85.00,85.08,46.00,48.37,70.00,73.62,22.00,26.22,
+WeightLoad , 7,8,2,9,4,
+VolumeLoad , 12,18,6,13,15,
+PickupNodes , 50,9,2,29,45,
+DeliveryNodes , 34,10,19,24,50,
+StartDepots , 46,44,41,14,
 EndDepot , 51 
 NumberOfCities, 51 
 Times: 
@@ -125,12 +125,12 @@ TimeTonService, 0.1
  Revenue, 100
  
 
-!Freight order 1  has pickup in  Steinkjer and delivery in Vinstra
-!Freight order 2  has pickup in  Trondheim and delivery in  Kongsberg
-!Freight order 3  has pickup in  Koppang and delivery in  Meldal
-!Freight order 4  has pickup in  Alvdal and delivery in  Koppang
-!Freight order 5  has pickup in Molde and delivery in Beitostølen
-!Vehicle 1 has startdepot  Lillestrøm
-!Vehicle 2 has startdepot Ålesund
-!Vehicle 3 has startdepot  Koppang
-!Vehicle 4 has startdepot Geiranger
+!Freight order 1  has pickup in Ålesund and delivery in Fagernes
+!Freight order 2  has pickup in  Alvdal and delivery in Hjerkinn
+!Freight order 3  has pickup in Røros and delivery in  Trondheim
+!Freight order 4  has pickup in  Elverum and delivery in Berkåk
+!Freight order 5  has pickup in  Fossbergom and delivery in Ålesund
+!Vehicle 1 has startdepot Molde
+!Vehicle 2 has startdepot Skåbu
+!Vehicle 3 has startdepot  Raufoss
+!Vehicle 4 has startdepot Krokstadøra
