@@ -185,8 +185,8 @@ import gurobi.*;
 			
 			
 			for(int i = 0; i < pickupNodes.size(); i++) {
-		
-				if(l.pickupNodesVisited.contains(pickupNodes.get(i).location)) {
+			
+				if(l.pickupNodesVisited.contains(pickupNodes.get(i).number)) {
 					System.out.println("PICKUP" + i);
 					model.chgCoeff(visitedPickupsCon[i], tempVar, 1);
 //					System.out.println(visitedPickupsByVehicleOnRoute[l.vehicle.vehicleRoutes.lastElement()][l.vehicle.number][i]);
@@ -228,6 +228,9 @@ import gurobi.*;
 			Float[] dualOneVisitCon = new Float[vehicles.size()];
 			
 			for(int i = 0; i < pickupNodes.size(); i++) {
+				System.out.println("Pickup");
+				System.out.println(pickupNodes.get(i).number);
+				System.out.println(pickupNodes.get(i).location);
 				float dualPickup_i = (float) visitedPickupsCon[i].get(GRB.DoubleAttr.Pi);
 				dualVisitedPickupsCon[i] = dualPickup_i;
 				System.out.println("DUAL: " + dualPickup_i);
@@ -254,7 +257,7 @@ import gurobi.*;
 			boolean addedLabel = true;
 			System.out.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			int counter = 0;
-			while(addedLabel && counter<10000) {
+			while(addedLabel && counter<1000) {
 			counter++;
 			addedLabel=false;
 			for(int k = 0; k < vehicles.size(); k++) {
