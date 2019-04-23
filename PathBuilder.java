@@ -344,6 +344,9 @@ public class PathBuilder {
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and daily rest time to this node, 2) early time window in this node
 		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + dailyRestTime, node.earlyTimeWindow); 
 		
+
+		
+		
 		// The driving time required on the arc
 		float arcDrivingTime = inputdata.getTime(L.node, node);
 		
@@ -447,7 +450,7 @@ public class PathBuilder {
 			}
 		}
 		
-		
+
 		if(node.type == "Depot") {
 			
 			// Cannot arrive at end depot without delivering every pickup that is picked up
@@ -572,6 +575,13 @@ public class PathBuilder {
 			// Calculating the reduced cost of the label
 			L2.reducedCost = L2.profit - L2.totalPickupDual - L2.vehicleDual;
 			
+			if (L.node.number == 0 && node.number == 4  && L.vehicle.number ==  1) {
+				System.out.println("!!!!!!!!!!!!!!!!!!!!!!! ArrialTime in node 4: " + arrivalTime);
+				System.out.println("!!!!!!!!!!!!!!!!!!!!!!! arcDrivingTime: " + inputdata.getTime(L.node, node));
+				System.out.println("!!!!!!!!!!!!!!!!!!!!!!! numberOfBreaks: " + L2.numberDailyRests );
+			}
+			
+			
 			return L2;
 		}
 	
@@ -654,6 +664,7 @@ public class PathBuilder {
 		if(node.number == 0){
 			return null;
 		}
+
 		
 		// Cannot leave end depot
 		if (L.node.number == 1){
@@ -675,6 +686,13 @@ public class PathBuilder {
 		
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and intermediate break time to this node, 2) early time window in this node
 		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime, node.earlyTimeWindow); 
+		
+		
+		if (L.node.number == 4 && node.number == 5 ) {
+			System.out.println("!!!!!!!!!!!!!!!!!!!!!!! ArrialTime after intermediate break: " + arrivalTime);
+		}
+		
+		
 		
 		// The driving time required on the arc
 		float arcDrivingTime = inputdata.getTime(L.node, node);
@@ -902,6 +920,10 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			
+	
+			
 		
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
@@ -2300,7 +2322,7 @@ public class PathBuilder {
 		}
 
 		if( L1.startTimeDailyRest >= L2.startTimeDailyRest) {	
-			if ( L1.dailyDrivingTime <= L2.dailyDrivingTime ) {
+			if ( L1.dailyDrivingTime <= L2.dailyDrivingTime && L1.numberDailyRests >= L2.numberDailyRests ) {
 				if ( L1.consecutiveDrivingTime <= L2.consecutiveDrivingTime) {
 						if (L1.consecutiveWorkingTime <= L2.consecutiveWorkingTime) {
 							for (int i : L1.openNodes ){
