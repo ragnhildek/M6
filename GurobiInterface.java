@@ -257,7 +257,7 @@ import gurobi.*;
 			boolean addedLabel = true;
 			System.out.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			int counter = 0;
-			while(addedLabel && counter<1000) {
+			while(addedLabel && counter<10000) {
 			counter++;
 			addedLabel=false;
 			for(int k = 0; k < vehicles.size(); k++) {
