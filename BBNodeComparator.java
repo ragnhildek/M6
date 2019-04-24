@@ -1,8 +1,8 @@
-package Objects;
+
 
 import java.util.Comparator;
 
-public class NodeComparator2 implements Comparator<BBNode>{
+public class BBNodeComparator implements Comparator<BBNode>{
 
 	@Override
 	public int compare(BBNode o1, BBNode o2) {

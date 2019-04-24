@@ -1,4 +1,4 @@
-package ColumnGenerator;
+//package ColumnGenerator;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -9,23 +9,23 @@ import java.util.PriorityQueue;
 import java.util.Random;
 import java.util.Vector;
 
-import Objects.Cargo;
-import Objects.CargoBranch;
-import Objects.Filewriter;
-import Objects.NodeComparator2;
-import Objects.Port;
-import Objects.Ship;
-import Objects.BBNode;
-import Objects.Branch;
-import Objects.NodeComparator;
-import Objects.Path;
+//import Objects.Cargo;
+//import Objects.CargoBranch;
+//import Objects.Filewriter;
+//import Objects.NodeComparator2;
+//import Objects.Port;
+//import Objects.Ship;
+//import Objects.BBNode;
+//import Objects.Branch;
+//import Objects.NodeComparator;
+//import Objects.Path;
 
 public class TreeManager {
 	private double zeroTol;
 	
 	private int testset;
 	private int testinstant;
-	private Filewriter filewriter2;
+//	private Filewriter filewriter2;
 	public boolean branchingCut1;
 	public boolean useVolumeCuts;
 	public int volumeCuts;
@@ -65,19 +65,19 @@ public class TreeManager {
 	public int removeQuantityCOunter;
 	public int removedVarCounter;
 	
-	public Filewriter filewriter;
+	public FileWriter filewriter;
 	
-	private ArrayList<Ship> ships;
-	private Hashtable<Integer,Port> ports;
-	private ArrayList<Cargo> cargos;
+	private ArrayList<Vehicle> vehicles;
+//	private Hashtable<Integer,Port> ports;
+	private ArrayList<Node> pickupNodes;
 	private String testcase;
-	private XpressInterface3 xpi;
+//	private XpressInterface3 xpi;
 	private PriorityQueue<BBNode> nodes; 
-	private ArrayList<Branch> branches;
-	private ArrayList<CargoBranch> cargoBranches;
-	public ArrayList<CargoBranch> getCargoBranches() {
-		return cargoBranches;
-	}
+//	private ArrayList<Branch> branches;
+//	private ArrayList<CargoBranch> cargoBranches;
+//	public ArrayList<CargoBranch> getCargoBranches() {
+//		return cargoBranches;
+//	}
 
 	public void setCargoBranches(ArrayList<CargoBranch> cargoBranches) {
 		this.cargoBranches = cargoBranches;
@@ -89,28 +89,28 @@ public class TreeManager {
 	private BBNode bestNode;
 	public int totalTimeInMaster;
 	public int totalTimeInSub;
-	public int totalTimeInCuts;
+//	public int totalTimeInCuts;
 	
-	public int totalTimeIn6;
-	public int totalTimeIn4;
-	public int totalTimeInSub1;
-	public int totalTimeInSub2;
-	public int totalTimeInSub3;
-	public int totalTimeInSub4;
+//	public int totalTimeIn6;
+//	public int totalTimeIn4;
+//	public int totalTimeInSub1;
+//	public int totalTimeInSub2;
+//	public int totalTimeInSub3;
+//	public int totalTimeInSub4;
 	public double timeOptSolFound;
 	public boolean writeToFile;
-	public ArrayList<Branch> getBranches() {
-		return branches;
-	}
+//	public ArrayList<Branch> getBranches() {
+//		return branches;
+//	}
 
-	public void setBranches(ArrayList<Branch> branches) {
-		this.branches = branches;
-	}
+//	public void setBranches(ArrayList<Branch> branches) {
+//		this.branches = branches;
+//	}
 
 	public TreeManager(String testcase, int testset, int testinstant) {
 		try {
 			filewriter = new Filewriter("Testset "+testset+" with correct k-path cuts.txt");
-			filewriter2 = new Filewriter("Mandatory "+testset+".txt"); 
+		//	filewriter2 = new Filewriter("Mandatory "+testset+".txt"); 
 			//filewriter = new Filewriter("Cut tests full problem with volume-cuts.txt");
 			//filewriter = new Filewriter("Testset "+testset+" with mandatory.txt");
 
@@ -123,8 +123,8 @@ public class TreeManager {
 		this.branchingCut1 = true;
 		this.useVolumeCuts = true;
 		this.branchCuts = 0;
-		this.totalTimeIn4 = 0;
-		this.totalTimeIn6 = 0;
+//		this.totalTimeIn4 = 0;
+//		this.totalTimeIn6 = 0;
 		this.subsetRowCounter=0;
 		this.subsetRowFlows = new Vector<Double>();
 		this.testset = testset;
@@ -136,18 +136,18 @@ public class TreeManager {
 		this.random = new Random(42);
 		this.totalTimeInMaster = 0;
 		this.totalTimeInSub = 0;
-		this.totalTimeInSub1 = 0;
-		this.totalTimeInSub2 = 0;
-		this.totalTimeInSub3 = 0;
-		this.totalTimeInSub4 = 0;
+//		this.totalTimeInSub1 = 0;
+//		this.totalTimeInSub2 = 0;
+//		this.totalTimeInSub3 = 0;
+//		this.totalTimeInSub4 = 0;
 		this.removedVarCounter = 0;
-		this.totalTimeInCuts=0;
-		this.ships = new ArrayList<Ship>();
-		this.ports = new Hashtable<Integer,Port>();
-		this. cargos = new ArrayList<Cargo>();
+//		this.totalTimeInCuts=0;
+		this.vehicles = new ArrayList<Vehicle>();
+//		this.ports = new Hashtable<Integer,Port>();
+		this.pickupNodes = new ArrayList<Node>();
 		this.testcase = testcase;
 		this.zeroTol = 0.0001;
-		this.nodes = new PriorityQueue<BBNode>(100, new NodeComparator2());
+		this.nodes = new PriorityQueue<BBNode>(100, new BBNodeComparator());
 		this.nodecount = 0;
 		this.UpperBound = 999999999;
 		this.LowerBound  = 0;
@@ -243,7 +243,6 @@ while(!nodes.isEmpty()) {
 			String output = testset+", "+testinstant+", "+ships.size()+","+cargos.size()+", no feasible solution found";
 			filewriter.writeTestOutput(output);
 			filewriter.flush();
-			System.exit(0);
 		}
 		
 		
@@ -372,7 +371,7 @@ while(!nodes.isEmpty()) {
 						remove.add(n);
 					}
 				}
-				nodes = new PriorityQueue<BBNode>(100, new NodeComparator2());
+				nodes = new PriorityQueue<BBNode>(100, new BBNodeComparator());
 				for(BBNode n : remove) {
 					nodes.add(n);
 				}

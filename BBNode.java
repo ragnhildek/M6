@@ -1,13 +1,13 @@
-package Objects;
+//package Objects;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import com.dashoptimization.XPRBbasis;
-import com.dashoptimization.XPRBvar;
+//import com.dashoptimization.XPRBbasis;
+//import com.dashoptimization.XPRBvar;
 
-import Objects.Path;
+//import Objects.Path;
 
 public class BBNode {
 	private BBNode parent;
@@ -19,8 +19,8 @@ public class BBNode {
 	private Vector<Integer> branchVariables;
 	private Vector<Integer> cargoBranches;
 	private Vector<Integer> branches;
-	private XPRBbasis basis;
-	private XPRBbasis[] childBasis;
+//	private XPRBbasis basis;
+//	private XPRBbasis[] childBasis;
 	private int numberOfCargoesBranchUpper;
 	private int numberOfCargoesBranchLower;
 	private double upperbound;
@@ -52,21 +52,21 @@ public class BBNode {
 		return numberOfCargoesBranchLower;
 	}
 	
-	public XPRBbasis[] getChildBasis() {
-		return childBasis;
-	}
+//	public XPRBbasis[] getChildBasis() {
+//		return childBasis;
+//	}
 
-	public void setChildBasis(XPRBbasis[] childBasis) {
-		this.childBasis = childBasis;
-	}
+//	public void setChildBasis(XPRBbasis[] childBasis) {
+//		this.childBasis = childBasis;
+//	}
 
-	public XPRBbasis getBasis() {
-		return basis;
-	}
+//	public XPRBbasis getBasis() {
+//		return basis;
+//	}
 
-	public void setBasis(XPRBbasis basis) {
-		this.basis = basis;
-	}
+//	public void setBasis(XPRBbasis basis) {
+//		this.basis = basis;
+//	}
 
 	public Vector<Integer> getBranches() {
 		return branches;
@@ -77,19 +77,17 @@ public class BBNode {
 	}
 
 	private Vector<Integer> generatedVariables;
-	private ArrayList<Path> solution;
-	private Hashtable<Path, Double> solutionvars;
-	public Hashtable<Path, Double> getSolutionvars() {
+	private ArrayList<Label> solution;
+	private Hashtable<Label, Double> solutionvars;
+	public Hashtable<Label, Double> getSolutionvars() {
 		return solutionvars;
 	}
 
-	public void setSolutionvars(Hashtable<Path, Double> solutionvars) {
+	public void setSolutionvars(Hashtable<Label, Double> solutionvars) {
 		this.solutionvars = solutionvars;
 	}
 
 	private boolean solved;
-	
-	
 	
 	public boolean isSolved() {
 		return solved;
@@ -99,11 +97,11 @@ public class BBNode {
 		this.solved = solved;
 	}
 
-	public ArrayList<Path> getSolution() {
+	public ArrayList<Label> getSolution() {
 		return solution;
 	}
 
-	public void setSolution(ArrayList<Path> solution) {
+	public void setSolution(ArrayList<Label> solution) {
 		this.solution = solution;
 	}
 
