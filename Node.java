@@ -7,8 +7,8 @@ public class Node {
 	public String locationName;
 	public int weight;
 	public int volume;
-	public float earlyTimeWindow;
-	public float lateTimeWindow;
+	public double earlyTimeWindow;
+	public double lateTimeWindow;
 	
 	
 	public Node(int number) {

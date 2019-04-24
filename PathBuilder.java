@@ -21,8 +21,8 @@ public class PathBuilder {
 	private double zeroTol = 0.001;
 	private int numberOfDominatedLabels;
 	int routeNumber = 1;
-//	public Float[] dualVisitedPickupsCon;
-//	public Vector<Float> dualOneVisitCon;
+//	public double[] dualVisitedPickupsCon;
+//	public Vector<double> dualOneVisitCon;
 	//int bestLabelNumber = 0;
 
 
@@ -46,7 +46,7 @@ public class PathBuilder {
 	
 	
 	// Label extension without any intermediate breaks or daily rests 
-	public Label LabelExtension(Node node, Label L, Float[] dualVisitedPickupsCon) {
+	public Label LabelExtension(Node node, Label L, double[] dualVisitedPickupsCon) {
 		
 
 		
@@ -63,24 +63,24 @@ public class PathBuilder {
 		// Defining rule related values
 		int maxDailyDrivingTime = 9;
 		int maxConsecutiveWorkingTime = 6;
-		float maxConsecutiveDrivingTime = Float.parseFloat("4.5");
+		double maxConsecutiveDrivingTime = 4.5;
 		
 		// Computing total daily driving time, consecutive driving time, consecutive working time and total distance
-		float dailyDrivingTime = L.dailyDrivingTime + inputdata.getTime(L.node, node);
-		float consecutiveDrivingTime = L.consecutiveDrivingTime + inputdata.getTime(L.node, node);
-		float consecutiveWorkingTime = L.consecutiveWorkingTime + inputdata.getTime(L.node, node) + L.node.weight*inputdata.timeTonService;
-		float totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
+		double dailyDrivingTime = L.dailyDrivingTime + inputdata.getTime(L.node, node);
+		double consecutiveDrivingTime = L.consecutiveDrivingTime + inputdata.getTime(L.node, node);
+		double consecutiveWorkingTime = L.consecutiveWorkingTime + inputdata.getTime(L.node, node) + L.node.weight*inputdata.timeTonService;
+		double totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
 		
 		// Setting break and rest related parameters to that equal in the previous node
-		float startTimeDailyRest = L.startTimeDailyRest;
+		double startTimeDailyRest = L.startTimeDailyRest;
 		int numberDailyRests = L.numberDailyRests;
-		float startTimeIntermediateBreak = L.startTimeIntermediateBreak;
+		double startTimeIntermediateBreak = L.startTimeIntermediateBreak;
 		
 	//	System.out.println("TYPE HER" +L.vehicle.nodes.get(node.number).type);
 	//	System.out.println("TYPE WEIGHT" +L.vehicle.nodes.get(node.number).weight);
 	//	System.out.println("TYPE HER" +L.node.weight);
 		// Time in the label equals max of: 1) the predecessor's time plus travel- and service time to this node, 2) early time window in this node
-		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService, node.earlyTimeWindow); 	
+		double arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService, node.earlyTimeWindow); 	
 		
 		// The rule of maximum 4.5 hours consecutive driving and 6 hours consecutive working cannot be broken
 		if (consecutiveDrivingTime > maxConsecutiveDrivingTime || consecutiveWorkingTime > maxConsecutiveWorkingTime) {  
@@ -315,7 +315,7 @@ public class PathBuilder {
 	
 	
 	// Label extension with one daily rest
-	public Label LabelExtensionWithDailyRest(Node node, Label L, Float[] dualVisitedPickupsCon) {
+	public Label LabelExtensionWithDailyRest(Node node, Label L, double[] dualVisitedPickupsCon) {
 			
 		// Cannot return to start depot
 		if(node.number == 0){
@@ -331,35 +331,35 @@ public class PathBuilder {
 		int dailyRestTime = 11; 
 		int maxDailyDrivingTime = 9;
 		int maxConsecutiveWorkingTime = 6;
-		float maxConsecutiveDrivingTime = Float.parseFloat("4.5");
+		double maxConsecutiveDrivingTime = 4.5;
 		
 		// Setting intermediate break and daily rest related values to those of the previous label
-		float startTimeDailyRest = L.startTimeDailyRest;
-		float consecutiveDrivingTime = L.consecutiveDrivingTime;
-		float startTimeIntermediateBreak = L.startTimeIntermediateBreak;
-		float consecutiveWorkingTime = L.consecutiveWorkingTime;
-		float dailyDrivingTime = L.dailyDrivingTime ;
-		float totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
+		double startTimeDailyRest = L.startTimeDailyRest;
+		double consecutiveDrivingTime = L.consecutiveDrivingTime;
+		double startTimeIntermediateBreak = L.startTimeIntermediateBreak;
+		double consecutiveWorkingTime = L.consecutiveWorkingTime;
+		double dailyDrivingTime = L.dailyDrivingTime ;
+		double totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
 		
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and daily rest time to this node, 2) early time window in this node
-		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + dailyRestTime, node.earlyTimeWindow); 
+		double arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + dailyRestTime, node.earlyTimeWindow); 
 		
 
 		
 		
 		// The driving time required on the arc
-		float arcDrivingTime = inputdata.getTime(L.node, node);
+		double arcDrivingTime = inputdata.getTime(L.node, node);
 		
 		// The arrival time without considering the early time window in the next node 
-		float arrivalTimeNoWait = L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + dailyRestTime; 
+		double arrivalTimeNoWait = L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + dailyRestTime; 
 		
 		// Computing the time left before reaching the max values of daily driving, consecutive driving, and consecutive working 
-		float timeLeftDailyDriving = maxDailyDrivingTime - L.dailyDrivingTime;
-		float timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
-		float timeLeftWorking = maxConsecutiveWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
+		double timeLeftDailyDriving = maxDailyDrivingTime - L.dailyDrivingTime;
+		double timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
+		double timeLeftWorking = maxConsecutiveWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
 		
 		// Time to break is the smallest of the times computed above 
-		float timeToBreak = Math.min(timeLeftDailyDriving, timeLeftDriving);
+		double timeToBreak = Math.min(timeLeftDailyDriving, timeLeftDriving);
 		timeToBreak = Math.min(timeToBreak, timeLeftWorking);
 		
 		// The start time of the daily rest is the arrival time at the previous node plus the service time at that node and the time to break 
@@ -392,7 +392,7 @@ public class PathBuilder {
 		if(numberDailyRests == 1 && startTimeDailyRest > 13 ) { 
 			startTimeDailyRest = 13; 
 			// Calculating the time driven before the daily rest. Daily driving time, and consecutive driving and working time are set to the arc driving time minus the time driven
-			float timeDriven = startTimeDailyRest - L.time - L.node.weight*inputdata.timeTonService;
+			double timeDriven = startTimeDailyRest - L.time - L.node.weight*inputdata.timeTonService;
 			dailyDrivingTime = arcDrivingTime - timeDriven; 
 			consecutiveDrivingTime = arcDrivingTime - timeDriven; 
 			consecutiveWorkingTime = arcDrivingTime - timeDriven;
@@ -413,7 +413,7 @@ public class PathBuilder {
 		else if(numberDailyRests > 1 && startTimeDailyRest  > 24 * (numberDailyRests -1) + 13) { 
 			startTimeDailyRest = 13 + 24*(numberDailyRests-1);
 			// Calculating the time driven before the daily rest. Daily driving time, and consecutive driving and working time are set to the arc driving time minus the time driven
-			float timeDriven = startTimeDailyRest - L.time - L.node.weight*inputdata.timeTonService;
+			double timeDriven = startTimeDailyRest - L.time - L.node.weight*inputdata.timeTonService;
 			dailyDrivingTime = arcDrivingTime - timeDriven; 
 			consecutiveDrivingTime = arcDrivingTime - timeDriven; 
 			consecutiveWorkingTime =  arcDrivingTime - timeDriven;
@@ -654,7 +654,7 @@ public class PathBuilder {
 	
 	
 	// Label extension with one or two intermediate breaks
-	public Label LabelExtensionWithIntermediateBreak(Node node, Label L, Float[] dualVisitedPickupsCon) {
+	public Label LabelExtensionWithIntermediateBreak(Node node, Label L, double[] dualVisitedPickupsCon) {
 			
 		// Cannot return to start depot
 		if(node.number == 0){
@@ -668,20 +668,20 @@ public class PathBuilder {
 		}
 		
 		// Defining rule related values
-		float intermediateBreakTime = Float.parseFloat("0.75");
-		float maxConsecutiveDrivingTime = Float.parseFloat("4.5");
+		double intermediateBreakTime = 0.75;
+		double maxConsecutiveDrivingTime = 4.5;
 		int maxWorkingTime = 6;
 		int maxDailyDrivingTime = 9;
 		
 		// Setting intermediate break and daily rest related values to those of the previous label
-		float dailyDrivingTime = L.dailyDrivingTime + inputdata.getTime(L.node, node); 
-		float startTimeDailyRest = L.startTimeDailyRest;
-		float startTimeIntermediateBreak = L.startTimeIntermediateBreak;
-		float totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
+		double dailyDrivingTime = L.dailyDrivingTime + inputdata.getTime(L.node, node); 
+		double startTimeDailyRest = L.startTimeDailyRest;
+		double startTimeIntermediateBreak = L.startTimeIntermediateBreak;
+		double totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
 		int numberDailyRests = L.numberDailyRests;
 		
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and intermediate break time to this node, 2) early time window in this node
-		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime, node.earlyTimeWindow); 
+		double arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime, node.earlyTimeWindow); 
 		
 		
 
@@ -689,18 +689,18 @@ public class PathBuilder {
 		
 		
 		// The driving time required on the arc
-		float arcDrivingTime = inputdata.getTime(L.node, node);
+		double arcDrivingTime = inputdata.getTime(L.node, node);
 		
 		// The arrival time without considering the early time window in the next node
-		float arrivalTimeNoWait = L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime;
+		double arrivalTimeNoWait = L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime;
 		
 		// Waiting time when considering the early time window in the next node
-		float waitingTime = node.earlyTimeWindow -arrivalTimeNoWait;
+		double waitingTime = node.earlyTimeWindow -arrivalTimeNoWait;
 		
 		// Computing the time left before reaching the max values of daily driving, consecutive driving, and consecutive working
-		float timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
-		float timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
-		float timeLeftDailyDriving = maxDailyDrivingTime - L.dailyDrivingTime;
+		double timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
+		double timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
+		double timeLeftDailyDriving = maxDailyDrivingTime - L.dailyDrivingTime;
 		
 		// Cannot extend if a daily rest is necessary in order for the route to stay feasible
 		if(timeLeftDailyDriving < arcDrivingTime) {
@@ -708,15 +708,15 @@ public class PathBuilder {
 		}
 		
 		// Time to break is the smallest of the time left consecutive driving and working
-		float timeToBreak = Math.min(timeLeftDriving, timeLeftWorking); 
-		float timeDrivenBeforeFirstBreak = timeToBreak;
+		double timeToBreak = Math.min(timeLeftDriving, timeLeftWorking); 
+		double timeDrivenBeforeFirstBreak = timeToBreak;
 		
 		// The start time of the intermediate break is the arrival time at the previous node plus the service time at that node and the time to break
 		startTimeIntermediateBreak = L.time  + L.node.weight*inputdata.timeTonService + timeToBreak;
 		
 		// Consecutive driving and working time are equal to what is left driving on the arc after the intermediate break is taken
-		float consecutiveDrivingTime = arcDrivingTime - timeToBreak;
-		float consecutiveWorkingTime = arcDrivingTime - timeToBreak; 
+		double consecutiveDrivingTime = arcDrivingTime - timeToBreak;
+		double consecutiveWorkingTime = arcDrivingTime - timeToBreak; 
 		
 		// If the intermediate break must be taken within the service time on the node in order to stay feasible, do not extend the label
 		if (timeLeftWorking < 0) { 
@@ -966,7 +966,7 @@ public class PathBuilder {
 	
 	
 	// Label extension with two intermediate breaks when there is no waiting time 
-	public Label LabelExtensionWithTwoIntermediateBreaks(Node node, Label L, Float[] dualVisitedPickupsCon) { 
+	public Label LabelExtensionWithTwoIntermediateBreaks(Node node, Label L, double[] dualVisitedPickupsCon) { 
 		
 		// Cannot return to start depot
 		if(node.number == 0){
@@ -979,20 +979,20 @@ public class PathBuilder {
 		}
 		
 		// Defining rule related values
-		float intermediateBreakTime = Float.parseFloat("0.75");
-		float maxConsecutiveDrivingTime = Float.parseFloat("4.5");
+		double intermediateBreakTime = 0.75;
+		double maxConsecutiveDrivingTime = 4.5;
 		int maxWorkingTime = 6;
 		int maxDailyDrivingTime = 9;
 		
 		// Setting intermediate break and daily rest related values 
-		float dailyDrivingTime = L.dailyDrivingTime + inputdata.getTime(L.node, node); 
-		float startTimeDailyRest = L.startTimeDailyRest;
-		float startTimeIntermediateBreak = L.startTimeIntermediateBreak;
-		float totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
+		double dailyDrivingTime = L.dailyDrivingTime + inputdata.getTime(L.node, node); 
+		double startTimeDailyRest = L.startTimeDailyRest;
+		double startTimeIntermediateBreak = L.startTimeIntermediateBreak;
+		double totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
 		int numberDailyRests = L.numberDailyRests;
 		
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and intermediate break time to this node, 2) early time window in this node
-		float arrivalTime =  Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + 2*intermediateBreakTime, node.earlyTimeWindow); 
+		double arrivalTime =  Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + 2*intermediateBreakTime, node.earlyTimeWindow); 
 	//	System.out.println ("Wegiht " + L.node.weight);
 	//	System.out.println ("Number " + L.node.number);
 	//	System.out.println ("Wegiht2 " + node.weight);
@@ -1003,12 +1003,12 @@ public class PathBuilder {
 		}
 		
 		// The driving time required on the arc
-		float arcDrivingTime = inputdata.getTime(L.node, node);
+		double arcDrivingTime = inputdata.getTime(L.node, node);
 		
 		// Computing the time left before reaching the max values of daily driving, consecutive driving, and consecutive working
-		float timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
-		float timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
-		float timeLeftDailyDriving = maxDailyDrivingTime - L.dailyDrivingTime;
+		double timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
+		double timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
+		double timeLeftDailyDriving = maxDailyDrivingTime - L.dailyDrivingTime;
 		
 		// If the maximal daily driving time is reached, the label extension cannot be executed as a daily rest is necessary
 		if(timeLeftDailyDriving < arcDrivingTime) {
@@ -1016,15 +1016,15 @@ public class PathBuilder {
 		}
 		
 		// Time to break is the smallest of the time left of consecutive driving and working
-		float timeToBreak = Math.min(timeLeftDriving, timeLeftWorking); 
-		float timeDrivenBeforeFirstBreak = timeToBreak;
+		double timeToBreak = Math.min(timeLeftDriving, timeLeftWorking); 
+		double timeDrivenBeforeFirstBreak = timeToBreak;
 		
 		// The start time of the first intermediate break is the arrival time at the previous node plus the service time at that node and the time to break
 		startTimeIntermediateBreak = L.time  + L.node.weight*inputdata.timeTonService + timeToBreak;
 		
 		// Consecutive driving and working time are equal to what is left driving on the arc after the first intermediate break is taken
-		float consecutiveDrivingTime = arcDrivingTime - timeToBreak;
-		float consecutiveWorkingTime = arcDrivingTime - timeToBreak;
+		double consecutiveDrivingTime = arcDrivingTime - timeToBreak;
+		double consecutiveWorkingTime = arcDrivingTime - timeToBreak;
 		
 		// If the intermediate break must be taken within the service time on the node in order to stay feasible, do not extend the label
 		if (timeLeftWorking < 0) { 
@@ -1047,7 +1047,7 @@ public class PathBuilder {
 		}
 		
 		// Computing the time of the second intermediate break	 
-		float timeToSecondBreak = Math.min(maxConsecutiveDrivingTime , arcDrivingTime - timeDrivenBeforeFirstBreak); 
+		double timeToSecondBreak = Math.min(maxConsecutiveDrivingTime , arcDrivingTime - timeDrivenBeforeFirstBreak); 
 		
 		// Do not extend if the first break is already taken on the end of the arc
 		if (timeToSecondBreak <= 0) { 
@@ -1286,7 +1286,7 @@ public class PathBuilder {
 
 
 	// Label extension with one intermediate break before a daily rest and then possibly another intermediate break 
-	public Label LabelExtensionWithIntermediateBreakBeforeDailyRest(Node node, Label L, Float[] dualVisitedPickupsCon) { 	
+	public Label LabelExtensionWithIntermediateBreakBeforeDailyRest(Node node, Label L, double[] dualVisitedPickupsCon) { 	
 		
 		// Cannot return to start depot
 		if(node.number == 0){
@@ -1299,42 +1299,42 @@ public class PathBuilder {
 		}
 		
 		// Defining rule related values
-		float intermediateBreakTime = Float.parseFloat("0.75");
-		float maxConsecutiveDrivingTime = Float.parseFloat("4.5");
-		float maxWorkingTime = Float.parseFloat("6");
+		double intermediateBreakTime = 0.75;
+		double maxConsecutiveDrivingTime = 4.5;
+		double maxWorkingTime = 6;
 		int dailyRestTime = 11;
 		int maxDailyDrivingTime = 9;
 		
 		// Setting intermediate break and daily rest related values to those of the previous label
-		float startTimeDailyRest = L.startTimeDailyRest;
-		float startTimeIntermediateBreak = L.startTimeIntermediateBreak;
-		float consecutiveWorkingTime = L.consecutiveWorkingTime;
-		float consecutiveDrivingTime = L.consecutiveDrivingTime;
-		float dailyDrivingTime = L.dailyDrivingTime; 
-		float totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
+		double startTimeDailyRest = L.startTimeDailyRest;
+		double startTimeIntermediateBreak = L.startTimeIntermediateBreak;
+		double consecutiveWorkingTime = L.consecutiveWorkingTime;
+		double consecutiveDrivingTime = L.consecutiveDrivingTime;
+		double dailyDrivingTime = L.dailyDrivingTime; 
+		double totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
 		int numberDailyRests = L.numberDailyRests;
 		
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and daily rest time to this node, 2) early time window in this node
-		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime, node.earlyTimeWindow); 
+		double arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime, node.earlyTimeWindow); 
 		
 		// Computing the waiting time when considering the early time window of the next node
-		float waitingTime = node.earlyTimeWindow -  L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService  ;
+		double waitingTime = node.earlyTimeWindow -  L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService  ;
 		
 		// The driving time required on the arc
-		float arcDrivingTime = inputdata.getTime(L.node, node);
+		double arcDrivingTime = inputdata.getTime(L.node, node);
 		
 		// Computing the time left before reaching the max values of consecutive driving, consecutive working, daily driving and the 24-hour rule
-		float timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
-		float timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
-		float timeTo24HourRule = (13 + 24* (numberDailyRests -1) - L.time - L.node.weight*inputdata.timeTonService );
-		float timeLeftDailyDriving = (maxDailyDrivingTime - L.dailyDrivingTime);
+		double timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
+		double timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
+		double timeTo24HourRule = (13 + 24* (numberDailyRests -1) - L.time - L.node.weight*inputdata.timeTonService );
+		double timeLeftDailyDriving = (maxDailyDrivingTime - L.dailyDrivingTime);
 		
 		// Computing the time to when a daily rest is necessary, and when an intermediate break is necessary
-		float timeToDailyRest = Math.min(timeTo24HourRule, timeLeftDailyDriving);
-		float timeToBreak = Math.min(timeLeftDriving, timeLeftWorking);
+		double timeToDailyRest = Math.min(timeTo24HourRule, timeLeftDailyDriving);
+		double timeToBreak = Math.min(timeLeftDriving, timeLeftWorking);
 		
 		// Computing the time to the first intermediate break
-		float drivingTimeBeforeFirstBreak = timeToBreak;
+		double drivingTimeBeforeFirstBreak = timeToBreak;
 
 		// If it is legal to have the intermediate break come before a daily rest, place the (first) intermediate break as below
 		if (timeToBreak < timeToDailyRest - intermediateBreakTime) {   
@@ -1361,7 +1361,7 @@ public class PathBuilder {
 			// Computing the arrival time including the time used for intermediate break and daily rest
 			arrivalTime = Math.max(L.time + arcDrivingTime + L.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime, node.earlyTimeWindow);
 			// Computing the driving time between the intermediate break and the daily rest
-			float drivingTimeBetweenBreaks = startTimeDailyRest - startTimeIntermediateBreak - intermediateBreakTime;
+			double drivingTimeBetweenBreaks = startTimeDailyRest - startTimeIntermediateBreak - intermediateBreakTime;
 			// Computing the consecutive driving time, the consecutive working time and the daily driving time after the daily rest
 			consecutiveDrivingTime = arcDrivingTime - drivingTimeBeforeFirstBreak - drivingTimeBetweenBreaks;
 			consecutiveWorkingTime = arcDrivingTime - drivingTimeBeforeFirstBreak - drivingTimeBetweenBreaks;
@@ -1614,7 +1614,7 @@ public class PathBuilder {
 	
 
 	// Daily rest before an intermediate break, and then possibly another daily rest
-	public Label LabelExtensionWithDailyRestBeforeIntermediateBreak(Node node, Label L, Float[] dualVisitedPickupsCon) { 
+	public Label LabelExtensionWithDailyRestBeforeIntermediateBreak(Node node, Label L, double[] dualVisitedPickupsCon) { 
 		
 		// Cannot return to start depot
 		if(node.number == 0){
@@ -1627,41 +1627,41 @@ public class PathBuilder {
 		}
 		
 		// Defining rule related values
-		float intermediateBreakTime = Float.parseFloat("0.75");
-		float maxConsecutiveDrivingTime = Float.parseFloat("4.5");
+		double intermediateBreakTime =0.75;
+		double maxConsecutiveDrivingTime = 4.5;
 		int maxWorkingTime = 6;
 		int dailyRestTime = 11;
 		int maxDailyDrivingTime = 9;
 		
 		// Setting intermediate break and daily rest related values to those of the previous label
-		float dailyDrivingTime = L.dailyDrivingTime; 
-		float startTimeDailyRest = L.startTimeDailyRest;
-		float startTimeIntermediateBreak = L.startTimeIntermediateBreak;
-		float consecutiveWorkingTime = L.consecutiveWorkingTime;
-		float consecutiveDrivingTime = L.consecutiveDrivingTime;	
+		double dailyDrivingTime = L.dailyDrivingTime; 
+		double startTimeDailyRest = L.startTimeDailyRest;
+		double startTimeIntermediateBreak = L.startTimeIntermediateBreak;
+		double consecutiveWorkingTime = L.consecutiveWorkingTime;
+		double consecutiveDrivingTime = L.consecutiveDrivingTime;	
 		int numberDailyRests = L.numberDailyRests;
-		float totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
+		double totalDistance = L.totalDistance + inputdata.getDistance(L.node, node);
 		int secondDailyRest = 0;
 		
 		// Time in the label equals max of: 1) the predecessor's time plus travel-, service- and daily rest time to this node, 2) early time window in this node
-		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime, node.earlyTimeWindow); 
+		double arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime, node.earlyTimeWindow); 
 		
 		// Computing the waiting time when considering the early time window in the next node
-		float waitingTime = node.earlyTimeWindow -  L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService  ;
+		double waitingTime = node.earlyTimeWindow -  L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService  ;
 		
 		// The driving time required on the arc
-		float arcDrivingTime = inputdata.getTime(L.node, node);
+		double arcDrivingTime = inputdata.getTime(L.node, node);
 		
 		// Computing the time left before reaching the max values of consecutive driving, consecutive working, daily driving and the 24-hour rule
-		float timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
-		float timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
-		float timeTo24HourRule = (13 + 24* (numberDailyRests -1) - L.time - L.node.weight*inputdata.timeTonService );
-		float timeLeftDailyDriving = (9 - L.dailyDrivingTime);
+		double timeLeftDriving = maxConsecutiveDrivingTime - L.consecutiveDrivingTime;
+		double timeLeftWorking = maxWorkingTime - L.consecutiveWorkingTime - L.node.weight*inputdata.timeTonService;
+		double timeTo24HourRule = (13 + 24* (numberDailyRests -1) - L.time - L.node.weight*inputdata.timeTonService );
+		double timeLeftDailyDriving = (9 - L.dailyDrivingTime);
 		
 		// Computing which of the rules that is most restrictive 
-		float timeToDailyRest = Math.min(timeTo24HourRule, timeLeftDailyDriving);
-		float timeToBreak = Math.min(timeLeftDriving, timeLeftWorking);
-		float drivingTimeBeforeFirstBreak = timeToBreak;
+		double timeToDailyRest = Math.min(timeTo24HourRule, timeLeftDailyDriving);
+		double timeToBreak = Math.min(timeLeftDriving, timeLeftWorking);
+		double drivingTimeBeforeFirstBreak = timeToBreak;
 		
 		// Computing the start time of the daily rest, depending on which of the rules of daily driving, 24-hour rule, consecutive driving and consecutive working that is reached first 
 		startTimeDailyRest = Math.min(L.time + L.node.weight*inputdata.timeTonService + timeLeftDailyDriving, 13 + 24 * (numberDailyRests -1));
@@ -1670,11 +1670,11 @@ public class PathBuilder {
 		
 		// Computing the driving time before the daily rest and the remaining driving time on the arc
 		timeToDailyRest = startTimeDailyRest - (L.time + L.node.weight*inputdata.timeTonService);
-		float remainingDrivingTime = arcDrivingTime - timeToDailyRest;
+		double remainingDrivingTime = arcDrivingTime - timeToDailyRest;
 		
 		// Computing the daily driving time 
 		dailyDrivingTime = arcDrivingTime - timeToDailyRest;
-		float drivingTimeBeforeDailyRest = timeToDailyRest;
+		double drivingTimeBeforeDailyRest = timeToDailyRest;
 		
 		// If the daily rest must be taken within the service time in the node, do not extend the label
 		if (timeTo24HourRule < 0 && timeTo24HourRule < timeLeftWorking) { 
@@ -1954,7 +1954,7 @@ public class PathBuilder {
 	
 	
 	
-	public Vector<Label> BuildPaths(Vehicle vehicle, Float[] dualVisitedPickupsCon, Float[] dualOneVisitCon) {
+	public Vector<Label> BuildPaths(Vehicle vehicle, double[] dualVisitedPickupsCon, double[] dualOneVisitCon) {
 		preprocess = new Preprocessing(pickupNodes, deliveryNodes, vehicles, inputdata, nodesWithoutDepot, vehicle);
 		preprocess.unreachableNodeCombination();
 		preprocess.unreachableDeliveryNode();
@@ -1967,7 +1967,7 @@ public class PathBuilder {
 	//	L.bestLabelNumber = 0;
 		L.vehicle = vehicle;
 		L.node = vehicle.startDepot;
-		L.time = Float.parseFloat("0");
+		L.time = 0;
 		L.profit = 0;
 		L.weightCapacityUsed = 0;
 		L.volumeCapacityUsed = 0;
@@ -2020,8 +2020,8 @@ public class PathBuilder {
 			// Going through all pickup nodes 
 			for(Node pickup:pickupNodes) { 
 			
-				float arcDrivingTime = inputdata.getTime(label.node,  pickup);
-				float dailyDrivingTime = label.dailyDrivingTime;
+				double arcDrivingTime = inputdata.getTime(label.node,  pickup);
+				double dailyDrivingTime = label.dailyDrivingTime;
 				int maxDailyDrivingTime = 9;
 				
 				// Only extend labels without daily rest if the arc driving time plus the daily driving time is less than 9 (no daily rest necessary)
@@ -2074,10 +2074,10 @@ public class PathBuilder {
 				}
 				
 				
-				float intermediateBreakTime = Float.parseFloat("0.75");
-				float maxDrivingTime = Float.parseFloat("4.5");
+				double intermediateBreakTime = 0.75;
+				double maxDrivingTime = 4.5;
 				int dailyRestTime = 11;
-				float waitingTime = pickup.earlyTimeWindow - (label.time + inputdata.getTime(label.node,  pickup) + label.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime);
+				double waitingTime = pickup.earlyTimeWindow - (label.time + inputdata.getTime(label.node,  pickup) + label.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime);
 				
 				// If the waiting time is above zero or the arc driving time is above its maximum of 4.5, execute the following label extensions
 				if (waitingTime > 0 || arcDrivingTime > maxDrivingTime) {
@@ -2110,13 +2110,13 @@ public class PathBuilder {
 				
 				Node node = L.vehicle.nodes.get(i+1); 
 				
-				float arcDrivingTime = inputdata.getTime(label.node, node);
-				float intermediateBreakTime = Float.parseFloat("0.75");
-				float maxDrivingTime = Float.parseFloat("4.5");
+				double arcDrivingTime = inputdata.getTime(label.node, node);
+				double intermediateBreakTime = 0.75;
+				double maxDrivingTime = 4.5;
 				int dailyRestTime = 11;
 				int maxDailyDrivingTime = 9;
-				float waitingTime = node.earlyTimeWindow - (label.time + inputdata.getTime(label.node,  node) + label.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime);
-				float dailyDrivingTime = label.dailyDrivingTime;
+				double waitingTime = node.earlyTimeWindow - (label.time + inputdata.getTime(label.node,  node) + label.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime);
+				double dailyDrivingTime = label.dailyDrivingTime;
 				
 				// Only extend labels without daily rest if the arc driving time plus the daily driving time is less than 9 (no daily rest necessary)
 				if (arcDrivingTime + dailyDrivingTime < maxDailyDrivingTime) {
@@ -2202,8 +2202,8 @@ public class PathBuilder {
 			//for(Node i : L.vehicle.nodes) {
 			//	System.out.println(i.lateTimeWindow);
 			//}
-			float arcDrivingTime = inputdata.getTime(label.node, node);
-			float dailyDrivingTime = label.dailyDrivingTime;
+			double arcDrivingTime = inputdata.getTime(label.node, node);
+			double dailyDrivingTime = label.dailyDrivingTime;
 			int maxDailyDrivingTime = 9;
 			
 			// Only extend labels without daily rest if the arc driving time plus the daily driving time is less than 9 (no daily rest necessary)
@@ -2254,10 +2254,10 @@ public class PathBuilder {
 			}
 			
 			
-			float intermediateBreakTime = Float.parseFloat("0.75");
-			float maxDrivingTime = Float.parseFloat("4.5");
+			double intermediateBreakTime = 0.75;
+			double maxDrivingTime = 4.5;
 			int dailyRestTime = 11;
-			float waitingTime = node.earlyTimeWindow - (label.time + inputdata.getTime(label.node,  node) + label.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime);
+			double waitingTime = node.earlyTimeWindow - (label.time + inputdata.getTime(label.node,  node) + label.node.weight*inputdata.timeTonService + intermediateBreakTime + dailyRestTime);
 			
 			// If the waiting time is above zero or the arc driving time is above its maximum of 4.5, execute the following label extensions
 			if (waitingTime > 0 || arcDrivingTime > maxDrivingTime) {
@@ -2380,7 +2380,7 @@ public class PathBuilder {
 	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
 	public Label findBestLabel(Vector<Label> list) throws NullPointerException {
-		float currentBestRedCost = (float) 0.08;
+		double currentBestRedCost =  0.0000001;
 		Label bestLabel = null;
 		for(Label i : list) {
 			if(i.reducedCost > currentBestRedCost) {

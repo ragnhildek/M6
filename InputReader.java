@@ -86,7 +86,7 @@ public class InputReader {
 			
 			for (int k = 0; k<inputdata.numberOfVehicles; k++)  {
 				for(int i = 1; i < list1.length; i++){
-					float number = Float.parseFloat(list1[i].trim());
+					double number = Double.parseDouble(list1[i].trim());
 					vehicles.get(k).nodes.get(i-1).earlyTimeWindow = number;
 				//	System.out.println(vehicles.get(k).nodes.get(1).earlyTimeWindow);
 				
@@ -95,7 +95,7 @@ public class InputReader {
 			int count = 0;
 			//System.out.println(list1.length);
 			for(int i = 3; i < list1.length-1; i+= 2){
-				float number = Float.parseFloat(list1[i].trim());
+				double number = Double.parseDouble(list1[i].trim());
 				//int count = 0;
 			
 				pickupNodes.get(count).earlyTimeWindow = number;
@@ -103,7 +103,7 @@ public class InputReader {
 			}
 			count = 0;
 			for(int i = 4; i < list1.length; i+= 2){
-				float number = Float.parseFloat(list1[i].trim());
+				double number = Double.parseDouble(list1[i].trim());
 				//int count = 0;
 				deliveryNodes.get(count).earlyTimeWindow = number;
 				count ++;
@@ -115,14 +115,14 @@ public class InputReader {
 			list1 = line.split(",");
 			for (int k = 0; k<inputdata.numberOfVehicles; k++)  {
 				for(int i = 1; i < list1.length; i++){
-					float number = Float.parseFloat(list1[i].trim());
+					double number = Double.parseDouble(list1[i].trim());
 					vehicles.get(k).nodes.get(i-1).lateTimeWindow = number;
 					
 				}
 			}
 			count = 0;
 			for(int i = 3; i < list1.length; i+= 2){
-				float number = Float.parseFloat(list1[i].trim());
+				double number = Double.parseDouble(list1[i].trim());
 				pickupNodes.get(count).lateTimeWindow = number;
 				count++;
 			}
@@ -130,7 +130,7 @@ public class InputReader {
 			
 			count = 0;
 			for(int i = 4; i < list1.length; i+= 2){
-				float number = Float.parseFloat(list1[i].trim());
+				double number = Double.parseDouble(list1[i].trim());
 				//int count = 0;
 				deliveryNodes.get(count).lateTimeWindow = number;
 				count ++;
@@ -259,8 +259,8 @@ public class InputReader {
 			inputdata.numberOfCities = Integer.parseInt(list1[1].trim());
 			
 			// Creating empty time and distance matrices
-			inputdata.times = new float[inputdata.numberOfCities][inputdata.numberOfCities];
-			inputdata.distances = new float[inputdata.numberOfCities][inputdata.numberOfCities];
+			inputdata.times = new double[inputdata.numberOfCities][inputdata.numberOfCities];
+			inputdata.distances = new double[inputdata.numberOfCities][inputdata.numberOfCities];
 			
 			
 			//for (Vehicle k : vehicles) {
@@ -277,7 +277,7 @@ public class InputReader {
 				line = fr.readLine();
 				for(int j = 0; j < inputdata.numberOfCities; j++){
 				list1 = line.split(",");
-				inputdata.times[i][j] = Float.parseFloat(list1[j].trim());
+				inputdata.times[i][j] = Double.parseDouble(list1[j].trim());
 				
 				}
 			}
@@ -290,7 +290,7 @@ public class InputReader {
 				line = fr.readLine();
 				for(int j = 0; j < inputdata.numberOfCities; j++){
 				list1 = line.split(",");
-				inputdata.distances[i][j] = Float.parseFloat(list1[j].trim());
+				inputdata.distances[i][j] = Double.parseDouble(list1[j].trim());
 				}
 			}
 			//	for (Vehicle k: vehicles) {
@@ -302,15 +302,15 @@ public class InputReader {
 			// Assigning industry specific parameters
 			line = fr.readLine();
 			list1 = line.split(",");
-			inputdata.fuelPrice = Float.parseFloat(list1[1].trim());
+			inputdata.fuelPrice = Double.parseDouble(list1[1].trim());
 			
 			line = fr.readLine();
 			list1 = line.split(",");
-			inputdata.fuelConsumptionEmptyTruckPerKm = Float.parseFloat(list1[1].trim());
+			inputdata.fuelConsumptionEmptyTruckPerKm = Double.parseDouble(list1[1].trim());
 			
 			line = fr.readLine();
 			list1 = line.split(",");
-			inputdata.fuelConsumptionPerTonKm = Float.parseFloat(list1[1].trim());
+			inputdata.fuelConsumptionPerTonKm = Double.parseDouble(list1[1].trim());
 			
 			line = fr.readLine();
 			list1 = line.split(",");
@@ -318,7 +318,7 @@ public class InputReader {
 			
 			line = fr.readLine();
 			list1 = line.split(",");
-			inputdata.otherDistanceDependentCostsPerKm = Float.parseFloat(list1[1].trim());
+			inputdata.otherDistanceDependentCostsPerKm = Double.parseDouble(list1[1].trim());
 			
 			line = fr.readLine();
 			list1 = line.split(",");
@@ -326,7 +326,7 @@ public class InputReader {
 			
 			line = fr.readLine();
 			list1 = line.split(",");
-			inputdata.timeTonService = Float.parseFloat(list1[1].trim());
+			inputdata.timeTonService = Double.parseDouble(list1[1].trim());
 			
 			line = fr.readLine();
 			list1 = line.split(",");

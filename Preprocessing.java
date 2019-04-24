@@ -10,9 +10,9 @@ public class Preprocessing {
 	//public Vector<Node> nodesWithoutDepot;
 	public Vector<Node> depot;
 	public InstanceData inputdata;
-	public ArrayList<float[]> unreachableNodesFromNode;
-	public ArrayList<float[]> unreachableDelNodesFromNode;
-	public Hashtable<String, Float> unreachableDelPairs;
+	public ArrayList<double[]> unreachableNodesFromNode;
+	public ArrayList<double[]> unreachableDelNodesFromNode;
+	public Hashtable<String, Double> unreachableDelPairs;
 	public Vector<Vehicle> vehicles;
 	public Vector<Node> nodes;
 	// public static ArrayList<Hashtable<Integer, Boolean>> feasibilityTest; 
@@ -33,9 +33,9 @@ public class Preprocessing {
 	
 	public void unreachableNodeCombination() {
 	//	for(Vehicle k : vehicles) {
-		this.unreachableNodesFromNode = new ArrayList<float[]>();
+		this.unreachableNodesFromNode = new ArrayList<double[]>();
 		for(int i = 0; i < nodes.size();i++) {
-			unreachableNodesFromNode.add(new float[nodes.size()]);
+			unreachableNodesFromNode.add(new double[nodes.size()]);
 		}
 	//}
 		
@@ -50,17 +50,17 @@ public class Preprocessing {
 					Node delivery = nodes.get(pickup.number+1);
 			//		System.out.println(delivery.location);
 				//	System.out.println(delivery2.location);
-					float time = pickup2.lateTimeWindow-(pickup.weight*inputdata.timeTonService)-
+					double time = pickup2.lateTimeWindow-(pickup.weight*inputdata.timeTonService)-
 							inputdata.getTime(pickup, pickup2); // Checking if the time for traveling from pickup 1 to another pickup 2 is so large that the time window in pickup 2 will be violated
-					float time2= delivery2.lateTimeWindow-pickup2.weight *inputdata.timeTonService-inputdata.getTime(pickup2, delivery2)-
+					double time2= delivery2.lateTimeWindow-pickup2.weight *inputdata.timeTonService-inputdata.getTime(pickup2, delivery2)-
 							-pickup.weight *inputdata.timeTonService-inputdata.getTime(pickup, pickup2); // Checking whether when going from pickup 1 to pickup 2, and then to delivery 2 will violate the TW in delivery 2 
-					float time3 = delivery.lateTimeWindow-delivery2.weight*inputdata.timeTonService -inputdata.getTime(delivery2, delivery)-
+					double time3 = delivery.lateTimeWindow-delivery2.weight*inputdata.timeTonService -inputdata.getTime(delivery2, delivery)-
 							pickup2.weight *inputdata.timeTonService-inputdata.getTime(pickup2, delivery2)-
 							-pickup.weight *inputdata.timeTonService-inputdata.getTime(pickup, pickup2); // Checking whether going from pickup 1 to pickup 2, then to delivery 2, and at last to delivery 1 will violate the TW in delivery 1
-					float time4 = delivery2.lateTimeWindow-delivery.weight*inputdata.timeTonService -inputdata.getTime(delivery, delivery2)-
+					double time4 = delivery2.lateTimeWindow-delivery.weight*inputdata.timeTonService -inputdata.getTime(delivery, delivery2)-
 							pickup2.weight *inputdata.timeTonService-inputdata.getTime(pickup2, delivery)-
 							-pickup.weight *inputdata.timeTonService-inputdata.getTime(pickup, pickup2); // Checking whether going from pickup 1 to pickup 2, from pickup 2 to delivery 1, and then from delivery 1 to delivery 2 will violate the TW in delivery 2
-					float time5 = delivery2.lateTimeWindow-pickup.weight*inputdata.timeTonService -inputdata.getTime(pickup2, delivery2)-
+					double time5 = delivery2.lateTimeWindow-pickup.weight*inputdata.timeTonService -inputdata.getTime(pickup2, delivery2)-
 							delivery.weight *inputdata.timeTonService-inputdata.getTime(delivery, pickup2)-
 							-pickup.weight *inputdata.timeTonService-inputdata.getTime(pickup, delivery); // Checking whether going from pickup 1 to delivery 1, from delivery 1 to pickup 2 and from pickup 2 to delivery 2 will violate the TW in delivery 2
 					unreachableNodesFromNode.get(pickup.number)[pickup2.number] = Math.min(time,Math.min(time2, Math.max(time3, Math.max(time4, time5))));
@@ -119,9 +119,9 @@ public class Preprocessing {
 	
 	public void unreachableDeliveryNode() {
 	//	for(Vehicle k : vehicles) {
-		this.unreachableDelNodesFromNode = new ArrayList<float[]>();
+		this.unreachableDelNodesFromNode = new ArrayList<double[]>();
 		for(int i = 0; i < nodes.size();i++) {
-			unreachableDelNodesFromNode.add(new float[nodes.size()]);
+			unreachableDelNodesFromNode.add(new double[nodes.size()]);
 	//	}
 	}
 		
@@ -135,9 +135,9 @@ public class Preprocessing {
 					Node pickup = nodes.get(delivery.number-1);
 //					System.out.println("checking for node "+pickup.number+" and "+pickup2.number);
 //					Node delivery2 = nodes.get(pickup2.number+1);
-					float time = delivery2.lateTimeWindow-(pickup.weight*inputdata.timeTonService)-
+					double time = delivery2.lateTimeWindow-(pickup.weight*inputdata.timeTonService)-
 							inputdata.getTime(delivery, delivery2); // Checking if going from delivery 1 to delivery 2 violates TW in delivery 2
-//					float time2= delivery2.lateTimeWindow-pickup2.weight *inputdata.timeTonService+inputdata.getTime(pickup2, delivery2)-
+//					double time2= delivery2.lateTimeWindow-pickup2.weight *inputdata.timeTonService+inputdata.getTime(pickup2, delivery2)-
 //							Math.max(time, pickup2.earlyTimeWindow);
 					unreachableDelNodesFromNode.get(delivery.number)[delivery2.number] = time;
 //					System.out.println(pickup.earlyTimeWindow);
@@ -190,7 +190,7 @@ public class Preprocessing {
 		
 	}
 	public void unreachableDeliveryPairs() {
-		unreachableDelPairs = new Hashtable<String, Float>();
+		unreachableDelPairs = new Hashtable<String, Double>();
 		
 		for(Node node : nodes) {
 		for(Node delivery : deliveryNodes) {
@@ -200,13 +200,13 @@ public class Preprocessing {
 					
 //					System.out.println("checking for node "+pickup.number+" and "+pickup2.number);
 //					Node delivery2 = nodes.get(pickup2.number+1);
-					float time = delivery2.lateTimeWindow-(delivery2.weight*inputdata.timeTonService)-
+					double time = delivery2.lateTimeWindow-(delivery2.weight*inputdata.timeTonService)-
 							inputdata.getTime(delivery, delivery2) - (delivery.weight*inputdata.timeTonService)-
 							inputdata.getTime(node, delivery); // If going from any node to delivery 1, and then to delivery 2 violates TW in delivery 2
-					float time2 = delivery.lateTimeWindow-(delivery.weight*inputdata.timeTonService)-
+					double time2 = delivery.lateTimeWindow-(delivery.weight*inputdata.timeTonService)-
 							inputdata.getTime(delivery2, delivery) - (delivery2.weight*inputdata.timeTonService)-
 							inputdata.getTime(node, delivery2); // If going from any node to delivery 2, and then to delivery 1 violates TW in delivery 1
-//					float time2= delivery2.lateTimeWindow-pickup2.weight *inputdata.timeTonService+inputdata.getTime(pickup2, delivery2)-
+//					double time2= delivery2.lateTimeWindow-pickup2.weight *inputdata.timeTonService+inputdata.getTime(pickup2, delivery2)-
 //							Math.max(time, pickup2.earlyTimeWindow);
 					String temp = "";
 					if(node.number<10) {

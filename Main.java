@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		long startTime = System.nanoTime();
 		
-		String datafile = "49B25R4V_java.txt";
+		String datafile = "30B5R4V_java.txt";
 		
 		File file = new File ("10P5R2V_java_results.txt");
 		
@@ -30,10 +30,10 @@ public class Main {
 		Vector<Vehicle> vehicles = new Vector<Vehicle>();
 	//	Vector<Route> routes = new Vector<Route>();
 	//	Vehicle vehicle = new Vehicle();
-		Vector<Float> dualVisitedPickupsCon = new Vector<Float>();  
-		Vector<Float> dualOneVisitCon = new Vector<Float>();
-		//Vector<Float> dualVisitedPickupsCon;
-		//Vector<Float> dualOneVisitCon;
+		Vector<Double> dualVisitedPickupsCon = new Vector<Double>();  
+		Vector<Double> dualOneVisitCon = new Vector<Double>();
+		//Vector<double> dualVisitedPickupsCon;
+		//Vector<double> dualOneVisitCon;
 		
 		
 		

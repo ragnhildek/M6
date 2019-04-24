@@ -8,27 +8,27 @@ import java.util.Vector;
 		public Vehicle vehicle;
 		public Vector<Node> path;
 		public Vector<Integer> pickupNodesVisited;
-		public float pickupDual;
-		public float totalPickupDual;
-		public float vehicleDual;
-		public float reducedCost;
-		public float time; 
-		public float profit;
-		public float weightCapacityUsed;
-		public float volumeCapacityUsed;
+		public double pickupDual;
+		public double totalPickupDual;
+		public double vehicleDual;
+		public double reducedCost;
+		public double time; 
+		public double profit;
+		public double weightCapacityUsed;
+		public double volumeCapacityUsed;
 		public Label predesessor;
 		public Node node;
 //		public Vector<Integer> path;
 		public Vector<Integer> unreachablePickupNodes;
-		public float dailyDrivingTime;
-		public float consecutiveDrivingTime;
-		public float startTimeDailyRest;
-		public float startTimeIntermediateBreak;
+		public double dailyDrivingTime;
+		public double consecutiveDrivingTime;
+		public double startTimeDailyRest;
+		public double startTimeIntermediateBreak;
 		public Vector<Integer> openNodes; //pickupnodes
 		public int numberDailyRests;
-		public float consecutiveWorkingTime;
-	//	public float waitingTime;
-		public float totalDistance;
+		public double consecutiveWorkingTime;
+	//	public double waitingTime;
+		public double totalDistance;
 		
 
 	public String toString() {

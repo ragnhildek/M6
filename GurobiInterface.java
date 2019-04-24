@@ -32,7 +32,7 @@ import gurobi.*;
 		
 		
 	    public InstanceData inputdata;
-		public float profit = 0;
+		public double profit = 0;
 		public Vector<Node> pickupNodes;
 		public Vector<Node> deliveryNodes;
 		public Vector<Node> nodesWithoutDepot;
@@ -57,7 +57,7 @@ import gurobi.*;
 		public GRBColumn col;
 		public GRBColumn col2;
 		
-		public GurobiInterface(InstanceData inputdata, Vector<Node> deliveryNodes, Vector<Node> pickupNodes, Vector<Node> nodesWithoutDepot, Vector<Vehicle> vehicles, Vector<Float> dualVisitedPickupsCon, Vector<Float> dualOneVisitCon, PrintWriter pw) throws Exception {
+		public GurobiInterface(InstanceData inputdata, Vector<Node> deliveryNodes, Vector<Node> pickupNodes, Vector<Node> nodesWithoutDepot, Vector<Vehicle> vehicles, Vector<Double> dualVisitedPickupsCon, Vector<Double> dualOneVisitCon, PrintWriter pw) throws Exception {
 			env.set(GRB.IntParam.Presolve, 0);
 			env.set(GRB.DoubleParam.OptimalityTol, 0.000000001);
 			env.set(GRB.DoubleParam.FeasibilityTol, 0.000000001);
@@ -224,14 +224,14 @@ import gurobi.*;
 					System.out.println(var.get(GRB.StringAttr.VarName)  + " " +var.get(GRB.DoubleAttr.X));
 				}
 			}
-			Float[] dualVisitedPickupsCon = new Float[pickupNodes.size()];  
-			Float[] dualOneVisitCon = new Float[vehicles.size()];
+			double[] dualVisitedPickupsCon = new double[pickupNodes.size()];  
+			double[] dualOneVisitCon = new double[vehicles.size()];
 			
 			for(int i = 0; i < pickupNodes.size(); i++) {
 			//	System.out.println("Pickup");
 			//	System.out.println(pickupNodes.get(i).number);
 			//	System.out.println(pickupNodes.get(i).location);
-				float dualPickup_i = (float) visitedPickupsCon[i].get(GRB.DoubleAttr.Pi);
+				double dualPickup_i = (double) visitedPickupsCon[i].get(GRB.DoubleAttr.Pi);
 				dualVisitedPickupsCon[i] = dualPickup_i;
 			//	System.out.println("DUAL: " + dualPickup_i);
 				//System.out.println("HER");
@@ -241,7 +241,7 @@ import gurobi.*;
 //			builder.dualVisitedPickupsCon = dualVisitedPickupsCon;
 			
 			for(int k = 0; k < vehicles.size(); k++) {
-				float dualVehicle_k = (float) oneVisitCon[k].get(GRB.DoubleAttr.Pi);
+				double dualVehicle_k = (double) oneVisitCon[k].get(GRB.DoubleAttr.Pi);
 				dualOneVisitCon[k]=dualVehicle_k;
 			//	System.out.println("DUAL: " + dualVehicle_k);
 				//System.out.println("HER");
@@ -253,7 +253,7 @@ import gurobi.*;
 			model.update();
 			
 			Label bestLabel = new Label();
-//			float bestreducedCost = 100000000;
+//			double bestreducedCost = 100000000;
 			boolean addedLabel = true;
 			System.out.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			int counter = 0;
@@ -294,12 +294,12 @@ import gurobi.*;
 				model.optimize();
 				model.write("model.lp");
 				
-//				dualVisitedPickupsCon = new Vector<Float>();  
+//				dualVisitedPickupsCon = new Vector<double>();  
 				
 				
 				
 				for(int i = 0; i < pickupNodes.size(); i++) {
-					float dualPickup_i = (float) visitedPickupsCon[i].get(GRB.DoubleAttr.Pi);
+					double dualPickup_i =  visitedPickupsCon[i].get(GRB.DoubleAttr.Pi);
 					dualVisitedPickupsCon[i] = dualPickup_i;
 				//	System.out.println("DUAL_pickup: " + dualPickup_i);
 					//System.out.println("HER");
@@ -308,7 +308,7 @@ import gurobi.*;
 				}
 //				builder.dualVisitedPickupsCon = dualVisitedPickupsCon;
 				for(int k = 0; k < vehicles.size(); k++) {
-					float dualVehicle_k = (float) oneVisitCon[k].get(GRB.DoubleAttr.Pi);
+					double dualVehicle_k = oneVisitCon[k].get(GRB.DoubleAttr.Pi);
 				//	System.out.println("dual of vehicle "+k+": "+dualVehicle_k);
 					dualOneVisitCon[k]=dualVehicle_k;
 	//				builder.dualOneVisitCon = dualOneVisitCon;
