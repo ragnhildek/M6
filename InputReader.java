@@ -252,7 +252,7 @@ public class InputReader {
 			//depot.get(1).location = number;
 			//depot.get(1).getLocation(number);
 			}
-			System.out.println(vehicles.get(1).nodes.get(0).type);
+			//System.out.println(vehicles.get(1).nodes.get(0).type);
 			// Counting the number of cities
 			line = fr.readLine();
 			list1 = line.split(",");
@@ -263,11 +263,11 @@ public class InputReader {
 			inputdata.distances = new float[inputdata.numberOfCities][inputdata.numberOfCities];
 			
 			
-			for (Vehicle k : vehicles) {
-				for (int i = 0 ; i < k.nodes.size() ; i ++) {
-					System.out.println(k.nodes.get(i).weight);
-				}
-			}
+			//for (Vehicle k : vehicles) {
+			//	for (int i = 0 ; i < k.nodes.size() ; i ++) {
+				//	System.out.println(k.nodes.get(i).weight);
+			//	}
+			//}
 			
 			
 			fr.readLine();
@@ -293,11 +293,11 @@ public class InputReader {
 				inputdata.distances[i][j] = Float.parseFloat(list1[j].trim());
 				}
 			}
-				for (Vehicle k: vehicles) {
-					for(int i = 0; i < k.nodes.size(); i++){
-					System.out.println (k.nodes.get(i).type);
-				}
-			}
+			//	for (Vehicle k: vehicles) {
+			//		for(int i = 0; i < k.nodes.size(); i++){
+			//		System.out.println (k.nodes.get(i).type);
+			//	}
+			//}
 			
 			// Assigning industry specific parameters
 			line = fr.readLine();

@@ -575,11 +575,7 @@ public class PathBuilder {
 			// Calculating the reduced cost of the label
 			L2.reducedCost = L2.profit - L2.totalPickupDual - L2.vehicleDual;
 			
-			if (L.node.number == 0 && node.number == 4  && L.vehicle.number ==  1) {
-				System.out.println("!!!!!!!!!!!!!!!!!!!!!!! ArrialTime in node 4: " + arrivalTime);
-				System.out.println("!!!!!!!!!!!!!!!!!!!!!!! arcDrivingTime: " + inputdata.getTime(L.node, node));
-				System.out.println("!!!!!!!!!!!!!!!!!!!!!!! numberOfBreaks: " + L2.numberDailyRests );
-			}
+		
 			
 			
 			return L2;
@@ -688,9 +684,7 @@ public class PathBuilder {
 		float arrivalTime = Math.max(L.time+inputdata.getTime(L.node, node)+L.node.weight*inputdata.timeTonService + intermediateBreakTime, node.earlyTimeWindow); 
 		
 		
-		if (L.node.number == 4 && node.number == 5 ) {
-			System.out.println("!!!!!!!!!!!!!!!!!!!!!!! ArrialTime after intermediate break: " + arrivalTime);
-		}
+
 		
 		
 		

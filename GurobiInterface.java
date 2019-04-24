@@ -122,8 +122,8 @@ import gurobi.*;
 				//System.out.println(vehicles.get(k).vehicleRoutes);
 				vehicles.get(k).vehicleRoutes.add(numberOfRoutes);
 				for (int r : vehicles.get(k).vehicleRoutes) {
-					System.out.println("vehicleroutes" + vehicles.get(k).vehicleRoutes);
-					GRBVar temp = model.addVar(0, GRB.INFINITY, firstLabel.profit, GRB.CONTINUOUS, col, "lambda_"+k+""+r);
+					//System.out.println("vehicleroutes" + vehicles.get(k).vehicleRoutes);
+					GRBVar temp = model.addVar(0, GRB.INFINITY, firstLabel.profit, GRB.CONTINUOUS, col, "lambda_"+k+"_"+r);
 					this.lambdaVars[k].add(temp);
 					
 					pathList.put(numberOfRoutes-1, firstLabel);
@@ -178,7 +178,7 @@ import gurobi.*;
 			
 			//col2 = new GRBColumn();
 			
-			GRBVar tempVar = model.addVar(0, GRB.INFINITY, l.profit, GRB.CONTINUOUS,  "lambda_"+l.vehicle.number+numberOfRoutes);
+			GRBVar tempVar = model.addVar(0, GRB.INFINITY, l.profit, GRB.CONTINUOUS,  "lambda_"+l.vehicle.number + "_" + numberOfRoutes);
 			lambdaVars[l.vehicle.number].add(tempVar);
 			this.objective.addTerm(l.profit, tempVar);
 			
@@ -187,7 +187,7 @@ import gurobi.*;
 			for(int i = 0; i < pickupNodes.size(); i++) {
 			
 				if(l.pickupNodesVisited.contains(pickupNodes.get(i).number)) {
-					System.out.println("PICKUP" + i);
+				//	System.out.println("PICKUP" + i);
 					model.chgCoeff(visitedPickupsCon[i], tempVar, 1);
 //					System.out.println(visitedPickupsByVehicleOnRoute[l.vehicle.vehicleRoutes.lastElement()][l.vehicle.number][i]);
 				}	
@@ -196,11 +196,11 @@ import gurobi.*;
 			//	System.out.println("Variables"+variables.size());
 				
 				
-				System.out.println("vehicleroutes" + vehicles.get(l.vehicle.number).vehicleRoutes);
-				System.out.println(l.path);
-				System.out.println("numRoutes"+numberOfRoutes);
+			//	System.out.println("vehicleroutes" + vehicles.get(l.vehicle.number).vehicleRoutes);
+			//	System.out.println(l.path);
+			//	System.out.println("numRoutes"+numberOfRoutes);
 				pathList.put(numberOfRoutes-1, l);
-				System.out.println(pathList.get(numberOfRoutes-1).profit);
+			//	System.out.println(pathList.get(numberOfRoutes-1).profit);
 				
 			//	col2.addTerm(visitedPickupsByVehicleOnRoute[l.vehicle.vehicleRoutes.lastElement()][l.vehicle.number][i], visitedPickupsCon[i]);
 			//	col2.addTerm(1, oneVisitCon[l.vehicle.number]);
@@ -228,12 +228,12 @@ import gurobi.*;
 			Float[] dualOneVisitCon = new Float[vehicles.size()];
 			
 			for(int i = 0; i < pickupNodes.size(); i++) {
-				System.out.println("Pickup");
-				System.out.println(pickupNodes.get(i).number);
-				System.out.println(pickupNodes.get(i).location);
+			//	System.out.println("Pickup");
+			//	System.out.println(pickupNodes.get(i).number);
+			//	System.out.println(pickupNodes.get(i).location);
 				float dualPickup_i = (float) visitedPickupsCon[i].get(GRB.DoubleAttr.Pi);
 				dualVisitedPickupsCon[i] = dualPickup_i;
-				System.out.println("DUAL: " + dualPickup_i);
+			//	System.out.println("DUAL: " + dualPickup_i);
 				//System.out.println("HER");
 				//System.out.println(dualVisitedPickupsCon.get(i));
 				
@@ -243,7 +243,7 @@ import gurobi.*;
 			for(int k = 0; k < vehicles.size(); k++) {
 				float dualVehicle_k = (float) oneVisitCon[k].get(GRB.DoubleAttr.Pi);
 				dualOneVisitCon[k]=dualVehicle_k;
-				System.out.println("DUAL: " + dualVehicle_k);
+			//	System.out.println("DUAL: " + dualVehicle_k);
 				//System.out.println("HER");
 				//System.out.println(dualOneVisitCon.get(k));
 				
@@ -260,25 +260,37 @@ import gurobi.*;
 			while(addedLabel && counter<10000) {
 			counter++;
 			addedLabel=false;
+			System.out.println("Vehicle duals: "+Arrays.toString(dualOneVisitCon));
+			System.out.println("Pickup duals: "+Arrays.toString(dualVisitedPickupsCon));
+			System.out.println("");
+			System.out.println("---New subproblem---");
+			System.out.println("");
 			for(int k = 0; k < vehicles.size(); k++) {
-				System.out.println("vehicle duals: "+Arrays.toString(dualOneVisitCon));
-				System.out.println("cargo duals: "+Arrays.toString(dualVisitedPickupsCon));
+				
+				System.out.println("");
+				System.out.println("Solving subproblem for vehicle " + k);
 				Vector<Label> list = builder.BuildPaths(vehicles.get(k), dualVisitedPickupsCon, dualOneVisitCon);
 				bestLabel = builder.findBestLabel(list);
 				
 				if(bestLabel!=null) {
-				
-					System.out.println("red cost " +bestLabel.reducedCost);
 					numberOfRoutes += 1;
+					System.out.println("red cost " +bestLabel.reducedCost);
+					System.out.println("Route number: " + numberOfRoutes);
+					System.out.println("");
+					
+					
 					vehicles.get(k).vehicleRoutes.add(numberOfRoutes);
 				//	numberOfRoutes += 1;
 				//	vehicles.get(l.vehicle.number).vehicleRoutes.add(numberOfRoutes);
-					System.out.println ("HER: " +numberOfRoutes);
+				//	System.out.println ("HER: " +numberOfRoutes);
 					addRoute(bestLabel);
 					addedLabel=true;
 					
 				}
 			}
+			System.out.println("");	
+			System.out.println("---Solving master problem---");
+				System.out.println("");
 				model.optimize();
 				model.write("model.lp");
 				
@@ -289,7 +301,7 @@ import gurobi.*;
 				for(int i = 0; i < pickupNodes.size(); i++) {
 					float dualPickup_i = (float) visitedPickupsCon[i].get(GRB.DoubleAttr.Pi);
 					dualVisitedPickupsCon[i] = dualPickup_i;
-					System.out.println("DUAL_pickup: " + dualPickup_i);
+				//	System.out.println("DUAL_pickup: " + dualPickup_i);
 					//System.out.println("HER");
 					//System.out.println(dualVisitedPickupsCon.get(i));
 					
@@ -297,7 +309,7 @@ import gurobi.*;
 //				builder.dualVisitedPickupsCon = dualVisitedPickupsCon;
 				for(int k = 0; k < vehicles.size(); k++) {
 					float dualVehicle_k = (float) oneVisitCon[k].get(GRB.DoubleAttr.Pi);
-					System.out.println("dual of vehicle "+k+": "+dualVehicle_k);
+				//	System.out.println("dual of vehicle "+k+": "+dualVehicle_k);
 					dualOneVisitCon[k]=dualVehicle_k;
 	//				builder.dualOneVisitCon = dualOneVisitCon;
 //					System.out.println("DUAL_vehicle: " + dualVehicle_k);
@@ -322,13 +334,14 @@ import gurobi.*;
 				//	System.out.print("routenumber" + routeNumber);
 				//	System.out.println("routeCouter" +routeNumber);
 					if(var.get(GRB.DoubleAttr.X)>0.01 ) {
+						System.out.println("");
 						System.out.println(var.get(GRB.StringAttr.VarName)  + " " +var.get(GRB.DoubleAttr.X));
 				//		int route = lambdaVars[k][r]
 						//int route = 2;
 						//if((routeCounter%2)!=0 && routeCounter > 2) {
 						//	routeCounter++;
 						//}
-						System.out.println(pathList.get(routeNumber-1).profit);
+						System.out.println("Profit: " + pathList.get(routeNumber-1).profit);
 						
 					//	System.out.println("numRoutes"+numberOfRoutes);
 						if(routeNumber>vehicles.size()) {
@@ -337,7 +350,7 @@ import gurobi.*;
 							//System.out.println(pathList.get(routeNumber).profit);
 						//	System.out.println("routeCouter2" +routeNumber);
 							for(int i = 0; i < pathList.get(routeNumber-1).path.size(); i++) {
-								System.out.println(pathList.get(routeNumber-1).path.get(i).number);
+							//	System.out.println(pathList.get(routeNumber-1).path.get(i).number);
 								
 								//System.out.println(pathList.get(routeNumber-1).predesessor.toString());
 								//System.out.println(pathList.get(routeNumber-1).toString());

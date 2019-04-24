@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		long startTime = System.nanoTime();
 		
-		String datafile = "19B15R4V_java.txt";
+		String datafile = "3B5R4V_java.txt";
 		
 		File file = new File ("10P5R2V_java_results.txt");
 		
@@ -48,8 +48,8 @@ public class Main {
 		solver.solveProblem();
 		//PathBuilder builder;
 		
-		System.out.println("DISTANCE!!!!!!!" +inputdata.getTime(pickupNodes.get(1), deliveryNodes.get(4)));
-		System.out.println("DISTANCE!!!!!!!" +inputdata.getTime(pickupNodes.get(3), deliveryNodes.get(4)));
+	//	System.out.println("DISTANCE!!!!!!!" +inputdata.getDistance(pickupNodes.get(0), deliveryNodes.get(0)));
+	//	System.out.println("DISTANCE!!!!!!!" +inputdata.getDistance(vehicles.get(3).startDepot, pickupNodes.get(0)));
 		//builder.BuildPaths(vehicle);
 		
 		//time
