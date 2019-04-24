@@ -2380,7 +2380,7 @@ public class PathBuilder {
 	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
 	public Label findBestLabel(Vector<Label> list) throws NullPointerException {
-		float currentBestRedCost = (float) 0.05;
+		float currentBestRedCost = (float) 0.08;
 		Label bestLabel = null;
 		for(Label i : list) {
 			if(i.reducedCost > currentBestRedCost) {
