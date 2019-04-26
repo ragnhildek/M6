@@ -120,8 +120,8 @@ public class TreeManager {
 			e.printStackTrace();
 			System.exit(0);
 		}
-		this.branchingCut1 = true;
-		this.useVolumeCuts = true;
+//		this.branchingCut1 = true;
+//		this.useVolumeCuts = true;
 		this.branchCuts = 0;
 //		this.totalTimeIn4 = 0;
 //		this.totalTimeIn6 = 0;
@@ -192,8 +192,8 @@ public class TreeManager {
  		filewriter2.flush();
 		int counter = 0;
 		Date date1 = new Date();
-while(!nodes.isEmpty()) {
-//	while(counter<1) {
+		while(!nodes.isEmpty()) {
+			//	while(counter<1) {
 			//System.out.println("Active Nodes: "+nodes.size());
 			BBNode next = nodes.poll();
 //			bestNode = next;

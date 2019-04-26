@@ -5,6 +5,7 @@ import java.util.Vector;
 
 	public class Label {
 		//public int bestLabelNumber;
+		public int routeNumber;
 		public Vehicle vehicle;
 		public Vector<Node> path;
 		public Vector<Integer> pickupNodesVisited;

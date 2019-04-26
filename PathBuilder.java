@@ -2379,42 +2379,47 @@ public class PathBuilder {
 	}
 	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
-	public Label findBestLabel(Vector<Label> list) throws NullPointerException {
-		double currentBestRedCost =  0.0000001;
-		Label bestLabel = null;
+	public ArrayList<Label> findBestLabel(Vector<Label> list) throws NullPointerException {
+		double currentBestRedCost =  0.0001;
+		//Label bestLabel = null;
+		ArrayList<Label> bestLabels = new ArrayList<Label>();
 		for(Label i : list) {
 			if(i.reducedCost > currentBestRedCost) {
-				currentBestRedCost = i.reducedCost;
-				bestLabel = i;
+				bestLabels.add(i);
+				//System.out.println(i.reducedCost);
+				//currentBestRedCost = i.reducedCost;
+				//bestLabel = i;
 			}
 		}
 		
-		if (bestLabel == null) {
+		if (bestLabels.isEmpty()) {
 //			throw new NullPointerException ("No feasible solution");	
 			return null;
 		}
 	
-		
+		for(Label i : bestLabels) {
+			i.path = new Vector<Node>();
+			i.pickupNodesVisited = new Vector<Integer>();	
+			Label temp = i.predesessor;
+			while(temp!=null) {
+			//	System.out.println(temp.toString());
+				//pw.println(temp.toString());
+				i.path.add(temp.node);
+				if(temp.node.type == "PickupNode") {
+					i.pickupNodesVisited.add(temp.node.number);
+				}
+			temp=temp.predesessor;
+		}
+		//	System.out.println(i.toString());
 		
 		//Route route = new Route();
 		//routes.add(route);
-		bestLabel.path = new Vector<Node>();
-		bestLabel.pickupNodesVisited = new Vector<Integer>();
 		
 		//route.vehicle = bestLabel.vehicle;
 		
 		//route.profit = bestLabel.profit;
 		//reducedCost = bestLabel.reducedCost;
 		
-		Label temp = bestLabel.predesessor;
-		while(temp!=null) {
-			System.out.println(temp.toString());
-			pw.println(temp.toString());
-			bestLabel.path.add(temp.node);
-			if(temp.node.type == "PickupNode") {
-				bestLabel.pickupNodesVisited.add(temp.node.number);
-			}
-		temp=temp.predesessor;
 		} 
 		
 		
@@ -2423,10 +2428,10 @@ public class PathBuilder {
 		 //bestLabelNumber += 1;
 		
 	
-		pw.println(bestLabel.toString());
+		//pw.println(bestLabel.toString());
 		
-		System.out.println(bestLabel.toString());
-		return bestLabel;
+		
+		return bestLabels;
 	}
 	
 }

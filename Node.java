@@ -9,7 +9,8 @@ public class Node {
 	public int volume;
 	public double earlyTimeWindow;
 	public double lateTimeWindow;
-	
+	public double fraction;
+	public Vehicle branchingVehicle;
 	
 	public Node(int number) {
 		this.number = number;
