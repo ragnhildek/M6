@@ -138,6 +138,12 @@ public class PathBuilder {
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
 			
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
 			for(int i : L.unreachablePickupNodes) {
@@ -188,6 +194,13 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			L2.pickupNodesVisited.add(node.number);
 			
 			// Adding the weight corresponding to a pickup node if there is sufficient weight capacity on the vehicle 
 			if(L.weightCapacityUsed + node.weight <= inputdata.weightCap){
@@ -267,6 +280,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
@@ -473,6 +492,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;	
+		
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
@@ -524,7 +549,13 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
-
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			L2.pickupNodesVisited.add(node.number);
+			
 			// Adding the weight corresponding to a pickup node if there is sufficient weight capacity on the vehicle 
 			if(L.weightCapacityUsed + node.weight <= inputdata.weightCap){
 				L2.weightCapacityUsed = L.weightCapacityUsed + node.weight;
@@ -604,6 +635,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 			
 			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
@@ -788,6 +825,12 @@ public class PathBuilder {
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
 			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
+			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
 			for(int i : L.unreachablePickupNodes) {
@@ -837,6 +880,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			L2.pickupNodesVisited.add(node.number);
 			
 			// Adding the weight corresponding to a pickup node if there is sufficient weight capacity on the vehicle 
 			if(L.weightCapacityUsed + node.weight <= inputdata.weightCap){
@@ -915,6 +964,10 @@ public class PathBuilder {
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
 			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
 			
 	
 			
@@ -1111,6 +1164,12 @@ public class PathBuilder {
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
 			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
+			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
 			for(int i : L.unreachablePickupNodes) {
@@ -1160,6 +1219,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			L2.pickupNodesVisited.add(node.number);
 			
 			// Adding the weight corresponding to a pickup node if there is sufficient weight capacity on the vehicle 
 			if(L.weightCapacityUsed + node.weight <= inputdata.weightCap){
@@ -1237,6 +1302,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 		
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
@@ -1439,6 +1510,11 @@ public class PathBuilder {
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
 			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 				
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
@@ -1489,6 +1565,13 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			L2.pickupNodesVisited.add(node.number);
 			
 			// Adding the weight corresponding to a pickup node if there is sufficient weight capacity on the vehicle 
 			if(L.weightCapacityUsed + node.weight <= inputdata.weightCap){
@@ -1566,6 +1649,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
@@ -1780,6 +1869,11 @@ public class PathBuilder {
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
 			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes	
 			L2.unreachablePickupNodes = new Vector<Integer>();
 			for(int i : L.unreachablePickupNodes) {
@@ -1829,6 +1923,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			L2.pickupNodesVisited.add(node.number);
 			
 			// Adding the weight corresponding to a pickup node if there is sufficient weight capacity on the vehicle 
 			if(L.weightCapacityUsed + node.weight <= inputdata.weightCap){
@@ -1906,6 +2006,12 @@ public class PathBuilder {
 			L2.consecutiveDrivingTime = consecutiveDrivingTime;
 			L2.startTimeIntermediateBreak = startTimeIntermediateBreak ;
 			L2.consecutiveWorkingTime = consecutiveWorkingTime;
+			
+			L2.pickupNodesVisited = new Vector<Integer>();
+			for(int i : L.pickupNodesVisited) {
+				L2.pickupNodesVisited.add(i);
+			}
+			
 		
 			// Adding all elements from the predecessor's unreachablePickupNodes to this label's unreachablePickupNodes
 			L2.unreachablePickupNodes = new Vector<Integer>();
@@ -1954,7 +2060,7 @@ public class PathBuilder {
 	
 	
 	
-	public Vector<Label> BuildPaths(Vehicle vehicle, double[] dualVisitedPickupsCon, double[] dualOneVisitCon) {
+	public Vector<Label> BuildPaths(Vehicle vehicle, double[] dualVisitedPickupsCon, double[] dualOneVisitCon, BBNode bbNode) {
 		preprocess = new Preprocessing(pickupNodes, deliveryNodes, vehicles, inputdata, nodesWithoutDepot, vehicle);
 		preprocess.unreachableNodeCombination();
 		preprocess.unreachableDeliveryNode();
@@ -1980,6 +2086,7 @@ public class PathBuilder {
 		L.startTimeIntermediateBreak = 0;
 		L.consecutiveDrivingTime = 0;
 		L.consecutiveWorkingTime = 0;
+		L.pickupNodesVisited = new Vector<Integer>();
 		
 	//	for(int k = 0; k < vehicles.size(); k++) {
 	//		System.out.println("Vehicle:" +vehicle.number);
@@ -2019,7 +2126,9 @@ public class PathBuilder {
 			
 			// Going through all pickup nodes 
 			for(Node pickup:pickupNodes) { 
-			
+				if(bbNode.branchingMatrix[vehicle.number][(pickup.number/2) - 1] != -1) {
+					
+				
 				double arcDrivingTime = inputdata.getTime(label.node,  pickup);
 				double dailyDrivingTime = label.dailyDrivingTime;
 				int maxDailyDrivingTime = 9;
@@ -2030,7 +2139,8 @@ public class PathBuilder {
 					// Run label extension without daily rest or intermediate break and check dominance
 					Label newLabel = LabelExtension(pickup, label, dualVisitedPickupsCon);
 					if(newLabel!=null) {
-						if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number))) {
+						//System.out.println(newLabel.toString());
+						if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel); 
 							unprocessedAtNode.get(newLabel.node.number).add(newLabel);
 							
@@ -2041,7 +2151,7 @@ public class PathBuilder {
 					Label newLabel2 = LabelExtensionWithIntermediateBreak(pickup, label, dualVisitedPickupsCon);
 					
 					if(newLabel2!=null) {
-						if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number))) {
+						if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel2); 
 							unprocessedAtNode.get(newLabel2.node.number).add(newLabel2);
 							
@@ -2052,7 +2162,7 @@ public class PathBuilder {
 					Label newLabel3 = LabelExtensionWithTwoIntermediateBreaks(pickup, label, dualVisitedPickupsCon);
 					
 					if(newLabel3!=null) {
-						if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number))) {
+						if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel3); 
 							unprocessedAtNode.get(newLabel3.node.number).add(newLabel3);
 						}
@@ -2066,7 +2176,7 @@ public class PathBuilder {
 				
 				if(newLabel4!=null) {
 					
-					if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number))) {
+					if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number), bbNode)) {
 						unprocessedQueue.add(newLabel4); 
 						unprocessedAtNode.get(newLabel4.node.number).add(newLabel4);
 	
@@ -2086,7 +2196,7 @@ public class PathBuilder {
 					Label newLabel5 = LabelExtensionWithIntermediateBreakBeforeDailyRest(pickup, label, dualVisitedPickupsCon);
 					
 						if(newLabel5!=null) {
-							if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number))) {
+							if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number), bbNode)) {
 								unprocessedQueue.add(newLabel5); 
 								unprocessedAtNode.get(newLabel5.node.number).add(newLabel5);
 							}
@@ -2097,12 +2207,12 @@ public class PathBuilder {
 					Label newLabel6 = LabelExtensionWithDailyRestBeforeIntermediateBreak(pickup, label, dualVisitedPickupsCon);
 					
 						if(newLabel6!=null) {
-							if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number))) {
+							if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number), bbNode)) {
 								unprocessedQueue.add(newLabel6); 
 								unprocessedAtNode.get(newLabel6.node.number).add(newLabel6);
 							}
 						}			
-				}
+				}}
 			}	
 			
 			// Going through all nodes in the open nodes set (visited pickup nodes), and get their corresponding delivery node
@@ -2125,8 +2235,8 @@ public class PathBuilder {
 					Label newLabel = LabelExtension(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 					
 					if(newLabel!=null) {
-					//	System.out.println(newLabel.toString());
-						if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number))) {
+						//System.out.println(newLabel.toString());
+						if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel); 
 							unprocessedAtNode.get(newLabel.node.number).add(newLabel);
 						}
@@ -2136,8 +2246,8 @@ public class PathBuilder {
 					Label newLabel2 = LabelExtensionWithIntermediateBreak(L.vehicle.nodes.get(i+1), label, dualVisitedPickupsCon);
 					
 					if(newLabel2!=null) {
-					//	System.out.println(newLabel2.toString());
-						if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number))) {
+						//System.out.println(newLabel2.toString());
+						if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel2); 
 							unprocessedAtNode.get(newLabel2.node.number).add(newLabel2);
 						}
@@ -2148,7 +2258,7 @@ public class PathBuilder {
 					
 					if(newLabel3!=null) {
 					//	System.out.println(newLabel3.toString());
-						if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number))) {
+						if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel3); 
 							unprocessedAtNode.get(newLabel3.node.number).add(newLabel3);
 						}
@@ -2161,7 +2271,7 @@ public class PathBuilder {
 				
 				if(newLabel4!=null) {
 				//	System.out.println(newLabel4.toString());
-					if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number))) {
+					if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number), bbNode)) {
 						unprocessedQueue.add(newLabel4); 
 						unprocessedAtNode.get(newLabel4.node.number).add(newLabel4);
 					}
@@ -2176,7 +2286,7 @@ public class PathBuilder {
 					
 					if(newLabel5!=null) {
 					//	System.out.println(newLabel5.toString());
-						if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number))) {
+						if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel5); 
 							unprocessedAtNode.get(newLabel5.node.number).add(newLabel5);
 						}
@@ -2187,7 +2297,7 @@ public class PathBuilder {
 					
 					if(newLabel6!=null) {
 					//	System.out.println(newLabel6.toString());
-						if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number))) {
+						if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number), bbNode)) {
 							unprocessedQueue.add(newLabel6); 
 							unprocessedAtNode.get(newLabel6.node.number).add(newLabel6);
 						}
@@ -2215,8 +2325,8 @@ public class PathBuilder {
 				
 				if(newLabel!=null) {
 					
-					
-					if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number))) {
+				//	System.out.println(newLabel);
+					if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number), bbNode)) {
 						list.add(newLabel);
 					}
 				}
@@ -2226,8 +2336,8 @@ public class PathBuilder {
 				Label newLabel2 = LabelExtensionWithIntermediateBreak(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 				
 				if(newLabel2!=null) {
-					
-					if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number))) {
+					//System.out.println(newLabel2);
+					if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number), bbNode)) {
 						list.add(newLabel2);
 					}
 				}
@@ -2236,8 +2346,8 @@ public class PathBuilder {
 				Label newLabel3 = LabelExtensionWithTwoIntermediateBreaks(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 				
 				if(newLabel3!=null) {
-					
-					if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number))) {
+				//	System.out.println(newLabel3);
+					if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number), bbNode)) {
 						list.add(newLabel3);
 					}
 				}
@@ -2247,8 +2357,8 @@ public class PathBuilder {
 			Label newLabel4 = LabelExtensionWithDailyRest(L.vehicle.nodes.get(1), label, dualVisitedPickupsCon);
 			
 			if(newLabel4!=null) {
-				
-				if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number))) {
+				//System.out.println(newLabel4);
+				if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number), bbNode)) {
 					list.add(newLabel4);
 				}
 			}
@@ -2267,7 +2377,7 @@ public class PathBuilder {
 				
 				if(newLabel5!=null) {
 					
-					if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number))) {
+					if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number), bbNode)) {
 						list.add(newLabel5);
 					}
 				}
@@ -2277,7 +2387,7 @@ public class PathBuilder {
 				
 				if(newLabel6!=null) {
 					
-					if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number))) {
+					if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number), bbNode)) {
 						list.add(newLabel6);
 					}
 				}
@@ -2303,7 +2413,7 @@ public class PathBuilder {
 	}
 	
 	// Checks if L1 dominates L2
-	private boolean dominateLabel(Label L1, Label L2) { 
+	private boolean dominateLabel(Label L1, Label L2, BBNode bbNode) { 
 		
 		if (L1.node.number != L2.node.number) {
 			return false;
@@ -2314,7 +2424,16 @@ public class PathBuilder {
 		if (L1.time-zeroTol>L2.time) {
 			return false;
 		}
-
+		for(int pickup : bbNode.branchingMatrix[L1.vehicle.number]) {
+			int pickupNumber = 2;
+			if(pickup == 1) {
+				if(!L1.pickupNodesVisited.contains(pickupNumber) && L2.pickupNodesVisited.contains(pickupNumber)) {
+					return false;
+				}
+			}
+			pickupNumber += 2;
+		}
+		
 		if( L1.startTimeDailyRest >= L2.startTimeDailyRest) {	
 			if ( L1.dailyDrivingTime <= L2.dailyDrivingTime && L1.numberDailyRests >= L2.numberDailyRests ) {
 				if ( L1.consecutiveDrivingTime <= L2.consecutiveDrivingTime) {
@@ -2343,17 +2462,17 @@ public class PathBuilder {
 	
 	
 	// Updates the processed and unprocessed lists according to the dominated labels
-	private boolean checkdominance(Label newLabel, PriorityQueue<Label> unprocessedQueue, Vector<Label> unprocessed, Vector<Label> processed) {
+	private boolean checkdominance(Label newLabel, PriorityQueue<Label> unprocessedQueue, Vector<Label> unprocessed, Vector<Label> processed, BBNode bbNode) {
 		Vector<Label> remove = new Vector<Label>();
 		
 		for(Label oldLabel : unprocessed) {
-			if(dominateLabel(oldLabel, newLabel)) {
+			if(dominateLabel(oldLabel, newLabel, bbNode)) {
 				numberOfDominatedLabels++;
 				unprocessedQueue.removeAll(remove);
 				unprocessed.removeAll(remove);
 				return false;
 			}
-			else if(dominateLabel(newLabel,oldLabel)) {
+			else if(dominateLabel(newLabel,oldLabel, bbNode)) {
 				remove.add(oldLabel);
 				numberOfDominatedLabels++;
 			}
@@ -2363,12 +2482,12 @@ public class PathBuilder {
 		
 		remove = new Vector<Label>();
 		for(Label oldLabel : processed) {
-			if(dominateLabel(oldLabel, newLabel)) {
+			if(dominateLabel(oldLabel, newLabel, bbNode)) {
 				processed.removeAll(remove);
 				numberOfDominatedLabels++;
 				return false;
 			}
-			else if(dominateLabel(newLabel,oldLabel)) {
+			else if(dominateLabel(newLabel,oldLabel, bbNode)) {
 				numberOfDominatedLabels++;
 				remove.add(oldLabel);
 			}
@@ -2379,13 +2498,24 @@ public class PathBuilder {
 	}
 	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
-	public ArrayList<Label> findBestLabel(Vector<Label> list) throws NullPointerException {
+	public ArrayList<Label> findBestLabel(Vector<Label> list, BBNode bbNode) throws NullPointerException {
 		double currentBestRedCost =  0.0001;
 		//Label bestLabel = null;
 		ArrayList<Label> bestLabels = new ArrayList<Label>();
+		System.out.println(list);
 		for(Label i : list) {
 			if(i.reducedCost > currentBestRedCost) {
-				bestLabels.add(i);
+				for(int pickup : bbNode.branchingMatrix[i.vehicle.number]) {
+					int pickupNumber = 2;
+					if(pickup == 1 && !i.pickupNodesVisited.contains(pickupNumber)) {
+		
+					}
+					else {
+						bestLabels.add(i);
+					}
+					pickupNumber += 2;
+				}
+				
 				//System.out.println(i.reducedCost);
 				//currentBestRedCost = i.reducedCost;
 				//bestLabel = i;
@@ -2399,15 +2529,15 @@ public class PathBuilder {
 	
 		for(Label i : bestLabels) {
 			i.path = new Vector<Node>();
-			i.pickupNodesVisited = new Vector<Integer>();	
+		//	i.pickupNodesVisited = new Vector<Integer>();	
 			Label temp = i.predesessor;
 			while(temp!=null) {
 			//	System.out.println(temp.toString());
 				//pw.println(temp.toString());
 				i.path.add(temp.node);
-				if(temp.node.type == "PickupNode") {
-					i.pickupNodesVisited.add(temp.node.number);
-				}
+			//	if(temp.node.type == "PickupNode") {
+			//		i.pickupNodesVisited.add(temp.node.number);
+			//	}
 			temp=temp.predesessor;
 		}
 		//	System.out.println(i.toString());

@@ -15,13 +15,13 @@ import gurobi.*;
 		public ArrayList<Integer> routesUtilized;
 		
 		// Creating Gurobi environment
-	    GRBEnv    env   = new GRBEnv("mip1.log");
+	    GRBEnv    env   = new GRBEnv("mip2.log");
 	    GRBModel  model;
 	    
 	    // Creating Gurobi variables
 	    private Vector<GRBVar> variables;
 //	    private GRBVar[][] lambdaVars;
-		private ArrayList<GRBVar>[] lambdaVars;
+		public ArrayList<GRBVar>[] lambdaVars;
 	    
 	    // Creating Gurobi constraints
 		public GRBConstr[] visitedPickupsCon;
@@ -218,7 +218,7 @@ import gurobi.*;
 			
 			buildProblem();
 			model.optimize();
-
+			
 			builder = new PathBuilder(pickupNodes, deliveryNodes, inputdata, pw, vehicles);
 			
 			//print
@@ -261,6 +261,7 @@ import gurobi.*;
 			System.out.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			int counter = 0;
 			while(addedLabel && counter<10000) {
+				BBNode bbNode = new BBNode(null, 0, 0, vehicles, pickupNodes);
 				counter++;
 				addedLabel=false;
 				System.out.println("Vehicle duals: "+Arrays.toString(dualOneVisitCon));
@@ -273,8 +274,8 @@ import gurobi.*;
 					System.out.println("");
 					System.out.println("Solving subproblem for vehicle " + k);
 					long startTime = System.nanoTime();
-					Vector<Label> list = builder.BuildPaths(vehicles.get(k), dualVisitedPickupsCon, dualOneVisitCon);
-					bestLabels = builder.findBestLabel(list);
+					Vector<Label> list = builder.BuildPaths(vehicles.get(k), dualVisitedPickupsCon, dualOneVisitCon, bbNode);
+					bestLabels = builder.findBestLabel(list, bbNode);
 					long endTime = System.nanoTime();
 					System.out.println("Subproblem took "+(endTime - startTime)/1000000 + " milli seconds"); 
 					
@@ -368,6 +369,7 @@ import gurobi.*;
 							//	routeCounter++;
 							//}
 							System.out.println("Profit: " + pathList.get(routeNumber-1).profit);
+							
 						//	System.out.println("numRoutes"+numberOfRoutes);
 							if(routeNumber>vehicles.size()) {
 								System.out.println(pathList.get(routeNumber-1).toString());
@@ -397,11 +399,40 @@ import gurobi.*;
 					//}
 					
 				} 
-				if(checkFractionality(MPsolutionVars) != null) {
-					Node branchingPickupNode = checkFractionality(MPsolutionVars);
-					System.out.println("BrachingpickupNode" + branchingPickupNode.number + " " + branchingPickupNode.branchingVehicle.number );
-					int[][] branchingMatrix = new int[vehicles.size()][pickupNodes.size()];
-					System.out.println("Fraction" + checkFractionality(MPsolutionVars).number);
+				ArrayList<Node> fractionalPickupNodes = findFractionalNodes(MPsolutionVars);
+				if(checkFractionality(fractionalPickupNodes) != null) {
+					int indexCounter = 0;
+					
+					bbNode.setObjectiveValue(model.get(GRB.DoubleAttr.ObjVal));
+					
+					while(!fractionalPickupNodes.isEmpty()) {
+						indexCounter ++;
+
+						BBNode leftChild = new BBNode(bbNode, bbNode.getDepth()+1, indexCounter, vehicles, pickupNodes);
+						removeIllegalLambdaVars(leftChild, this.lambdaVars);
+						indexCounter ++;
+						BBNode rightChild = new BBNode(bbNode, bbNode.getDepth()+1, indexCounter, vehicles, pickupNodes);
+						Node branchingPickupNode = checkFractionality(fractionalPickupNodes);
+						//branchingMatrixMaker
+					//System.out.println("BrachingpickupNode" + branchingPickupNode.number + " " + branchingPickupNode.branchingVehicle.number );
+						leftChild.branchingMatrix = branchingMatrixMaker(bbNode, branchingPickupNode, "left");
+						
+						rightChild.branchingMatrix = branchingMatrixMaker(bbNode, branchingPickupNode, "right");
+						System.out.println(leftChild.branchingMatrix[3][2]);
+						for(Vehicle v : vehicles) {
+							//Label her = pathList.get(345);
+							//System.out.println(her.pickupNodesVisited);
+							Vector<Label> list = builder.BuildPaths(v, dualVisitedPickupsCon, dualOneVisitCon, leftChild);
+							//System.out.println(list);
+							
+							bestLabels = builder.findBestLabel(list, bbNode);
+						}
+						//BBNode rightChild = branchingMatrixMaker();
+					//	System.out.println("Fraction" + checkFractionality(fractionalPickupNodes).number);
+					}
+					
+					
+					
 				}
 				
 				
@@ -427,8 +458,7 @@ import gurobi.*;
 			
 		}
 		
-		
-		public Node checkFractionality (Hashtable<Integer, Double> MPsolutionVars) throws Exception {
+		public ArrayList<Node> findFractionalNodes (Hashtable<Integer, Double> MPsolutionVars) throws Exception {
 			ArrayList<Node> fractionalPickupNodes = new ArrayList<Node>();
 			System.out.println(MPsolutionVars.toString());
 			for (Node node : pickupNodes) {
@@ -462,6 +492,11 @@ import gurobi.*;
 				}System.out.println(node.number + " " + node.fraction);
 				
 			}
+			return fractionalPickupNodes;
+		}
+		
+		public Node checkFractionality (ArrayList<Node> fractionalPickupNodes) throws Exception {
+		
 			//System.out.println(fractionalPickupNodes);
 			Node mostFractionalNode = null;
 			double biggestFraction = 0;
@@ -488,9 +523,59 @@ import gurobi.*;
 		}
 		
 		
-		 
+		public int[][] branchingMatrixMaker (BBNode bbNode, Node branchingPickupNode, String child) throws Exception {
+			int[][] branchingMatrix = bbNode.branchingMatrix;
+			if(child == "left") {
+				branchingMatrix[branchingPickupNode.branchingVehicle.number][(branchingPickupNode.number/2) - 1] = -1;
+				return branchingMatrix;
+			}
+			else if(child == "right") {
+				for(Vehicle v : vehicles) {
+					if(branchingPickupNode.branchingVehicle.number == v.number) {
+						branchingMatrix[branchingPickupNode.branchingVehicle.number][(branchingPickupNode.number/2) - 1] = 1;
+					}
+					else {
+						branchingMatrix[v.number][(branchingPickupNode.number/2) - 1] = -1;
+					}	
+				}
+			}
+			return branchingMatrix;
+		}
 		
 		
+		public void removeIllegalLambdaVars(BBNode bbNode, ArrayList<GRBVar>lambdaVars[]) throws Exception{
+			ArrayList<GRBVar> legalLambdaVars = new ArrayList<GRBVar>();
+			for (Vehicle v : vehicles) {
+				int number = 0;
+				int routeNumber; 
+					for (GRBVar var : lambdaVars[v.number]) {			
+						routeNumber = vehicles.get(v.number).vehicleRoutes.get(number);
+						number ++;
+						int pickupNumber = 2;
+						for (int pickup : bbNode.branchingMatrix[v.number]) {
+							
+							System.out.println(pathList.get(4).profit);
+							if (pathList.get(routeNumber-1).pickupNodesVisited != null && pathList.get(routeNumber-1).pickupNodesVisited.contains(pickupNumber)) {
+								if (pickup == 1) {
+									var.set(GRB.DoubleAttr.LB, 1);
+									var.set(GRB.DoubleAttr.UB, 1);
+								}
+								else if(pickup == -1) {
+									var.set(GRB.DoubleAttr.LB, 0);
+									var.set(GRB.DoubleAttr.UB, 0);
+								}
+								//print
+								if (MPsolutionVars.get(var.get(GRB.DoubleAttr.X)) != null) {
+								System.out.println(routeNumber);
+								System.out.println(MPsolutionVars.get(var));
+								}
+							}
+							pickupNumber += 2;
+						
+					}
+				}
+			}
+		}
 		
 	}
 

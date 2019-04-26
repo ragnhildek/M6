@@ -10,16 +10,64 @@ The best label is:
 number of non-dominated paths: 71
 number of dominated labels: 242
 The best label is: 
-number of non-dominated paths: 62
-number of dominated labels: 282
+number of non-dominated paths: 35
+number of dominated labels: 251
 The best label is: 
-number of non-dominated paths: 53
-number of dominated labels: 317
+number of non-dominated paths: 35
+number of dominated labels: 263
 The best label is: 
 number of non-dominated paths: 154
-number of dominated labels: 423
+number of dominated labels: 363
+The best label is: 
+number of non-dominated paths: 68
+number of dominated labels: 384
+The best label is: 
+number of non-dominated paths: 62
+number of dominated labels: 424
+The best label is: 
+number of non-dominated paths: 53
+number of dominated labels: 459
+The best label is: 
+number of non-dominated paths: 154
+number of dominated labels: 565
 The best label is: 
 number of non-dominated paths: 98
-number of dominated labels: 471
+number of dominated labels: 613
 The best label is: 
-Took 203 milli seconds
+number of non-dominated paths: 35
+number of dominated labels: 622
+The best label is: 
+number of non-dominated paths: 35
+number of dominated labels: 634
+The best label is: 
+number of non-dominated paths: 154
+number of dominated labels: 734
+The best label is: 
+number of non-dominated paths: 68
+number of dominated labels: 755
+The best label is: 
+number of non-dominated paths: 62
+number of dominated labels: 795
+The best label is: 
+number of non-dominated paths: 53
+number of dominated labels: 830
+The best label is: 
+number of non-dominated paths: 154
+number of dominated labels: 936
+The best label is: 
+number of non-dominated paths: 98
+number of dominated labels: 984
+The best label is: 
+number of non-dominated paths: 35
+number of dominated labels: 993
+The best label is: 
+number of non-dominated paths: 35
+number of dominated labels: 1005
+The best label is: 
+number of non-dominated paths: 154
+number of dominated labels: 1105
+The best label is: 
+number of non-dominated paths: 68
+number of dominated labels: 1126
+The best label is: 
+Took 729 milli seconds
