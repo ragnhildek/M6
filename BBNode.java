@@ -20,6 +20,9 @@ public class BBNode {
 	private int nodeId;
 
 	int[][] branchingMatrix; 
+	ArrayList<Double> lambdaValues;
+	Hashtable<Integer, Double> MPsolutionVarsBBnode; 
+	ArrayList<Integer> pickupNodesBranchedOn;
 	//private Vector<Integer> branchVariables;
 	//private Vector<Integer> cargoBranches;
 	//private Vector<Integer> branches;
@@ -120,10 +123,15 @@ public class BBNode {
 	public BBNode(BBNode parent, int depth, int nodeId, Vector<Vehicle> vehicles, Vector<Node> pickupNodes) {
 		this.parent = parent;
 		this.depth = depth;
+		//this.lambdaValues = lambdaValues;
 		this.nodeId = nodeId;
 		this.vehicles = vehicles;
 		this.pickupNodes = pickupNodes;
 		this.branchingMatrix = new int[vehicles.size()][pickupNodes.size()];
+		this.lambdaValues = new ArrayList<Double>();
+		this.MPsolutionVarsBBnode = new Hashtable<Integer,Double>();
+		this.pickupNodesBranchedOn = new ArrayList<Integer>();
+		
 	//	this.cargoBranches = new Vector<Integer>();
 	//	this.branches = new Vector<Integer>();
 	//	this.numberOfCargoesBranchUpper = upper;
