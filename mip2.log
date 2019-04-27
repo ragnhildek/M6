@@ -857,3 +857,2401 @@ Coefficient statistics:
 
 Solved in 1 iterations and 0.00 seconds
 Optimal objective  4.617649537e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 10:22:47
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       1    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+
+Solved in 1 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 10:24:18
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       1    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+
+Solved in 1 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:27:29
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:28:13
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:29:07
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:30:28
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:32:35
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:34:13
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:37:58
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:39:47
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:42:54
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:43:23
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:45:02
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 11:47:47
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:17:08
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.880000e+02   0.000000e+00      0s
+       7    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 7 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    9.0024642e+06   3.387000e+03   0.000000e+00      0s
+      10    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 10 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:18:59
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:20:20
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:20:58
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:26:07
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   6.940000e+02   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.920000e+02   0.000000e+00      0s
+       3    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    5.3255900e+05   1.840000e+02   0.000000e+00      0s
+      11    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 11 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:27:04
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   6.940000e+02   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.920000e+02   0.000000e+00      0s
+       3    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    5.3255900e+05   1.840000e+02   0.000000e+00      0s
+      11    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 11 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:29:45
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   6.940000e+02   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.920000e+02   0.000000e+00      0s
+       3    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    5.3255900e+05   1.840000e+02   0.000000e+00      0s
+      11    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 11 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:33:36
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   3.280000e+32   2.866646e+05      0s
+       3    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.7735195e+05   6.940000e+02   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3255900e+05   1.920000e+02   0.000000e+00      0s
+       3    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    5.3255900e+05   1.840000e+02   0.000000e+00      0s
+      11    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 11 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.5922009e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.592200875e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    3.7735195e+05   1.041000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:37:29
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       4    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -8.8541685e+05   8.620000e+02   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.6633943e+05   1.000000e+00   0.000000e+00      0s
+       2    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6662750e+05   4.400000e+01   0.000000e+00      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       3    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:42:21
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       4    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.6662750e+05   4.000000e+01   0.000000e+00      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       3    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    2.1918774e+06   1.279000e+03   0.000000e+00      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       3    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:43:54
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       4    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.6662750e+05   4.000000e+01   0.000000e+00      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       3    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    2.1918774e+06   1.279000e+03   0.000000e+00      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       3    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:44:47
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       4    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:45:04
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       4    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.6662750e+05   4.000000e+01   0.000000e+00      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       3    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    2.1918774e+06   1.279000e+03   0.000000e+00      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       3    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0   -8.8541685e+05   1.121000e+03   0.000000e+00      0s
+
+Solved in 1 iterations and 0.00 seconds
+Infeasible model
+
+Gurobi 7.0.1 (win64, Java) logging started 04/27/19 12:46:41
+
+Optimize a model with 8 rows, 4 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds
+Optimal objective -0.000000000e+00
+Optimize a model with 8 rows, 1304 columns and 3680 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.6834541e+38   3.676000e+33   2.683454e+08      0s
+      16    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 16 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1396 columns and 3928 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    2.8666458e+35   2.360000e+32   2.866646e+05      0s
+       4    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1456 columns and 4080 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.3003212e+05   3.130000e+02   0.000000e+00      0s
+       6    4.6030428e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective  4.603042778e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    5.8605048e+34   9.600000e+31   5.860505e+04      0s
+       4    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 4 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    5.3003212e+05   3.130000e+02   0.000000e+00      0s
+       6    4.6030428e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective  4.603042778e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    6.1808380e+05   2.490000e+02   0.000000e+00      0s
+       3    4.6176495e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 3 iterations and 0.00 seconds
+Optimal objective  4.617649537e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    4.6176495e+05   5.000000e-01   0.000000e+00      0s
+       2    4.6076523e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 2 iterations and 0.00 seconds
+Optimal objective  4.607652264e+05
+Optimize a model with 8 rows, 1548 columns and 4328 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [6e+04, 4e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+       0    5.3003212e+05   3.130000e+02   0.000000e+00      0s
+       6    4.6030428e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 6 iterations and 0.00 seconds
+Optimal objective  4.603042778e+05
