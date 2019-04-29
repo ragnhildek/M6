@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		long startTime = System.nanoTime();
 		
-		String datafile = "40B4R4V_java.txt";
+		String datafile = "39B4R4V_java.txt";
 		
 		File file = new File ("10P5R2V_java_results.txt");
 		
@@ -45,7 +45,7 @@ public class Main {
 	//	System.out.println(inputdata.times[2][18]);
 
 		GurobiInterface solver = new GurobiInterface(inputdata, deliveryNodes,  pickupNodes, nodesWithoutDepot, vehicles, dualVisitedPickupsCon, dualOneVisitCon, pw);
-		solver.solveProblem();
+		solver.columnGenerator();
 		//PathBuilder builder;
 		
 	//	System.out.println("DISTANCE!!!!!!!" +inputdata.getDistance(pickupNodes.get(0), deliveryNodes.get(0)));

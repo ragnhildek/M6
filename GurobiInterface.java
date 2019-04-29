@@ -13,6 +13,9 @@ import gurobi.*;
 		private Hashtable<Integer, Label> pathList;
 		public Hashtable<Integer, Double> MPsolutionVars;
 		public ArrayList<Integer> routesUtilized;
+		double[] dualVisitedPickupsCon;  
+		double[] dualOneVisitCon;
+		
 		
 		// Creating Gurobi environment
 	    GRBEnv    env   = new GRBEnv("mip2.log");
@@ -82,6 +85,7 @@ import gurobi.*;
 			this.vehicles = vehicles;
 			this.pathList = new Hashtable<Integer, Label>();
 			this.leafNodes = new ArrayList<>();
+			
 			//solveProblem();
 		}
 		
@@ -215,9 +219,13 @@ import gurobi.*;
 
 		}
 		
+		public void columnGenerator() throws Exception {
+			initiateProblem();
+			BBNode bbNode = null;
+			solveProblem(bbNode);
+		}
 		
-		public void solveProblem() throws Exception {
-			
+		public void initiateProblem() throws Exception {
 			buildProblem();
 			model.optimize();
 			
@@ -256,13 +264,17 @@ import gurobi.*;
 //			builder.dualOneVisitCon = dualOneVisitCon;
 			
 			model.update();
-			
+		}
+		
+		public void solveProblem(BBNode bbNode) throws Exception {
 			ArrayList<Label> bestLabels = new ArrayList<Label>();
 //			double bestreducedCost = 100000000;
 			boolean addedLabel = true;
 			System.out.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			int counter = 0;
 			BBNode rootNode = null;
+			dualVisitedPickupsCon = new double[pickupNodes.size()];  
+			dualOneVisitCon = new double[vehicles.size()];
 			while(addedLabel && counter<100) {
 				pw.println("NEW MP");
 				rootNode = new BBNode(null, 0, 0, vehicles, pickupNodes);
@@ -416,11 +428,11 @@ import gurobi.*;
 			ArrayList<Node> fractionalPickupNodes = findFractionalNodes(MPsolutionVars);
 			if(checkPickupFractionality(fractionalPickupNodes) != null) {
 			
-				solveBBnode(rootNode);
+				//solveBBnode(rootNode);
 				
-				while() {
+				//while() {
 					
-				}
+				//}
 				// Kall BB-tre
 			}
 		//	for(int k = 0; k < vehicles.size(); k++) {
@@ -435,7 +447,7 @@ import gurobi.*;
 		model.dispose();
 	    env.dispose();
 			
-		}
+		} 
 		
 		public ArrayList<Node> findFractionalNodes (Hashtable<Integer, Double> MPsolutionVars) throws Exception {
 			ArrayList<Node> fractionalPickupNodes = new ArrayList<Node>();
@@ -564,7 +576,7 @@ import gurobi.*;
 			}
 		}
 		
-		
+		/*
 		public BBNode[] solveBBnode(BBNode bbNode) {
 				ArrayList<Node> fractionalPickupNodes = findFractionalNodes(MPsolutionVars);
 			
@@ -946,7 +958,7 @@ import gurobi.*;
 
 			
 		}
-		
+		*/
 		public void resetIllegalLambdaVars(ArrayList<GRBVar>lambdaVars[]) throws Exception {
 			for (Vehicle v : vehicles) {
 				for (GRBVar var : lambdaVars[v.number]) {
