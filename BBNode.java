@@ -120,14 +120,14 @@ public class BBNode {
 		this.generatedVariables = generatedVariables;
 	}
 */
-	public BBNode(BBNode parent, int depth, int nodeId, Vector<Vehicle> vehicles, Vector<Node> pickupNodes) {
+	public BBNode(BBNode parent, int depth, int nodeId, Vector<Vehicle> vehicles, Vector<Node> pickupNodes, int[][] branchingMatrix ) {
 		this.parent = parent;
 		this.depth = depth;
 		//this.lambdaValues = lambdaValues;
 		this.nodeId = nodeId;
 		this.vehicles = vehicles;
 		this.pickupNodes = pickupNodes;
-		this.branchingMatrix = new int[vehicles.size()][pickupNodes.size()];
+		this.branchingMatrix = branchingMatrix;
 		this.lambdaValues = new ArrayList<Double>();
 		this.MPsolutionVarsBBnode = new Hashtable<Integer,Double>();
 		this.pickupNodesBranchedOn = new ArrayList<Integer>();

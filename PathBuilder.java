@@ -2498,43 +2498,49 @@ public class PathBuilder {
 	}
 	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
-	public ArrayList<Label> findBestLabel(Vector<Label> list, BBNode bbNode) throws NullPointerException {
+	public Label findBestLabel(Vector<Label> list, BBNode bbNode) throws NullPointerException {
 		double currentBestRedCost =  0.0001;
-		//Label bestLabel = null;
-		ArrayList<Label> bestLabels = new ArrayList<Label>();
-		System.out.println(list);
+		Label bestLabel = null;
+	//	ArrayList<Label> bestLabels = new ArrayList<Label>();
+	//	System.out.println(list);
 		for(Label i : list) {
 			if(i.reducedCost > currentBestRedCost) {
 				for(int pickup : bbNode.branchingMatrix[i.vehicle.number]) {
 					int pickupNumber = 2;
 					if(pickup == 1 && !i.pickupNodesVisited.contains(pickupNumber)) {
-		
+						break;
 					}
 					else {
-						bestLabels.add(i);
+						currentBestRedCost = i.reducedCost;
+						bestLabel = i;
 					}
 					pickupNumber += 2;
 				}
 				
-				//System.out.println(i.reducedCost);
-				//currentBestRedCost = i.reducedCost;
-				//bestLabel = i;
 			}
 		}
 		
-		if (bestLabels.isEmpty()) {
+		
+				
+				//System.out.println(i.reducedCost);
+				//currentBestRedCost = i.reducedCost;
+				//bestLabel = i;
+			
+		
+		
+		if (bestLabel == null) {
 //			throw new NullPointerException ("No feasible solution");	
 			return null;
 		}
 	
-		for(Label i : bestLabels) {
-			i.path = new Vector<Node>();
+		//for(Label i : bestLabels) {
+			bestLabel.path = new Vector<Node>();
 		//	i.pickupNodesVisited = new Vector<Integer>();	
-			Label temp = i.predesessor;
+			Label temp = bestLabel.predesessor;
 			while(temp!=null) {
 			//	System.out.println(temp.toString());
 				//pw.println(temp.toString());
-				i.path.add(temp.node);
+				bestLabel.path.add(temp.node);
 			//	if(temp.node.type == "PickupNode") {
 			//		i.pickupNodesVisited.add(temp.node.number);
 			//	}
@@ -2550,7 +2556,7 @@ public class PathBuilder {
 		//route.profit = bestLabel.profit;
 		//reducedCost = bestLabel.reducedCost;
 		
-		} 
+		
 		
 		
 		
@@ -2561,7 +2567,74 @@ public class PathBuilder {
 		//pw.println(bestLabel.toString());
 		
 		
-		return bestLabels;
+		return bestLabel;
 	}
+	/*
+	// Finds the non-dominated label with the best profit and returns it as the best solution
+		public ArrayList<Label> findBestLabel(Vector<Label> list, BBNode bbNode) throws NullPointerException {
+			double currentBestRedCost =  0.0001;
+			//Label bestLabel = null;
+			ArrayList<Label> bestLabels = new ArrayList<Label>();
+			System.out.println(list);
+			for(Label i : list) {
+				if(i.reducedCost > currentBestRedCost) {
+					for(int pickup : bbNode.branchingMatrix[i.vehicle.number]) {
+						int pickupNumber = 2;
+						if(pickup == 1 && !i.pickupNodesVisited.contains(pickupNumber)) {
+			
+						}
+						else {
+							bestLabels.add(i);
+						}
+						pickupNumber += 2;
+					}
+					
+					//System.out.println(i.reducedCost);
+					//currentBestRedCost = i.reducedCost;
+					//bestLabel = i;
+				}
+			}
+			
+			if (bestLabels.isEmpty()) {
+//				throw new NullPointerException ("No feasible solution");	
+				return null;
+			}
+		
+			for(Label i : bestLabels) {
+				i.path = new Vector<Node>();
+			//	i.pickupNodesVisited = new Vector<Integer>();	
+				Label temp = i.predesessor;
+				while(temp!=null) {
+				//	System.out.println(temp.toString());
+					//pw.println(temp.toString());
+					i.path.add(temp.node);
+				//	if(temp.node.type == "PickupNode") {
+				//		i.pickupNodesVisited.add(temp.node.number);
+				//	}
+				temp=temp.predesessor;
+			}
+			//	System.out.println(i.toString());
+			
+			//Route route = new Route();
+			//routes.add(route);
+			
+			//route.vehicle = bestLabel.vehicle;
+			
+			//route.profit = bestLabel.profit;
+			//reducedCost = bestLabel.reducedCost;
+			
+			} 
+			
+			
+			
+		//	bestLabel.bestLabelNumber = bestLabelNumber;
+			 //bestLabelNumber += 1;
+			
+		
+			//pw.println(bestLabel.toString());
+			
+			
+			return bestLabels;
+		}*/
 	
 }
