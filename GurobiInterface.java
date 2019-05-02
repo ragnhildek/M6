@@ -485,6 +485,7 @@ import gurobi.*;
 		//	System.out.println(MPsolutionVars.toString());
 			for (Node node : pickupNodes) {
 				node.fraction = 0;
+			//	node.branchingVehicle.number = -1;
 				for(Vehicle vehicle : vehicles) {
 					//System.out.println(vehicle.vehicleRoutes);
 					double vehicleFraction = 0;
@@ -514,13 +515,14 @@ import gurobi.*;
 						
 						node.fraction = vehicleFraction;
 						node.branchingVehicle = vehicle;
-						pw.println(node.number + " " + node.fraction + " " + node.branchingVehicle.number);
+						
 					}
 				}
 				if (node.fraction < 1 - zeroTol && node.fraction > 0 + zeroTol ) {
 					fractionalPickupNodes.add(node);
+					pw.println(node.number + " " + node.fraction + " " + node.branchingVehicle.number);
 					
-				}System.out.println(node.number + " " + node.fraction + " " + node.branchingVehicle.number );
+				}//System.out.println(node.number + " " + node.fraction + " " + node.branchingVehicle.number );
 				
 			}
 			return fractionalPickupNodes;
@@ -530,28 +532,28 @@ import gurobi.*;
 		
 			//System.out.println(fractionalPickupNodes);
 			Node mostFractionalNode = null;
-			double biggestFraction = 0;
+			double biggestFraction = 1;
 			double fraction;
 			for (Node n : fractionalPickupNodes) {
-				if (n.fraction <= 0.5) {
+				if (n.fraction >= 0.5) {
 					fraction =  1 - n.fraction;
 				}
 				else {
 					fraction = 0.5 -  n.fraction ;
 				}
-				if (fraction > biggestFraction) {
+				if (fraction < biggestFraction) {
 					biggestFraction = fraction;
 					mostFractionalNode = n;	
-					pw.println("Node: " + n.number + "frac: " + fraction + "vehicle: " + n.branchingVehicle.number);
+					System.out.println("Node: " + n.number + " frac: " + fraction + " vehicle: " + n.branchingVehicle.number);
 					
 					
 				}				
 			}
 			if(!fractionalPickupNodes.isEmpty()) {
 					
-					//System.out.println("MOST FRACTIONAL " + mostFractionalNode.number);
+					System.out.println("MOST FRACTIONAL " + mostFractionalNode.number);
 					pw.println("MOST FRACTIONAL " + mostFractionalNode.number);
-					//System.out.println("vehicle " + mostFractionalNode.branchingVehicle.number);
+					System.out.println("vehicle " + mostFractionalNode.branchingVehicle.number);
 					pw.println("vehicle " + mostFractionalNode.branchingVehicle.number);
 			}
 			
@@ -928,7 +930,8 @@ import gurobi.*;
 					removeIllegalLambdaVars(bestBBNode, lambdaVars);
 					model.optimize();
 				//	System.out.println("HER");
-				//	System.out.println("BESTNODE" + bestBBNode.getNodeId() + " " + bestBBNode.getObjectiveValue());
+					System.out.println("BESTNODE" + bestBBNode.getNodeId() + " " + bestBBNode.getObjectiveValue());
+					pw.println("BESTNODE" + bestBBNode.getNodeId() + " " + bestBBNode.getObjectiveValue());
 					fractional = false;
 				}
 				else {
@@ -957,8 +960,12 @@ import gurobi.*;
 						pw.println(bestBBNode.getParent().getNodeId());
 						pw.println(bestBBNode.getParent().getDepth());
 					}
-
 					
+					for (int i= 0; i < bestBBNode.pickupNodesBranchedOn.size() ; i ++) {
+						System.out.print("pickupNodesBranchedOn: " + bestBBNode.pickupNodesBranchedOn.get(i) + "  ");
+					}
+					System.out.println("");	
+					System.out.println(bestBBNode.getDepth());
 					bestBBNode.pickupNodesBranchedOn.add(branchingPickupNode.number);
 					
 					BBNode leftChild = new BBNode(bestBBNode, bestBBNode.getDepth()+1, BBNodeIDcounter, vehicles, pickupNodes, branchingMatrixMaker(bestBBNode, branchingPickupNode, "left"));
