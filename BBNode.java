@@ -23,6 +23,7 @@ public class BBNode {
 	ArrayList<Double> lambdaValues;
 	Hashtable<Integer, Double> MPsolutionVarsBBnode; 
 	ArrayList<Integer> pickupNodesBranchedOn;
+	String type;
 	//private Vector<Integer> branchVariables;
 	//private Vector<Integer> cargoBranches;
 	//private Vector<Integer> branches;
@@ -120,7 +121,7 @@ public class BBNode {
 		this.generatedVariables = generatedVariables;
 	}
 */
-	public BBNode(BBNode parent, int depth, int nodeId, Vector<Vehicle> vehicles, Vector<Node> pickupNodes, int[][] branchingMatrix ) {
+	public BBNode(BBNode parent, int depth, int nodeId, Vector<Vehicle> vehicles, Vector<Node> pickupNodes, int[][] branchingMatrix) {
 		this.parent = parent;
 		this.depth = depth;
 		//this.lambdaValues = lambdaValues;
@@ -131,6 +132,7 @@ public class BBNode {
 		this.lambdaValues = new ArrayList<Double>();
 		this.MPsolutionVarsBBnode = new Hashtable<Integer,Double>();
 		this.pickupNodesBranchedOn = new ArrayList<Integer>();
+		this.type = type;
 		
 	//	this.cargoBranches = new Vector<Integer>();
 	//	this.branches = new Vector<Integer>();
@@ -169,6 +171,10 @@ public class BBNode {
 
 	public void setDepth(int depth) {
 		this.depth = depth;
+	}
+	
+	public String getType() {
+		return type;
 	}
 /*
 	public BBNode getLeftChild() {

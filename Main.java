@@ -12,7 +12,7 @@ public class Main {
 		
 		String datafile = "43B20R4V_java.txt";
 		
-		File file = new File ("10P5R2V_java_results.txt");
+		File file = new File ("18P15R4V_java_results.txt");
 		
 		if (!file.exists()) {
 			try { file.createNewFile(); 
