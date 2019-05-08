@@ -121,7 +121,7 @@ public class BBNode {
 		this.generatedVariables = generatedVariables;
 	}
 */
-	public BBNode(BBNode parent, int depth, int nodeId, Vector<Vehicle> vehicles, Vector<Node> pickupNodes, int[][] branchingMatrix) {
+	public BBNode(BBNode parent, int depth, int nodeId, Vector<Vehicle> vehicles, Vector<Node> pickupNodes, int[][] branchingMatrix, String type) {
 		this.parent = parent;
 		this.depth = depth;
 		//this.lambdaValues = lambdaValues;

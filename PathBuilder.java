@@ -1,8 +1,11 @@
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Hashtable;
 import java.util.PriorityQueue;
 import java.util.Vector;
+
+import sun.security.tools.PathList;
 
 
 public class PathBuilder {
@@ -121,6 +124,9 @@ public class PathBuilder {
 				return null;	
 			}
 			
+			if(L.node.number == 0) {
+				return null;
+			}
 			
 			// Setting values for the attributes in the extended label, L2
 			Label L2 = new Label();
@@ -477,6 +483,10 @@ public class PathBuilder {
 				return null;	
 			}
 			
+			if(L.node.number == 0) {
+				return null;
+			}
+			
 			// Setting values for the attributes in the extended label, L2
 			Label L2 = new Label();
 			L2.vehicle = L.vehicle;
@@ -807,6 +817,10 @@ public class PathBuilder {
 			// Cannot arrive at end depot without delivering every pickup that is picked up
 			if(!L.openNodes.isEmpty()){
 				return null;	
+			}
+			
+			if(L.node.number == 0) {
+				return null;
 			}
 			
 			// Setting values for the attributes in the extended label, L2
@@ -1146,6 +1160,10 @@ public class PathBuilder {
 			// Cannot arrive at end depot without delivering every pickup that is picked up
 			if(!L.openNodes.isEmpty()){
 				return null;	
+			}
+			
+			if(L.node.number == 0) {
+				return null;
 			}
 			
 			// Setting values for the attributes in the extended label, L2
@@ -1492,6 +1510,10 @@ public class PathBuilder {
 			// Cannot arrive at end depot without delivering every pickup that is picked up
 			if(!L.openNodes.isEmpty()){
 				return null;	
+			}
+			
+			if(L.node.number == 0) {
+				return null;
 			}
 			
 			// Setting values for the attributes in the extended label, L2
@@ -1851,6 +1873,10 @@ public class PathBuilder {
 			// Cannot arrive at end depot without delivering every pickup that is picked up
 			if(!L.openNodes.isEmpty()){
 				return null;	
+			}
+			
+			if(L.node.number == 0) {
+				return null;
 			}
 			
 			// Setting values for the attributes in the extended label, L2
@@ -2496,14 +2522,15 @@ public class PathBuilder {
 		
 		return true;
 	}
-	
+/*	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
-	public Label findBestLabel(Vector<Label> list, BBNode bbNode) throws NullPointerException {
+	public Label findBestLabel(Vector<Label> list, BBNode bbNode, Hashtable<Integer,Label> pathList, Vehicle v) throws NullPointerException {
 		double currentBestRedCost =  0.0001;
 		Label bestLabel = null;
 	//	ArrayList<Label> bestLabels = new ArrayList<Label>();
 	//	System.out.println(list);
 		for(Label i : list) {
+			
 			if(i.reducedCost > currentBestRedCost) {
 				for(int pickup : bbNode.branchingMatrix[i.vehicle.number]) {
 					int pickupNumber = 2;
@@ -2546,6 +2573,8 @@ public class PathBuilder {
 			//	}
 			temp=temp.predesessor;
 		}
+			
+	//	for(Label label : pathList
 		//	System.out.println(i.toString());
 		
 		//Route route = new Route();
@@ -2568,31 +2597,99 @@ public class PathBuilder {
 		
 		
 		return bestLabel;
-	}
-	/*
+	}*/
+	
+	// TODO: velg ut feks 20 beste som sendes til masterproblem - for disse legg til path og sjekk path mot pathList at ingen har lik path som allerede finnes (list1.equals(list2))
+	
+	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
-		public ArrayList<Label> findBestLabel(Vector<Label> list, BBNode bbNode) throws NullPointerException {
+		public ArrayList<Label> findBestLabel(Vector<Label> list, BBNode bbNode,  Hashtable<Integer,Label> pathList, Vehicle v) throws NullPointerException {
 			double currentBestRedCost =  0.0001;
+			
 			//Label bestLabel = null;
+			PriorityQueue<Label> bestLabelQueue = new PriorityQueue<Label>(10000, new BestLabelComparator()); 
 			ArrayList<Label> bestLabels = new ArrayList<Label>();
 			System.out.println(list);
 			for(Label i : list) {
 				if(i.reducedCost > currentBestRedCost) {
+					boolean addLabel = true;
+					int pickupNumber = 2;
 					for(int pickup : bbNode.branchingMatrix[i.vehicle.number]) {
-						int pickupNumber = 2;
 						if(pickup == 1 && !i.pickupNodesVisited.contains(pickupNumber)) {
-			
+							addLabel = false;
+							break;
 						}
-						else {
-							bestLabels.add(i);
-						}
+						//else {
+							//if(i.reducedCost > currentBestRedCost) {
+							//}
+						//	bestLabels.add(i);
+						//}
 						pickupNumber += 2;
 					}
-					
+					if (addLabel == true) {
+						bestLabelQueue.add(i);
+					}
 					//System.out.println(i.reducedCost);
 					//currentBestRedCost = i.reducedCost;
 					//bestLabel = i;
 				}
+			}
+		//	for(int i = 0 ; i < bestLabelQueue.size(); i ++) {
+		//		pw.println(i);
+		//		pw.println(bestLabelQueue.remove().reducedCost);
+		//	}
+			
+			
+			while(bestLabels.size()<Math.min(50, bestLabelQueue.size())) {
+				Label currentBestLabel = bestLabelQueue.remove();
+				
+				currentBestLabel.path = new Vector<Node>();
+				Label temp = currentBestLabel.predesessor;
+				while(temp!=null) {
+					//	System.out.println(temp.toString());
+						//pw.println(temp.toString());
+						currentBestLabel.path.add(temp.node);
+					//	if(temp.node.type == "PickupNode") {
+					//		i.pickupNodesVisited.add(temp.node.number);
+					//	}
+					temp=temp.predesessor;
+				}
+			//	int number = 0;
+				int routeNumber;
+				boolean routeAlreadyExisting = false;
+				for(int i = 0; i < v.vehicleRoutes.size(); i++) {
+					routeNumber = vehicles.get(v.number).vehicleRoutes.get(i);
+					if(pathList.get(routeNumber).path != null && pathList.get(routeNumber).path.equals(currentBestLabel.path) && pathList.get(routeNumber).time == currentBestLabel.time && pathList.get(routeNumber).startTimeIntermediateBreak == currentBestLabel.startTimeIntermediateBreak){
+						routeAlreadyExisting = true;
+			//			System.out.println("HER er vi");
+						break;
+					}
+				}
+				if(routeAlreadyExisting == false) {
+					for(Label label : bestLabels) {
+						if(label.path.equals(currentBestLabel.path) && label.reducedCost == currentBestLabel.reducedCost && label.time == currentBestLabel.time) {
+							routeAlreadyExisting = true;
+							break;
+						}
+					}
+					if(routeAlreadyExisting == false) {
+						bestLabels.add(currentBestLabel);
+				//		pw.println("Current best " + currentBestLabel.toString());
+					}
+				}
+				
+				//	number ++;
+			//	int pickupNumber = 2;
+				
+				//for (int pickup : bbNode.branchingMatrix[v.number]) {
+				//	for(Node pickupNumber : pickupNodes) {
+						//System.out.println(pathList.get(4).profit);
+					//	if (pathList.get(routeNumber).pickupNodesVisited != null && pathList.get(routeNumber).pickupNodesVisited.contains(pickupNumber.number) && pickup == -1) {
+				
+			
+			//for(int i = 0; i < Math.min(20, bestLabelQueue.size()); i++) {
+				
+				
 			}
 			
 			if (bestLabels.isEmpty()) {
@@ -2600,7 +2697,7 @@ public class PathBuilder {
 				return null;
 			}
 		
-			for(Label i : bestLabels) {
+		/*	for(Label i : bestLabels) {
 				i.path = new Vector<Node>();
 			//	i.pickupNodesVisited = new Vector<Integer>();	
 				Label temp = i.predesessor;
@@ -2623,7 +2720,7 @@ public class PathBuilder {
 			//route.profit = bestLabel.profit;
 			//reducedCost = bestLabel.reducedCost;
 			
-			} 
+			} */
 			
 			
 			
@@ -2635,6 +2732,6 @@ public class PathBuilder {
 			
 			
 			return bestLabels;
-		}*/
+		}
 	
 }

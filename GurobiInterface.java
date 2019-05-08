@@ -15,7 +15,8 @@ import gurobi.*;
 		public ArrayList<Integer> routesUtilized;
 		double[] dualVisitedPickupsCon;  
 		double[] dualOneVisitCon;
-		
+		double totalTimeInSub;
+		double totalTimeInMaster;
 		
 		// Creating Gurobi environment
 	    GRBEnv    env   = new GRBEnv("mip2.log");
@@ -222,9 +223,11 @@ import gurobi.*;
 		public void columnGenerator() throws Exception {
 			initiateProblem();
 			int[][] initialBranchingMatrix = new int[vehicles.size()][pickupNodes.size()];
-			BBNode rootNode = new BBNode(null, 0, 0, vehicles, pickupNodes, initialBranchingMatrix
-					);
+			BBNode rootNode = new BBNode(null, 0, 0, vehicles, pickupNodes, initialBranchingMatrix, "root");
+			long startRootNodeTime = System.nanoTime();
 			solveProblem(rootNode);
+			long endRootNodeTime = System.nanoTime();
+			pw.println("Total time to solve rootnode: " + (endRootNodeTime - startRootNodeTime)/1000000);
 			pw.println("  ");
 			pw.println("ROOTNODE FINISHED");
 			pw.println("  ");
@@ -241,7 +244,11 @@ import gurobi.*;
 				System.out.println("  ");
 				buildTree(rootNode);
 				
-				
+				//System.out.println(vehicleRoutes);
+				pw.println("Total time in subproblem: " + totalTimeInSub);
+				System.out.println("Total time in subproblem: " + totalTimeInSub);
+				pw.println("Total time in master problem " + totalTimeInMaster);
+				System.out.println("Total time in master problem " + totalTimeInMaster);
 				//solveBBnode(rootNode);
 				
 				//while() {
@@ -254,6 +261,7 @@ import gurobi.*;
 		}
 		
 		public void initiateProblem() throws Exception {
+			long startTime = System.nanoTime();
 			buildProblem();
 			model.optimize();
 			
@@ -293,20 +301,23 @@ import gurobi.*;
 			System.out.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			pw.println("Objective value" +model.get(GRB.DoubleAttr.ObjVal));
 			model.update();
+			long endTime = System.nanoTime();
+			totalTimeInMaster += (endTime-startTime)/1000000;
 		}
 		
 		public void solveProblem(BBNode bbNode) throws Exception {
 			removeIllegalLambdaVars(bbNode, this.lambdaVars);
 			ArrayList<Label> bestLabels = new ArrayList<Label>();
-			Label bestLabel;
+		//	Label bestLabel;
 //			double bestreducedCost = 100000000;
 			boolean addedLabel = true;
-	
+			
 			int counter = 0;
 		//	BBNode rootNode = null;
 			dualVisitedPickupsCon = new double[pickupNodes.size()];  
 			dualOneVisitCon = new double[vehicles.size()];
-			while(addedLabel && counter<100) {
+			while(addedLabel && counter<10000) {
+				long startTimeMaster = 0;
 				pw.println("NEW MP");
 				System.out.println("NEW MP");
 		//		rootNode = new BBNode(null, 0, 0, vehicles, pickupNodes);
@@ -323,13 +334,14 @@ import gurobi.*;
 					System.out.println("Solving subproblem for vehicle " + k);
 					long startTime = System.nanoTime();
 					Vector<Label> list = builder.BuildPaths(vehicles.get(k), dualVisitedPickupsCon, dualOneVisitCon, bbNode);
-					bestLabel = builder.findBestLabel(list, bbNode);
+					bestLabels = builder.findBestLabel(list, bbNode, pathList, vehicles.get(k));
 					long endTime = System.nanoTime();
 					System.out.println("Subproblem took "+(endTime - startTime)/1000000 + " milli seconds"); 
-					
-					//if(bestLabels != null) {
-					if(bestLabel != null) {
-						//for(Label bestLabel : bestLabels) {
+					totalTimeInSub += (endTime-startTime)/1000000;
+					startTimeMaster = System.nanoTime();
+					if(bestLabels != null) {
+					//if(bestLabel != null) {
+						for(Label bestLabel : bestLabels) {
 						//	if(bestLabel!=null) {
 							bestLabel.routeNumber = numberOfRoutes;
 							
@@ -348,8 +360,9 @@ import gurobi.*;
 								addRoute(bestLabel);
 								addedLabel=true;
 								numberOfRoutes += 1;
-					//	}
-					 
+						}
+					long endTimeMaster = System.nanoTime(); 
+					totalTimeInMaster += (endTimeMaster-startTimeMaster)/1000000;
 					//addedLabel = false;
 					} 
 				// Kan flytte masterproblem-koden hit - løser da MP en gang per SP
@@ -357,8 +370,10 @@ import gurobi.*;
 				System.out.println("");	
 				System.out.println("---Solving master problem---");
 				System.out.println("");
+				long startTimeSolveMaster = System.nanoTime(); 
 				model.update();
 				model.optimize();
+				
 				bbNode.setObjectiveValue(model.get(GRB.DoubleAttr.ObjVal));
 				model.write("model.lp");		
 				pw.println("Objective value" + model.get(GRB.DoubleAttr.ObjVal));
@@ -390,7 +405,8 @@ import gurobi.*;
 	
 					}
 				model.update();
-				
+				long endTimeSolveMaster = System.nanoTime();
+				totalTimeInMaster += (endTimeSolveMaster-startTimeSolveMaster)/1000000;
 			}
 			
 			//	MPsolutionVars = new Hashtable<Integer, Double>(); 
@@ -427,7 +443,7 @@ import gurobi.*;
 							pw.println("Profit: " + pathList.get(routeNumber).profit);
 							
 						//	System.out.println("numRoutes"+numberOfRoutes);
-							if(routeNumber>vehicles.size()) {
+							if(routeNumber>vehicles.size()-1) {
 								System.out.println(pathList.get(routeNumber).toString());
 								pw.println(pathList.get(routeNumber).toString());
 								//routeNumber++;
@@ -601,13 +617,26 @@ import gurobi.*;
 				
 					for (GRBVar var : lambdaVars[v.number]) {			
 						routeNumber = vehicles.get(v.number).vehicleRoutes.get(number);
+						
+						
+						if(bbNode.type.equals("right") && number == 0) {
+							System.out.println(var.get(GRB.StringAttr.VarName)) ;
+							var.set(GRB.DoubleAttr.LB, 0);
+							var.set(GRB.DoubleAttr.UB, 0);
+							model.update();
+						}
 						number ++;
 					//	int pickupNumber = 2;
-						for (int pickup : bbNode.branchingMatrix[v.number]) {
+					//	for (int pickup : bbNode.branchingMatrix[v.number]) {
 							for(Node pickupNumber : pickupNodes) {
 								//System.out.println(pathList.get(4).profit);
-								if (pathList.get(routeNumber).pickupNodesVisited != null && pathList.get(routeNumber).pickupNodesVisited.contains(pickupNumber.number) && pickup == -1) {
-								//	pw.println(pickupNumber.number);
+								if (pathList.get(routeNumber).pickupNodesVisited != null && pathList.get(routeNumber).pickupNodesVisited.contains(pickupNumber.number) && bbNode.branchingMatrix[v.number][pickupNumber.number/2 - 1]  == -1) {
+							//		pw.println(v.number);
+							//		pw.println(routeNumber);
+							//		pw.println(bbNode.branchingMatrix[v.number][pickupNumber.number/2 - 1]);
+							//		pw.println(pickupNumber.number);
+						//			pw.println("1111HER er vi inni");
+								//	pw.println(routeNumber);
 								//	pw.println("HER  " + pathList.get(16).pickupNodesVisited.get(1));
 									var.set(GRB.DoubleAttr.LB, 0);
 									var.set(GRB.DoubleAttr.UB, 0);
@@ -622,10 +651,10 @@ import gurobi.*;
 	
 									//}
 								}
-								else if (pathList.get(routeNumber).pickupNodesVisited != null && !pathList.get(routeNumber).pickupNodesVisited.contains(pickupNumber.number) && pickup == 1) {
+								else if (pathList.get(routeNumber).pickupNodesVisited != null && !pathList.get(routeNumber).pickupNodesVisited.contains(pickupNumber.number) && bbNode.branchingMatrix[v.number][pickupNumber.number/2 - 1] == 1) {
 									//if (pickup == 1) {
-									pw.println("HER er vi inni");
-									pw.println(routeNumber);
+							//		pw.println("2222HER er vi inni");
+							//		pw.println(routeNumber);
 										var.set(GRB.DoubleAttr.LB, 0);
 										var.set(GRB.DoubleAttr.UB, 0);
 										
@@ -638,7 +667,7 @@ import gurobi.*;
 				//						model.update();
 				//					}
 								}
-							}
+							//}
 								//print
 								//if (MPsolutionVars.get(var.get(GRB.DoubleAttr.X)) != null) {
 									
@@ -920,13 +949,13 @@ import gurobi.*;
 			boolean fractional = true;	
 			BBNode bestBBNode = null;
 			//int fracCounter = 0;
-			while(fractional ) {
-			//	fracCounter ++;
+			while(fractional  ) {
+				//fracCounter ++;
 				double bestProfit = 0;
 				
 				for(BBNode leafNode : leafNodes) {
 					
-					if(leafNode.getObjectiveValue() > bestProfit) {
+					if(leafNode.getObjectiveValue() > bestProfit + zeroTol) {
 						bestProfit = leafNode.getObjectiveValue();
 						bestBBNode = leafNode;
 						//bestBBNode.branchingMatrix = leafNode.branchingMatrix;
@@ -954,7 +983,7 @@ import gurobi.*;
 				
 				if(!checkLambdaFractionality(bestBBNode)) {	
 					removeIllegalLambdaVars(bestBBNode, lambdaVars);
-					model.optimize();
+				//	model.optimize();
 				//	System.out.println("HER");
 					System.out.println("BESTNODE" + bestBBNode.getNodeId() + " " + bestBBNode.getObjectiveValue());
 					pw.println("BESTNODE" + bestBBNode.getNodeId() + " " + bestBBNode.getObjectiveValue());
@@ -994,7 +1023,7 @@ import gurobi.*;
 					System.out.println(bestBBNode.getDepth());
 					bestBBNode.pickupNodesBranchedOn.add(branchingPickupNode.number);
 					
-					BBNode leftChild = new BBNode(bestBBNode, bestBBNode.getDepth()+1, BBNodeIDcounter, vehicles, pickupNodes, branchingMatrixMaker(bestBBNode, branchingPickupNode, "left"));
+					BBNode leftChild = new BBNode(bestBBNode, bestBBNode.getDepth()+1, BBNodeIDcounter, vehicles, pickupNodes, branchingMatrixMaker(bestBBNode, branchingPickupNode, "left"), "left");
 					//int [][] matrixLeftChild = new int[vehicles.size()][pickupNodes.size()];
 					//matrixLeftChild = branchingMatrixMaker(bestBBNode, branchingPickupNode, "left");
 					//leftChild.branchingMatrix = matrixLeftChild;
@@ -1059,7 +1088,7 @@ import gurobi.*;
 					//fractionalPickupNodes.remove(branchingPickupNode);
 					//leafNodes.remove(bestBBNode);
 					//bestLabelsLeft = new ArrayList<Label>();
-					BBNode rightChild = new BBNode(bestBBNode, bestBBNode.getDepth()+1, BBNodeIDcounter, vehicles, pickupNodes, branchingMatrixMaker(bestBBNode, branchingPickupNode, "right"));
+					BBNode rightChild = new BBNode(bestBBNode, bestBBNode.getDepth()+1, BBNodeIDcounter, vehicles, pickupNodes, branchingMatrixMaker(bestBBNode, branchingPickupNode, "right"), "right");
 					BBNodeIDcounter += 1;
 				//	pw.println("---------------- LEFT CHILD after new node right child -------------------");
 			/*		pw.println("ID left child " + leftChild.getNodeId());
