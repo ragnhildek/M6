@@ -1,0 +1,2298 @@
+Objective value-0.0
+NEW MP
+number of non-dominated paths: 6
+number of dominated labels: 66
+The best label is: 
+number of non-dominated paths: 6
+number of dominated labels: 130
+The best label is: 
+number of non-dominated paths: 6
+number of dominated labels: 209
+The best label is: 
+number of non-dominated paths: 6
+number of dominated labels: 272
+The best label is: 
+Objective value15523.322351599998
+NEW MP
+number of non-dominated paths: 12
+number of dominated labels: 397
+The best label is: 
+number of non-dominated paths: 12
+number of dominated labels: 534
+The best label is: 
+number of non-dominated paths: 12
+number of dominated labels: 671
+The best label is: 
+number of non-dominated paths: 12
+number of dominated labels: 818
+The best label is: 
+Objective value74117.89273639998
+NEW MP
+number of non-dominated paths: 24
+number of dominated labels: 1076
+The best label is: 
+number of non-dominated paths: 18
+number of dominated labels: 1246
+The best label is: 
+number of non-dominated paths: 21
+number of dominated labels: 1446
+The best label is: 
+number of non-dominated paths: 39
+number of dominated labels: 2047
+The best label is: 
+Objective value162135.399372
+NEW MP
+number of non-dominated paths: 51
+number of dominated labels: 2798
+The best label is: 
+number of non-dominated paths: 39
+number of dominated labels: 3354
+The best label is: 
+number of non-dominated paths: 46
+number of dominated labels: 4039
+The best label is: 
+number of non-dominated paths: 99
+number of dominated labels: 5537
+The best label is: 
+Objective value617012.8805819999
+NEW MP
+number of non-dominated paths: 70
+number of dominated labels: 6572
+The best label is: 
+number of non-dominated paths: 76
+number of dominated labels: 7632
+The best label is: 
+number of non-dominated paths: 56
+number of dominated labels: 8469
+The best label is: 
+number of non-dominated paths: 132
+number of dominated labels: 10494
+The best label is: 
+Objective value1093639.1170668
+NEW MP
+number of non-dominated paths: 88
+number of dominated labels: 11738
+The best label is: 
+number of non-dominated paths: 82
+number of dominated labels: 12893
+The best label is: 
+number of non-dominated paths: 71
+number of dominated labels: 13899
+The best label is: 
+number of non-dominated paths: 225
+number of dominated labels: 16510
+The best label is: 
+Objective value1531822.0089404
+NEW MP
+number of non-dominated paths: 106
+number of dominated labels: 17949
+The best label is: 
+number of non-dominated paths: 112
+number of dominated labels: 19517
+The best label is: 
+number of non-dominated paths: 86
+number of dominated labels: 20680
+The best label is: 
+number of non-dominated paths: 312
+number of dominated labels: 23823
+The best label is: 
+Objective value1947242.6849312002
+NEW MP
+number of non-dominated paths: 139
+number of dominated labels: 25861
+The best label is: 
+number of non-dominated paths: 116
+number of dominated labels: 27459
+The best label is: 
+number of non-dominated paths: 130
+number of dominated labels: 29331
+The best label is: 
+number of non-dominated paths: 705
+number of dominated labels: 37043
+The best label is: 
+Objective value2397353.5617923997
+NEW MP
+number of non-dominated paths: 99
+number of dominated labels: 38428
+The best label is: 
+number of non-dominated paths: 153
+number of dominated labels: 40567
+The best label is: 
+number of non-dominated paths: 84
+number of dominated labels: 41745
+The best label is: 
+number of non-dominated paths: 231
+number of dominated labels: 44438
+The best label is: 
+Objective value2397353.5617923997
+NEW MP
+number of non-dominated paths: 111
+number of dominated labels: 45840
+The best label is: 
+number of non-dominated paths: 165
+number of dominated labels: 48062
+The best label is: 
+number of non-dominated paths: 108
+number of dominated labels: 49357
+The best label is: 
+number of non-dominated paths: 2177
+number of dominated labels: 95432
+The best label is: 
+Objective value2417647.8974468
+NEW MP
+number of non-dominated paths: 235
+number of dominated labels: 98435
+The best label is: 
+number of non-dominated paths: 190
+number of dominated labels: 100706
+The best label is: 
+number of non-dominated paths: 218
+number of dominated labels: 103446
+The best label is: 
+number of non-dominated paths: 2807
+number of dominated labels: 157096
+The best label is: 
+Objective value2417647.8974468
+NEW MP
+number of non-dominated paths: 296
+number of dominated labels: 160344
+The best label is: 
+number of non-dominated paths: 260
+number of dominated labels: 162967
+The best label is: 
+number of non-dominated paths: 257
+number of dominated labels: 165732
+The best label is: 
+number of non-dominated paths: 236
+number of dominated labels: 168412
+The best label is: 
+Objective value2638075.4592104005
+NEW MP
+number of non-dominated paths: 376
+number of dominated labels: 172324
+The best label is: 
+number of non-dominated paths: 297
+number of dominated labels: 175358
+The best label is: 
+number of non-dominated paths: 335
+number of dominated labels: 178755
+The best label is: 
+number of non-dominated paths: 271
+number of dominated labels: 181796
+The best label is: 
+Objective value2638075.4592104005
+NEW MP
+number of non-dominated paths: 298
+number of dominated labels: 185186
+The best label is: 
+number of non-dominated paths: 413
+number of dominated labels: 189286
+The best label is: 
+number of non-dominated paths: 272
+number of dominated labels: 192276
+The best label is: 
+number of non-dominated paths: 437
+number of dominated labels: 196780
+The best label is: 
+Objective value2644297.9655284
+NEW MP
+number of non-dominated paths: 594
+number of dominated labels: 202802
+The best label is: 
+number of non-dominated paths: 686
+number of dominated labels: 210544
+The best label is: 
+number of non-dominated paths: 533
+number of dominated labels: 215824
+The best label is: 
+number of non-dominated paths: 738
+number of dominated labels: 224762
+The best label is: 
+Objective value2691131.5630023996
+NEW MP
+number of non-dominated paths: 242
+number of dominated labels: 227601
+The best label is: 
+number of non-dominated paths: 215
+number of dominated labels: 229890
+The best label is: 
+number of non-dominated paths: 239
+number of dominated labels: 232547
+The best label is: 
+number of non-dominated paths: 237
+number of dominated labels: 235226
+The best label is: 
+Objective value2691131.5630023996
+NEW MP
+number of non-dominated paths: 500
+number of dominated labels: 240268
+The best label is: 
+number of non-dominated paths: 734
+number of dominated labels: 250038
+The best label is: 
+number of non-dominated paths: 508
+number of dominated labels: 255154
+The best label is: 
+number of non-dominated paths: 754
+number of dominated labels: 265059
+The best label is: 
+Objective value2886160.0296696
+NEW MP
+number of non-dominated paths: 485
+number of dominated labels: 270046
+The best label is: 
+number of non-dominated paths: 491
+number of dominated labels: 275110
+The best label is: 
+number of non-dominated paths: 511
+number of dominated labels: 280360
+The best label is: 
+number of non-dominated paths: 711
+number of dominated labels: 291147
+The best label is: 
+Objective value2886160.0296696
+NEW MP
+number of non-dominated paths: 596
+number of dominated labels: 297453
+The best label is: 
+number of non-dominated paths: 689
+number of dominated labels: 306778
+The best label is: 
+number of non-dominated paths: 631
+number of dominated labels: 313975
+The best label is: 
+number of non-dominated paths: 1059
+number of dominated labels: 340492
+The best label is: 
+Objective value3023187.2316688
+NEW MP
+number of non-dominated paths: 674
+number of dominated labels: 348790
+The best label is: 
+number of non-dominated paths: 716
+number of dominated labels: 359435
+The best label is: 
+number of non-dominated paths: 662
+number of dominated labels: 367323
+The best label is: 
+number of non-dominated paths: 1199
+number of dominated labels: 398830
+The best label is: 
+Objective value3024635.0152348
+NEW MP
+number of non-dominated paths: 845
+number of dominated labels: 408120
+The best label is: 
+number of non-dominated paths: 915
+number of dominated labels: 420390
+The best label is: 
+number of non-dominated paths: 740
+number of dominated labels: 428848
+The best label is: 
+number of non-dominated paths: 1720
+number of dominated labels: 468675
+The best label is: 
+Objective value3089625.0605388004
+NEW MP
+number of non-dominated paths: 923
+number of dominated labels: 479482
+The best label is: 
+number of non-dominated paths: 993
+number of dominated labels: 494231
+The best label is: 
+number of non-dominated paths: 815
+number of dominated labels: 504277
+The best label is: 
+number of non-dominated paths: 1480
+number of dominated labels: 540039
+The best label is: 
+Objective value3101918.7879492003
+NEW MP
+number of non-dominated paths: 317
+number of dominated labels: 543517
+The best label is: 
+number of non-dominated paths: 742
+number of dominated labels: 552232
+The best label is: 
+number of non-dominated paths: 806
+number of dominated labels: 562129
+The best label is: 
+number of non-dominated paths: 1531
+number of dominated labels: 598405
+The best label is: 
+Objective value3132419.1781588
+NEW MP
+number of non-dominated paths: 1007
+number of dominated labels: 611395
+The best label is: 
+number of non-dominated paths: 1261
+number of dominated labels: 641067
+The best label is: 
+number of non-dominated paths: 821
+number of dominated labels: 651243
+The best label is: 
+number of non-dominated paths: 2176
+number of dominated labels: 698690
+The best label is: 
+Objective value3207961.5482924003
+NEW MP
+number of non-dominated paths: 1351
+number of dominated labels: 720434
+The best label is: 
+number of non-dominated paths: 1451
+number of dominated labels: 755097
+The best label is: 
+number of non-dominated paths: 1310
+number of dominated labels: 776802
+The best label is: 
+number of non-dominated paths: 1698
+number of dominated labels: 816930
+The best label is: 
+Objective value3264753.3495720006
+NEW MP
+number of non-dominated paths: 1810
+number of dominated labels: 858327
+The best label is: 
+number of non-dominated paths: 1310
+number of dominated labels: 888055
+The best label is: 
+number of non-dominated paths: 1943
+number of dominated labels: 935284
+The best label is: 
+number of non-dominated paths: 2439
+number of dominated labels: 984984
+The best label is: 
+Objective value3264753.3495720006
+NEW MP
+number of non-dominated paths: 1272
+number of dominated labels: 1004711
+The best label is: 
+number of non-dominated paths: 1472
+number of dominated labels: 1039836
+The best label is: 
+number of non-dominated paths: 1223
+number of dominated labels: 1058833
+The best label is: 
+number of non-dominated paths: 2810
+number of dominated labels: 1110878
+The best label is: 
+Objective value3264753.3495720006
+NEW MP
+number of non-dominated paths: 1971
+number of dominated labels: 1156443
+The best label is: 
+number of non-dominated paths: 1524
+number of dominated labels: 1193636
+The best label is: 
+number of non-dominated paths: 1889
+number of dominated labels: 1240059
+The best label is: 
+number of non-dominated paths: 2277
+number of dominated labels: 1287876
+The best label is: 
+Objective value3305305.4212984005
+NEW MP
+number of non-dominated paths: 1683
+number of dominated labels: 1326943
+The best label is: 
+number of non-dominated paths: 1560
+number of dominated labels: 1364275
+The best label is: 
+number of non-dominated paths: 1786
+number of dominated labels: 1407606
+The best label is: 
+number of non-dominated paths: 2898
+number of dominated labels: 1461522
+The best label is: 
+Objective value3405449.0419848002
+NEW MP
+number of non-dominated paths: 209
+number of dominated labels: 1464077
+The best label is: 
+number of non-dominated paths: 1626
+number of dominated labels: 1501514
+The best label is: 
+number of non-dominated paths: 1552
+number of dominated labels: 1537951
+The best label is: 
+number of non-dominated paths: 2845
+number of dominated labels: 1588501
+The best label is: 
+Objective value3476564.5726772
+NEW MP
+number of non-dominated paths: 1753
+number of dominated labels: 1627631
+The best label is: 
+number of non-dominated paths: 1361
+number of dominated labels: 1658231
+The best label is: 
+number of non-dominated paths: 1798
+number of dominated labels: 1701849
+The best label is: 
+number of non-dominated paths: 2658
+number of dominated labels: 1746685
+The best label is: 
+Objective value3476564.5726772
+NEW MP
+number of non-dominated paths: 737
+number of dominated labels: 1754185
+The best label is: 
+number of non-dominated paths: 1805
+number of dominated labels: 1793028
+The best label is: 
+number of non-dominated paths: 797
+number of dominated labels: 1800905
+The best label is: 
+number of non-dominated paths: 2904
+number of dominated labels: 1848889
+The best label is: 
+Objective value3549964.2506744005
+NEW MP
+number of non-dominated paths: 308
+number of dominated labels: 1852354
+The best label is: 
+number of non-dominated paths: 2085
+number of dominated labels: 1900482
+The best label is: 
+number of non-dominated paths: 1952
+number of dominated labels: 1947468
+The best label is: 
+number of non-dominated paths: 3877
+number of dominated labels: 2009044
+The best label is: 
+Objective value3571043.6891818005
+NEW MP
+number of non-dominated paths: 1680
+number of dominated labels: 2047554
+The best label is: 
+number of non-dominated paths: 1812
+number of dominated labels: 2089423
+The best label is: 
+number of non-dominated paths: 1768
+number of dominated labels: 2132414
+The best label is: 
+number of non-dominated paths: 4132
+number of dominated labels: 2197087
+The best label is: 
+Objective value3590360.9520730013
+NEW MP
+number of non-dominated paths: 2082
+number of dominated labels: 2243973
+The best label is: 
+number of non-dominated paths: 2180
+number of dominated labels: 2291966
+The best label is: 
+number of non-dominated paths: 1823
+number of dominated labels: 2334894
+The best label is: 
+number of non-dominated paths: 4066
+number of dominated labels: 2396886
+The best label is: 
+Objective value3621827.850802
+NEW MP
+number of non-dominated paths: 1914
+number of dominated labels: 2439015
+The best label is: 
+number of non-dominated paths: 2285
+number of dominated labels: 2488548
+The best label is: 
+number of non-dominated paths: 2399
+number of dominated labels: 2545242
+The best label is: 
+number of non-dominated paths: 4199
+number of dominated labels: 2606979
+The best label is: 
+Objective value3737076.9655516
+NEW MP
+number of non-dominated paths: 1713
+number of dominated labels: 2645143
+The best label is: 
+number of non-dominated paths: 2439
+number of dominated labels: 2691865
+The best label is: 
+number of non-dominated paths: 1798
+number of dominated labels: 2734328
+The best label is: 
+number of non-dominated paths: 3727
+number of dominated labels: 2790155
+The best label is: 
+Objective value3823185.3084968007
+NEW MP
+number of non-dominated paths: 2697
+number of dominated labels: 2845700
+The best label is: 
+number of non-dominated paths: 2775
+number of dominated labels: 2898291
+The best label is: 
+number of non-dominated paths: 2581
+number of dominated labels: 2955992
+The best label is: 
+number of non-dominated paths: 4599
+number of dominated labels: 3019900
+The best label is: 
+Objective value3962691.4452616004
+NEW MP
+number of non-dominated paths: 2424
+number of dominated labels: 3071778
+The best label is: 
+number of non-dominated paths: 2335
+number of dominated labels: 3117324
+The best label is: 
+number of non-dominated paths: 2515
+number of dominated labels: 3173706
+The best label is: 
+number of non-dominated paths: 3616
+number of dominated labels: 3228203
+The best label is: 
+Objective value3962691.4452616004
+NEW MP
+number of non-dominated paths: 3507
+number of dominated labels: 3289580
+The best label is: 
+number of non-dominated paths: 2515
+number of dominated labels: 3335829
+The best label is: 
+number of non-dominated paths: 3529
+number of dominated labels: 3400325
+The best label is: 
+number of non-dominated paths: 3442
+number of dominated labels: 3452967
+The best label is: 
+Objective value3996887.3920004005
+NEW MP
+number of non-dominated paths: 1245
+number of dominated labels: 3471526
+The best label is: 
+number of non-dominated paths: 3153
+number of dominated labels: 3522090
+The best label is: 
+number of non-dominated paths: 1505
+number of dominated labels: 3547158
+The best label is: 
+number of non-dominated paths: 3483
+number of dominated labels: 3598095
+The best label is: 
+Objective value3996887.3920004005
+NEW MP
+number of non-dominated paths: 2361
+number of dominated labels: 3649838
+The best label is: 
+number of non-dominated paths: 3540
+number of dominated labels: 3705760
+The best label is: 
+number of non-dominated paths: 3272
+number of dominated labels: 3771997
+The best label is: 
+number of non-dominated paths: 4032
+number of dominated labels: 3829197
+The best label is: 
+Objective value4018585.2889228
+NEW MP
+number of non-dominated paths: 2787
+number of dominated labels: 3883189
+The best label is: 
+number of non-dominated paths: 3274
+number of dominated labels: 3933791
+The best label is: 
+number of non-dominated paths: 2768
+number of dominated labels: 3988098
+The best label is: 
+number of non-dominated paths: 3749
+number of dominated labels: 4040517
+The best label is: 
+Objective value4018933.9113084003
+NEW MP
+number of non-dominated paths: 3043
+number of dominated labels: 4092535
+The best label is: 
+number of non-dominated paths: 2865
+number of dominated labels: 4136728
+The best label is: 
+number of non-dominated paths: 3031
+number of dominated labels: 4192902
+The best label is: 
+number of non-dominated paths: 3387
+number of dominated labels: 4239467
+The best label is: 
+Objective value4018933.9113084003
+NEW MP
+number of non-dominated paths: 2886
+number of dominated labels: 4293425
+The best label is: 
+number of non-dominated paths: 2833
+number of dominated labels: 4339001
+The best label is: 
+number of non-dominated paths: 2773
+number of dominated labels: 4396985
+The best label is: 
+number of non-dominated paths: 3202
+number of dominated labels: 4441026
+The best label is: 
+Objective value4018933.9113084003
+NEW MP
+number of non-dominated paths: 3411
+number of dominated labels: 4498564
+The best label is: 
+number of non-dominated paths: 3190
+number of dominated labels: 4547535
+The best label is: 
+number of non-dominated paths: 3400
+number of dominated labels: 4610129
+The best label is: 
+number of non-dominated paths: 3379
+number of dominated labels: 4655217
+The best label is: 
+Objective value4030111.742761001
+NEW MP
+number of non-dominated paths: 4664
+number of dominated labels: 4743615
+The best label is: 
+number of non-dominated paths: 4593
+number of dominated labels: 4811755
+The best label is: 
+number of non-dominated paths: 773
+number of dominated labels: 4819868
+The best label is: 
+number of non-dominated paths: 4617
+number of dominated labels: 4883882
+The best label is: 
+Objective value4030111.742761001
+NEW MP
+number of non-dominated paths: 4756
+number of dominated labels: 4964242
+The best label is: 
+number of non-dominated paths: 4209
+number of dominated labels: 5025592
+The best label is: 
+number of non-dominated paths: 4097
+number of dominated labels: 5101489
+The best label is: 
+number of non-dominated paths: 5053
+number of dominated labels: 5161806
+The best label is: 
+Objective value4120549.8495408003
+NEW MP
+number of non-dominated paths: 5043
+number of dominated labels: 5248339
+The best label is: 
+number of non-dominated paths: 3972
+number of dominated labels: 5306900
+The best label is: 
+number of non-dominated paths: 4367
+number of dominated labels: 5385196
+The best label is: 
+number of non-dominated paths: 4971
+number of dominated labels: 5441230
+The best label is: 
+Objective value4122518.9774494004
+NEW MP
+number of non-dominated paths: 4629
+number of dominated labels: 5518145
+The best label is: 
+number of non-dominated paths: 4050
+number of dominated labels: 5572439
+The best label is: 
+number of non-dominated paths: 4628
+number of dominated labels: 5649434
+The best label is: 
+number of non-dominated paths: 5150
+number of dominated labels: 5703331
+The best label is: 
+Objective value4248880.022808401
+NEW MP
+number of non-dominated paths: 3000
+number of dominated labels: 5752797
+The best label is: 
+number of non-dominated paths: 2737
+number of dominated labels: 5797999
+The best label is: 
+number of non-dominated paths: 2950
+number of dominated labels: 5849483
+The best label is: 
+number of non-dominated paths: 6059
+number of dominated labels: 5916050
+The best label is: 
+Objective value4468404.1947844
+NEW MP
+number of non-dominated paths: 4096
+number of dominated labels: 5983800
+The best label is: 
+number of non-dominated paths: 3909
+number of dominated labels: 6040631
+The best label is: 
+number of non-dominated paths: 4204
+number of dominated labels: 6114838
+The best label is: 
+number of non-dominated paths: 5434
+number of dominated labels: 6176375
+The best label is: 
+Objective value4468404.1947844
+NEW MP
+number of non-dominated paths: 4669
+number of dominated labels: 6249891
+The best label is: 
+number of non-dominated paths: 4890
+number of dominated labels: 6315787
+The best label is: 
+number of non-dominated paths: 4864
+number of dominated labels: 6398280
+The best label is: 
+number of non-dominated paths: 7323
+number of dominated labels: 6482545
+The best label is: 
+Objective value4560117.423242801
+NEW MP
+number of non-dominated paths: 4919
+number of dominated labels: 6561468
+The best label is: 
+number of non-dominated paths: 3567
+number of dominated labels: 6621856
+The best label is: 
+number of non-dominated paths: 5086
+number of dominated labels: 6706918
+The best label is: 
+number of non-dominated paths: 7540
+number of dominated labels: 6789734
+The best label is: 
+Objective value4565998.0142232
+NEW MP
+number of non-dominated paths: 4922
+number of dominated labels: 6865888
+The best label is: 
+number of non-dominated paths: 3731
+number of dominated labels: 6922171
+The best label is: 
+number of non-dominated paths: 4840
+number of dominated labels: 7000350
+The best label is: 
+number of non-dominated paths: 5023
+number of dominated labels: 7058114
+The best label is: 
+Objective value4585257.619518201
+NEW MP
+number of non-dominated paths: 5655
+number of dominated labels: 7138580
+The best label is: 
+number of non-dominated paths: 3905
+number of dominated labels: 7194759
+The best label is: 
+number of non-dominated paths: 5058
+number of dominated labels: 7277076
+The best label is: 
+number of non-dominated paths: 7376
+number of dominated labels: 7352000
+The best label is: 
+Objective value4629888.5833664015
+NEW MP
+number of non-dominated paths: 5783
+number of dominated labels: 7431054
+The best label is: 
+number of non-dominated paths: 4070
+number of dominated labels: 7490527
+The best label is: 
+number of non-dominated paths: 5554
+number of dominated labels: 7570187
+The best label is: 
+number of non-dominated paths: 8529
+number of dominated labels: 7656043
+The best label is: 
+Objective value4629888.5833664015
+NEW MP
+number of non-dominated paths: 5624
+number of dominated labels: 7732943
+The best label is: 
+number of non-dominated paths: 4147
+number of dominated labels: 7792941
+The best label is: 
+number of non-dominated paths: 5463
+number of dominated labels: 7870604
+The best label is: 
+number of non-dominated paths: 8980
+number of dominated labels: 7959068
+The best label is: 
+Objective value4629888.5833664015
+NEW MP
+number of non-dominated paths: 5374
+number of dominated labels: 8041574
+The best label is: 
+number of non-dominated paths: 4562
+number of dominated labels: 8104816
+The best label is: 
+number of non-dominated paths: 5375
+number of dominated labels: 8190907
+The best label is: 
+number of non-dominated paths: 9374
+number of dominated labels: 8278262
+The best label is: 
+Objective value4778016.663947734
+NEW MP
+number of non-dominated paths: 5562
+number of dominated labels: 8364563
+The best label is: 
+number of non-dominated paths: 5159
+number of dominated labels: 8435195
+The best label is: 
+number of non-dominated paths: 923
+number of dominated labels: 8446376
+The best label is: 
+number of non-dominated paths: 10424
+number of dominated labels: 8541312
+The best label is: 
+Objective value4801337.925506801
+NEW MP
+number of non-dominated paths: 4211
+number of dominated labels: 8614984
+The best label is: 
+number of non-dominated paths: 4124
+number of dominated labels: 8671693
+The best label is: 
+number of non-dominated paths: 4576
+number of dominated labels: 8751868
+The best label is: 
+number of non-dominated paths: 9404
+number of dominated labels: 8831296
+The best label is: 
+Objective value4802722.576041601
+NEW MP
+number of non-dominated paths: 6810
+number of dominated labels: 8933495
+The best label is: 
+number of non-dominated paths: 5273
+number of dominated labels: 9005373
+The best label is: 
+number of non-dominated paths: 6910
+number of dominated labels: 9114408
+The best label is: 
+number of non-dominated paths: 12781
+number of dominated labels: 9215113
+The best label is: 
+Objective value4834140.180686668
+NEW MP
+number of non-dominated paths: 5868
+number of dominated labels: 9303323
+The best label is: 
+number of non-dominated paths: 4595
+number of dominated labels: 9363659
+The best label is: 
+number of non-dominated paths: 5800
+number of dominated labels: 9455677
+The best label is: 
+number of non-dominated paths: 9176
+number of dominated labels: 9540211
+The best label is: 
+Objective value4845049.746400401
+NEW MP
+number of non-dominated paths: 6531
+number of dominated labels: 9631809
+The best label is: 
+number of non-dominated paths: 4652
+number of dominated labels: 9696713
+The best label is: 
+number of non-dominated paths: 6385
+number of dominated labels: 9791881
+The best label is: 
+number of non-dominated paths: 12595
+number of dominated labels: 9885964
+The best label is: 
+Objective value4845049.746400401
+NEW MP
+number of non-dominated paths: 6568
+number of dominated labels: 9986573
+The best label is: 
+number of non-dominated paths: 5011
+number of dominated labels: 10052323
+The best label is: 
+number of non-dominated paths: 6549
+number of dominated labels: 10157559
+The best label is: 
+number of non-dominated paths: 12525
+number of dominated labels: 10249236
+The best label is: 
+Objective value4859496.894457841
+NEW MP
+number of non-dominated paths: 5681
+number of dominated labels: 10336479
+The best label is: 
+number of non-dominated paths: 4507
+number of dominated labels: 10398830
+The best label is: 
+number of non-dominated paths: 5940
+number of dominated labels: 10490516
+The best label is: 
+number of non-dominated paths: 13205
+number of dominated labels: 10580830
+The best label is: 
+Objective value4876058.9837046005
+NEW MP
+number of non-dominated paths: 5052
+number of dominated labels: 10655319
+The best label is: 
+number of non-dominated paths: 4558
+number of dominated labels: 10716228
+The best label is: 
+number of non-dominated paths: 5066
+number of dominated labels: 10792213
+The best label is: 
+number of non-dominated paths: 11967
+number of dominated labels: 10879635
+The best label is: 
+Objective value4901705.505033867
+NEW MP
+number of non-dominated paths: 5973
+number of dominated labels: 10965158
+The best label is: 
+number of non-dominated paths: 5059
+number of dominated labels: 11030061
+The best label is: 
+number of non-dominated paths: 5564
+number of dominated labels: 11113479
+The best label is: 
+number of non-dominated paths: 13347
+number of dominated labels: 11202076
+The best label is: 
+Objective value4901752.147317868
+NEW MP
+number of non-dominated paths: 6231
+number of dominated labels: 11289449
+The best label is: 
+number of non-dominated paths: 5344
+number of dominated labels: 11355593
+The best label is: 
+number of non-dominated paths: 5846
+number of dominated labels: 11441176
+The best label is: 
+number of non-dominated paths: 14470
+number of dominated labels: 11532330
+The best label is: 
+Objective value4932636.491800134
+NEW MP
+number of non-dominated paths: 6139
+number of dominated labels: 11614286
+The best label is: 
+number of non-dominated paths: 5450
+number of dominated labels: 11682692
+The best label is: 
+number of non-dominated paths: 6520
+number of dominated labels: 11771377
+The best label is: 
+number of non-dominated paths: 15583
+number of dominated labels: 11870710
+The best label is: 
+Objective value5064257.597198801
+NEW MP
+number of non-dominated paths: 6942
+number of dominated labels: 11958237
+The best label is: 
+number of non-dominated paths: 5558
+number of dominated labels: 12028836
+The best label is: 
+number of non-dominated paths: 6966
+number of dominated labels: 12124381
+The best label is: 
+number of non-dominated paths: 18829
+number of dominated labels: 12224958
+The best label is: 
+Objective value5097126.000144201
+NEW MP
+number of non-dominated paths: 5576
+number of dominated labels: 12301018
+The best label is: 
+number of non-dominated paths: 4905
+number of dominated labels: 12362819
+The best label is: 
+number of non-dominated paths: 5641
+number of dominated labels: 12444864
+The best label is: 
+number of non-dominated paths: 15960
+number of dominated labels: 12534213
+The best label is: 
+Objective value5131224.1216796
+NEW MP
+number of non-dominated paths: 7302
+number of dominated labels: 12627150
+The best label is: 
+number of non-dominated paths: 5219
+number of dominated labels: 12693110
+The best label is: 
+number of non-dominated paths: 7055
+number of dominated labels: 12787760
+The best label is: 
+number of non-dominated paths: 17814
+number of dominated labels: 12879198
+The best label is: 
+Objective value5426572.224639201
+NEW MP
+number of non-dominated paths: 5622
+number of dominated labels: 12976960
+The best label is: 
+number of non-dominated paths: 5986
+number of dominated labels: 13052980
+The best label is: 
+number of non-dominated paths: 5364
+number of dominated labels: 13146902
+The best label is: 
+number of non-dominated paths: 19592
+number of dominated labels: 13248955
+The best label is: 
+Objective value5426572.224639201
+NEW MP
+number of non-dominated paths: 8936
+number of dominated labels: 13348197
+The best label is: 
+number of non-dominated paths: 5672
+number of dominated labels: 13415200
+The best label is: 
+number of non-dominated paths: 6508
+number of dominated labels: 13511646
+The best label is: 
+number of non-dominated paths: 18553
+number of dominated labels: 13600258
+The best label is: 
+Objective value5426572.224639201
+NEW MP
+number of non-dominated paths: 7234
+number of dominated labels: 13705151
+The best label is: 
+number of non-dominated paths: 6383
+number of dominated labels: 13776945
+The best label is: 
+number of non-dominated paths: 7145
+number of dominated labels: 13882179
+The best label is: 
+number of non-dominated paths: 19359
+number of dominated labels: 13974149
+The best label is: 
+Objective value5426572.224639201
+NEW MP
+number of non-dominated paths: 8069
+number of dominated labels: 14080115
+The best label is: 
+number of non-dominated paths: 6530
+number of dominated labels: 14148815
+The best label is: 
+number of non-dominated paths: 7731
+number of dominated labels: 14252056
+The best label is: 
+number of non-dominated paths: 19176
+number of dominated labels: 14338417
+The best label is: 
+Objective value5426572.224639201
+NEW MP
+number of non-dominated paths: 8009
+number of dominated labels: 14430945
+The best label is: 
+number of non-dominated paths: 6451
+number of dominated labels: 14501391
+The best label is: 
+number of non-dominated paths: 7247
+number of dominated labels: 14596802
+The best label is: 
+number of non-dominated paths: 21767
+number of dominated labels: 14685611
+The best label is: 
+Objective value5532292.4847924
+NEW MP
+number of non-dominated paths: 7797
+number of dominated labels: 14770785
+The best label is: 
+number of non-dominated paths: 5637
+number of dominated labels: 14832510
+The best label is: 
+number of non-dominated paths: 7004
+number of dominated labels: 14913919
+The best label is: 
+number of non-dominated paths: 21429
+number of dominated labels: 15010047
+The best label is: 
+Objective value5532656.462664801
+NEW MP
+number of non-dominated paths: 9478
+number of dominated labels: 15117422
+The best label is: 
+number of non-dominated paths: 6117
+number of dominated labels: 15186131
+The best label is: 
+number of non-dominated paths: 8019
+number of dominated labels: 15277131
+The best label is: 
+number of non-dominated paths: 23891
+number of dominated labels: 15375292
+The best label is: 
+Objective value5532656.4626648
+NEW MP
+number of non-dominated paths: 10211
+number of dominated labels: 15489649
+The best label is: 
+number of non-dominated paths: 7386
+number of dominated labels: 15571240
+The best label is: 
+number of non-dominated paths: 9612
+number of dominated labels: 15683369
+The best label is: 
+number of non-dominated paths: 22257
+number of dominated labels: 15782134
+The best label is: 
+Objective value5532656.462664801
+NEW MP
+number of non-dominated paths: 10147
+number of dominated labels: 15887473
+The best label is: 
+number of non-dominated paths: 8509
+number of dominated labels: 15981534
+The best label is: 
+number of non-dominated paths: 9872
+number of dominated labels: 16089054
+The best label is: 
+number of non-dominated paths: 22415
+number of dominated labels: 16193553
+The best label is: 
+Objective value5656537.7585496
+NEW MP
+number of non-dominated paths: 10004
+number of dominated labels: 16295384
+The best label is: 
+number of non-dominated paths: 8226
+number of dominated labels: 16391763
+The best label is: 
+number of non-dominated paths: 10340
+number of dominated labels: 16504007
+The best label is: 
+number of non-dominated paths: 22160
+number of dominated labels: 16608545
+The best label is: 
+Objective value5824469.061992399
+NEW MP
+number of non-dominated paths: 12165
+number of dominated labels: 16734818
+The best label is: 
+number of non-dominated paths: 8204
+number of dominated labels: 16826638
+The best label is: 
+number of non-dominated paths: 12838
+number of dominated labels: 16963873
+The best label is: 
+number of non-dominated paths: 13758
+number of dominated labels: 17057446
+The best label is: 
+Objective value5974746.9788568
+NEW MP
+number of non-dominated paths: 7417
+number of dominated labels: 17154176
+The best label is: 
+number of non-dominated paths: 8551
+number of dominated labels: 17248703
+The best label is: 
+number of non-dominated paths: 9823
+number of dominated labels: 17358172
+The best label is: 
+number of non-dominated paths: 21699
+number of dominated labels: 17454577
+The best label is: 
+Objective value5974746.9788568
+NEW MP
+number of non-dominated paths: 9711
+number of dominated labels: 17554513
+The best label is: 
+number of non-dominated paths: 8316
+number of dominated labels: 17646525
+The best label is: 
+number of non-dominated paths: 10884
+number of dominated labels: 17767933
+The best label is: 
+number of non-dominated paths: 21277
+number of dominated labels: 17863326
+The best label is: 
+Objective value5989765.8174708
+NEW MP
+number of non-dominated paths: 9820
+number of dominated labels: 17965260
+The best label is: 
+number of non-dominated paths: 8565
+number of dominated labels: 18057736
+The best label is: 
+number of non-dominated paths: 12229
+number of dominated labels: 18187119
+The best label is: 
+number of non-dominated paths: 20762
+number of dominated labels: 18281911
+The best label is: 
+Objective value6123791.9180536
+NEW MP
+number of non-dominated paths: 6023
+number of dominated labels: 18353995
+The best label is: 
+number of non-dominated paths: 7719
+number of dominated labels: 18431626
+The best label is: 
+number of non-dominated paths: 5995
+number of dominated labels: 18507079
+The best label is: 
+number of non-dominated paths: 18391
+number of dominated labels: 18584430
+The best label is: 
+Objective value6123791.9180536
+NEW MP
+number of non-dominated paths: 9609
+number of dominated labels: 18683829
+The best label is: 
+number of non-dominated paths: 7867
+number of dominated labels: 18763043
+The best label is: 
+number of non-dominated paths: 9595
+number of dominated labels: 18865676
+The best label is: 
+number of non-dominated paths: 18990
+number of dominated labels: 18946727
+The best label is: 
+Objective value6162208.5842608
+NEW MP
+number of non-dominated paths: 9102
+number of dominated labels: 19037973
+The best label is: 
+number of non-dominated paths: 7067
+number of dominated labels: 19107291
+The best label is: 
+number of non-dominated paths: 9734
+number of dominated labels: 19205929
+The best label is: 
+number of non-dominated paths: 10311
+number of dominated labels: 19271170
+The best label is: 
+Objective value6178264.1827785
+NEW MP
+number of non-dominated paths: 9573
+number of dominated labels: 19365456
+The best label is: 
+number of non-dominated paths: 7192
+number of dominated labels: 19437030
+The best label is: 
+number of non-dominated paths: 10044
+number of dominated labels: 19538857
+The best label is: 
+number of non-dominated paths: 16759
+number of dominated labels: 19608861
+The best label is: 
+Objective value6185340.16326074
+NEW MP
+number of non-dominated paths: 9627
+number of dominated labels: 19706397
+The best label is: 
+number of non-dominated paths: 7993
+number of dominated labels: 19781168
+The best label is: 
+number of non-dominated paths: 10400
+number of dominated labels: 19887936
+The best label is: 
+number of non-dominated paths: 18079
+number of dominated labels: 19959414
+The best label is: 
+Objective value6246950.1706441
+NEW MP
+number of non-dominated paths: 5489
+number of dominated labels: 20018191
+The best label is: 
+number of non-dominated paths: 6883
+number of dominated labels: 20085473
+The best label is: 
+number of non-dominated paths: 5545
+number of dominated labels: 20148409
+The best label is: 
+number of non-dominated paths: 17739
+number of dominated labels: 20219575
+The best label is: 
+Objective value6246950.1706441
+NEW MP
+number of non-dominated paths: 6190
+number of dominated labels: 20284092
+The best label is: 
+number of non-dominated paths: 8065
+number of dominated labels: 20357862
+The best label is: 
+number of non-dominated paths: 6301
+number of dominated labels: 20427337
+The best label is: 
+number of non-dominated paths: 18690
+number of dominated labels: 20504292
+The best label is: 
+Objective value6256978.3019175995
+NEW MP
+number of non-dominated paths: 7093
+number of dominated labels: 20576305
+The best label is: 
+number of non-dominated paths: 7753
+number of dominated labels: 20640720
+The best label is: 
+number of non-dominated paths: 7093
+number of dominated labels: 20716064
+The best label is: 
+number of non-dominated paths: 17098
+number of dominated labels: 20781749
+The best label is: 
+Objective value6276880.393268598
+NEW MP
+number of non-dominated paths: 10134
+number of dominated labels: 20881630
+The best label is: 
+number of non-dominated paths: 10739
+number of dominated labels: 20964151
+The best label is: 
+number of non-dominated paths: 9647
+number of dominated labels: 21061138
+The best label is: 
+number of non-dominated paths: 18071
+number of dominated labels: 21139560
+The best label is: 
+Objective value6278156.5217788
+NEW MP
+number of non-dominated paths: 11282
+number of dominated labels: 21252548
+The best label is: 
+number of non-dominated paths: 13436
+number of dominated labels: 21346251
+The best label is: 
+number of non-dominated paths: 11205
+number of dominated labels: 21461655
+The best label is: 
+number of non-dominated paths: 19702
+number of dominated labels: 21550898
+The best label is: 
+Objective value6353977.702709868
+NEW MP
+number of non-dominated paths: 9772
+number of dominated labels: 21643526
+The best label is: 
+number of non-dominated paths: 11476
+number of dominated labels: 21722041
+The best label is: 
+number of non-dominated paths: 9955
+number of dominated labels: 21818987
+The best label is: 
+number of non-dominated paths: 12944
+number of dominated labels: 21894468
+The best label is: 
+Objective value6410690.684533734
+NEW MP
+number of non-dominated paths: 8911
+number of dominated labels: 21982591
+The best label is: 
+number of non-dominated paths: 8958
+number of dominated labels: 22054496
+The best label is: 
+number of non-dominated paths: 8650
+number of dominated labels: 22143628
+The best label is: 
+number of non-dominated paths: 12125
+number of dominated labels: 22214295
+The best label is: 
+Objective value6410690.684533734
+NEW MP
+number of non-dominated paths: 11257
+number of dominated labels: 22325989
+The best label is: 
+number of non-dominated paths: 12525
+number of dominated labels: 22416237
+The best label is: 
+number of non-dominated paths: 11338
+number of dominated labels: 22532489
+The best label is: 
+number of non-dominated paths: 16421
+number of dominated labels: 22620089
+The best label is: 
+Objective value6413860.805796601
+NEW MP
+number of non-dominated paths: 9340
+number of dominated labels: 22712080
+The best label is: 
+number of non-dominated paths: 11310
+number of dominated labels: 22788220
+The best label is: 
+number of non-dominated paths: 9067
+number of dominated labels: 22881537
+The best label is: 
+number of non-dominated paths: 17488
+number of dominated labels: 22954652
+The best label is: 
+Objective value6414505.999397999
+NEW MP
+number of non-dominated paths: 11242
+number of dominated labels: 23064554
+The best label is: 
+number of non-dominated paths: 14005
+number of dominated labels: 23156578
+The best label is: 
+number of non-dominated paths: 11510
+number of dominated labels: 23272624
+The best label is: 
+number of non-dominated paths: 19578
+number of dominated labels: 23360668
+The best label is: 
+Objective value6420487.024450443
+NEW MP
+number of non-dominated paths: 11293
+number of dominated labels: 23470087
+The best label is: 
+number of non-dominated paths: 13258
+number of dominated labels: 23560974
+The best label is: 
+number of non-dominated paths: 11269
+number of dominated labels: 23672257
+The best label is: 
+number of non-dominated paths: 19392
+number of dominated labels: 23759534
+The best label is: 
+Objective value6440743.851034266
+NEW MP
+number of non-dominated paths: 11468
+number of dominated labels: 23875854
+The best label is: 
+number of non-dominated paths: 12281
+number of dominated labels: 23966814
+The best label is: 
+number of non-dominated paths: 11360
+number of dominated labels: 24085484
+The best label is: 
+number of non-dominated paths: 19186
+number of dominated labels: 24171500
+The best label is: 
+Objective value6440743.851034266
+NEW MP
+number of non-dominated paths: 12318
+number of dominated labels: 24290449
+The best label is: 
+number of non-dominated paths: 12488
+number of dominated labels: 24382092
+The best label is: 
+number of non-dominated paths: 12375
+number of dominated labels: 24503507
+The best label is: 
+number of non-dominated paths: 19336
+number of dominated labels: 24590331
+The best label is: 
+Objective value6453466.864657001
+NEW MP
+number of non-dominated paths: 8931
+number of dominated labels: 24687713
+The best label is: 
+number of non-dominated paths: 14468
+number of dominated labels: 24783913
+The best label is: 
+number of non-dominated paths: 12617
+number of dominated labels: 24905172
+The best label is: 
+number of non-dominated paths: 19235
+number of dominated labels: 24994291
+The best label is: 
+Objective value6481858.128693667
+NEW MP
+number of non-dominated paths: 13776
+number of dominated labels: 25126055
+The best label is: 
+number of non-dominated paths: 14480
+number of dominated labels: 25226544
+The best label is: 
+number of non-dominated paths: 13363
+number of dominated labels: 25355256
+The best label is: 
+number of non-dominated paths: 22122
+number of dominated labels: 25449184
+The best label is: 
+Objective value6481930.913249868
+NEW MP
+number of non-dominated paths: 14220
+number of dominated labels: 25580693
+The best label is: 
+number of non-dominated paths: 15764
+number of dominated labels: 25681314
+The best label is: 
+number of non-dominated paths: 13543
+number of dominated labels: 25809450
+The best label is: 
+number of non-dominated paths: 21976
+number of dominated labels: 25902621
+The best label is: 
+Objective value6500164.390635566
+NEW MP
+number of non-dominated paths: 12692
+number of dominated labels: 26026145
+The best label is: 
+number of non-dominated paths: 15829
+number of dominated labels: 26125386
+The best label is: 
+number of non-dominated paths: 13280
+number of dominated labels: 26251142
+The best label is: 
+number of non-dominated paths: 16038
+number of dominated labels: 26342126
+The best label is: 
+Objective value6519569.359198068
+NEW MP
+number of non-dominated paths: 13058
+number of dominated labels: 26480530
+The best label is: 
+number of non-dominated paths: 15592
+number of dominated labels: 26575384
+The best label is: 
+number of non-dominated paths: 14637
+number of dominated labels: 26718550
+The best label is: 
+number of non-dominated paths: 19719
+number of dominated labels: 26801005
+The best label is: 
+Objective value6524190.980542
+NEW MP
+number of non-dominated paths: 13978
+number of dominated labels: 26946416
+The best label is: 
+number of non-dominated paths: 15987
+number of dominated labels: 27044199
+The best label is: 
+number of non-dominated paths: 14342
+number of dominated labels: 27194181
+The best label is: 
+number of non-dominated paths: 20353
+number of dominated labels: 27281289
+The best label is: 
+Objective value6532161.747283429
+NEW MP
+number of non-dominated paths: 12766
+number of dominated labels: 27402417
+The best label is: 
+number of non-dominated paths: 13112
+number of dominated labels: 27485985
+The best label is: 
+number of non-dominated paths: 13627
+number of dominated labels: 27609004
+The best label is: 
+number of non-dominated paths: 19173
+number of dominated labels: 27682007
+The best label is: 
+Objective value6533753.901986733
+NEW MP
+number of non-dominated paths: 12905
+number of dominated labels: 27801494
+The best label is: 
+number of non-dominated paths: 15687
+number of dominated labels: 27889957
+The best label is: 
+number of non-dominated paths: 13466
+number of dominated labels: 28011366
+The best label is: 
+number of non-dominated paths: 20031
+number of dominated labels: 28087725
+The best label is: 
+Objective value6535564.645431201
+NEW MP
+number of non-dominated paths: 14469
+number of dominated labels: 28222221
+The best label is: 
+number of non-dominated paths: 17702
+number of dominated labels: 28325754
+The best label is: 
+number of non-dominated paths: 14507
+number of dominated labels: 28457319
+The best label is: 
+number of non-dominated paths: 22270
+number of dominated labels: 28551486
+The best label is: 
+Objective value6567929.572898136
+NEW MP
+number of non-dominated paths: 14063
+number of dominated labels: 28680584
+The best label is: 
+number of non-dominated paths: 14902
+number of dominated labels: 28774452
+The best label is: 
+number of non-dominated paths: 15328
+number of dominated labels: 28915755
+The best label is: 
+number of non-dominated paths: 19890
+number of dominated labels: 29002060
+The best label is: 
+Objective value6594956.709192292
+NEW MP
+number of non-dominated paths: 13182
+number of dominated labels: 29121437
+The best label is: 
+number of non-dominated paths: 16240
+number of dominated labels: 29216789
+The best label is: 
+number of non-dominated paths: 14110
+number of dominated labels: 29341993
+The best label is: 
+number of non-dominated paths: 20678
+number of dominated labels: 29434066
+The best label is: 
+Objective value6600886.750676201
+NEW MP
+number of non-dominated paths: 13681
+number of dominated labels: 29557627
+The best label is: 
+number of non-dominated paths: 16607
+number of dominated labels: 29653999
+The best label is: 
+number of non-dominated paths: 14607
+number of dominated labels: 29784144
+The best label is: 
+number of non-dominated paths: 20518
+number of dominated labels: 29874798
+The best label is: 
+Objective value6649363.488427602
+NEW MP
+number of non-dominated paths: 11661
+number of dominated labels: 29983598
+The best label is: 
+number of non-dominated paths: 16341
+number of dominated labels: 30071715
+The best label is: 
+number of non-dominated paths: 11483
+number of dominated labels: 30182871
+The best label is: 
+number of non-dominated paths: 18701
+number of dominated labels: 30267110
+The best label is: 
+Objective value6649363.488427602
+NEW MP
+number of non-dominated paths: 11814
+number of dominated labels: 30376591
+The best label is: 
+number of non-dominated paths: 16872
+number of dominated labels: 30464091
+The best label is: 
+number of non-dominated paths: 12194
+number of dominated labels: 30575787
+The best label is: 
+number of non-dominated paths: 18570
+number of dominated labels: 30659210
+The best label is: 
+Objective value6651045.756550001
+NEW MP
+number of non-dominated paths: 14417
+number of dominated labels: 30780971
+The best label is: 
+number of non-dominated paths: 18488
+number of dominated labels: 30876340
+The best label is: 
+number of non-dominated paths: 13511
+number of dominated labels: 30994415
+The best label is: 
+number of non-dominated paths: 19420
+number of dominated labels: 31082621
+The best label is: 
+Objective value6651487.9746228
+NEW MP
+number of non-dominated paths: 13428
+number of dominated labels: 31216995
+The best label is: 
+number of non-dominated paths: 19446
+number of dominated labels: 31320961
+The best label is: 
+number of non-dominated paths: 16065
+number of dominated labels: 31464138
+The best label is: 
+number of non-dominated paths: 20645
+number of dominated labels: 31560129
+The best label is: 
+Objective value6694021.619995201
+NEW MP
+number of non-dominated paths: 14599
+number of dominated labels: 31696393
+The best label is: 
+number of non-dominated paths: 20459
+number of dominated labels: 31799616
+The best label is: 
+number of non-dominated paths: 16282
+number of dominated labels: 31941138
+The best label is: 
+number of non-dominated paths: 20285
+number of dominated labels: 32036980
+The best label is: 
+Objective value6724034.2831762
+NEW MP
+number of non-dominated paths: 11182
+number of dominated labels: 32164358
+The best label is: 
+number of non-dominated paths: 24396
+number of dominated labels: 32273552
+The best label is: 
+number of non-dominated paths: 19414
+number of dominated labels: 32441438
+The best label is: 
+number of non-dominated paths: 15798
+number of dominated labels: 32537727
+The best label is: 
+Objective value6725970.761419879
+NEW MP
+number of non-dominated paths: 15103
+number of dominated labels: 32694098
+The best label is: 
+number of non-dominated paths: 24458
+number of dominated labels: 32802397
+The best label is: 
+number of non-dominated paths: 19406
+number of dominated labels: 32968349
+The best label is: 
+number of non-dominated paths: 17913
+number of dominated labels: 33064594
+The best label is: 
+Objective value6726391.4457035
+NEW MP
+number of non-dominated paths: 14762
+number of dominated labels: 33198281
+The best label is: 
+number of non-dominated paths: 22648
+number of dominated labels: 33298027
+The best label is: 
+number of non-dominated paths: 16225
+number of dominated labels: 33431245
+The best label is: 
+number of non-dominated paths: 17334
+number of dominated labels: 33521972
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 12959
+number of dominated labels: 33642958
+The best label is: 
+number of non-dominated paths: 19124
+number of dominated labels: 33724313
+The best label is: 
+number of non-dominated paths: 14123
+number of dominated labels: 33849386
+The best label is: 
+number of non-dominated paths: 16924
+number of dominated labels: 33920103
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 12545
+number of dominated labels: 34030417
+The best label is: 
+number of non-dominated paths: 18980
+number of dominated labels: 34112722
+The best label is: 
+number of non-dominated paths: 13286
+number of dominated labels: 34223267
+The best label is: 
+number of non-dominated paths: 17156
+number of dominated labels: 34297806
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 12509
+number of dominated labels: 34406708
+The best label is: 
+number of non-dominated paths: 18651
+number of dominated labels: 34488011
+The best label is: 
+number of non-dominated paths: 14201
+number of dominated labels: 34598434
+The best label is: 
+number of non-dominated paths: 17035
+number of dominated labels: 34671998
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 15872
+number of dominated labels: 34817565
+The best label is: 
+number of non-dominated paths: 21910
+number of dominated labels: 34914967
+The best label is: 
+number of non-dominated paths: 18431
+number of dominated labels: 35063328
+The best label is: 
+number of non-dominated paths: 19207
+number of dominated labels: 35147086
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 16269
+number of dominated labels: 35279505
+The best label is: 
+number of non-dominated paths: 21680
+number of dominated labels: 35375138
+The best label is: 
+number of non-dominated paths: 19401
+number of dominated labels: 35520904
+The best label is: 
+number of non-dominated paths: 19584
+number of dominated labels: 35606357
+The best label is: 
+Objective value6819233.500315599
+NEW MP
+number of non-dominated paths: 14383
+number of dominated labels: 35761158
+The best label is: 
+number of non-dominated paths: 23867
+number of dominated labels: 35871730
+The best label is: 
+number of non-dominated paths: 19402
+number of dominated labels: 36031934
+The best label is: 
+number of non-dominated paths: 21517
+number of dominated labels: 36131515
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 17974
+number of dominated labels: 36289685
+The best label is: 
+number of non-dominated paths: 23269
+number of dominated labels: 36393805
+The best label is: 
+number of non-dominated paths: 22020
+number of dominated labels: 36559295
+The best label is: 
+number of non-dominated paths: 20893
+number of dominated labels: 36651453
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 14453
+number of dominated labels: 36785923
+The best label is: 
+number of non-dominated paths: 21865
+number of dominated labels: 36884425
+The best label is: 
+number of non-dominated paths: 18542
+number of dominated labels: 37023049
+The best label is: 
+number of non-dominated paths: 20180
+number of dominated labels: 37113240
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 18772
+number of dominated labels: 37272219
+The best label is: 
+number of non-dominated paths: 22122
+number of dominated labels: 37369957
+The best label is: 
+number of non-dominated paths: 22137
+number of dominated labels: 37534215
+The best label is: 
+number of non-dominated paths: 19750
+number of dominated labels: 37619797
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 15534
+number of dominated labels: 37741194
+The best label is: 
+number of non-dominated paths: 21332
+number of dominated labels: 37835089
+The best label is: 
+number of non-dominated paths: 16839
+number of dominated labels: 37964532
+The best label is: 
+number of non-dominated paths: 20091
+number of dominated labels: 38054689
+The best label is: 
+Objective value6819233.500315601
+NEW MP
+number of non-dominated paths: 17919
+number of dominated labels: 38194697
+The best label is: 
+number of non-dominated paths: 21611
+number of dominated labels: 38291057
+The best label is: 
+number of non-dominated paths: 20452
+number of dominated labels: 38436940
+The best label is: 
+number of non-dominated paths: 19827
+number of dominated labels: 38522662
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 15478
+number of dominated labels: 38638654
+The best label is: 
+number of non-dominated paths: 15597
+number of dominated labels: 38719328
+The best label is: 
+number of non-dominated paths: 15530
+number of dominated labels: 38834850
+The best label is: 
+number of non-dominated paths: 13681
+number of dominated labels: 38904836
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 15995
+number of dominated labels: 39027369
+The best label is: 
+number of non-dominated paths: 17914
+number of dominated labels: 39109510
+The best label is: 
+number of non-dominated paths: 17012
+number of dominated labels: 39236231
+The best label is: 
+number of non-dominated paths: 15638
+number of dominated labels: 39307027
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 16412
+number of dominated labels: 39430222
+The best label is: 
+number of non-dominated paths: 19701
+number of dominated labels: 39509256
+The best label is: 
+number of non-dominated paths: 17916
+number of dominated labels: 39635688
+The best label is: 
+number of non-dominated paths: 17118
+number of dominated labels: 39703842
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 19139
+number of dominated labels: 39848338
+The best label is: 
+number of non-dominated paths: 21933
+number of dominated labels: 39942235
+The best label is: 
+number of non-dominated paths: 20406
+number of dominated labels: 40088499
+The best label is: 
+number of non-dominated paths: 19209
+number of dominated labels: 40169875
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 15664
+number of dominated labels: 40317331
+The best label is: 
+number of non-dominated paths: 22340
+number of dominated labels: 40415247
+The best label is: 
+number of non-dominated paths: 16014
+number of dominated labels: 40568222
+The best label is: 
+number of non-dominated paths: 19854
+number of dominated labels: 40654215
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 20398
+number of dominated labels: 40807909
+The best label is: 
+number of non-dominated paths: 22369
+number of dominated labels: 40905851
+The best label is: 
+number of non-dominated paths: 20571
+number of dominated labels: 41064671
+The best label is: 
+number of non-dominated paths: 19854
+number of dominated labels: 41150648
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 20231
+number of dominated labels: 41302796
+The best label is: 
+number of non-dominated paths: 22191
+number of dominated labels: 41400340
+The best label is: 
+number of non-dominated paths: 21557
+number of dominated labels: 41558710
+The best label is: 
+number of non-dominated paths: 19710
+number of dominated labels: 41644230
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 20896
+number of dominated labels: 41803629
+The best label is: 
+number of non-dominated paths: 19277
+number of dominated labels: 41905833
+The best label is: 
+number of non-dominated paths: 21312
+number of dominated labels: 42071310
+The best label is: 
+number of non-dominated paths: 20454
+number of dominated labels: 42160654
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 19473
+number of dominated labels: 42299374
+The best label is: 
+number of non-dominated paths: 22300
+number of dominated labels: 42398349
+The best label is: 
+number of non-dominated paths: 19389
+number of dominated labels: 42537584
+The best label is: 
+number of non-dominated paths: 20370
+number of dominated labels: 42627912
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 21331
+number of dominated labels: 42774310
+The best label is: 
+number of non-dominated paths: 23117
+number of dominated labels: 42873414
+The best label is: 
+number of non-dominated paths: 21169
+number of dominated labels: 43018967
+The best label is: 
+number of non-dominated paths: 20319
+number of dominated labels: 43105383
+The best label is: 
+Objective value6819682.981499201
+NEW MP
+number of non-dominated paths: 20667
+number of dominated labels: 43246416
+The best label is: 
+number of non-dominated paths: 21917
+number of dominated labels: 43343402
+The best label is: 
+number of non-dominated paths: 19600
+number of dominated labels: 43481154
+The best label is: 
+number of non-dominated paths: 20037
+number of dominated labels: 43570155
+The best label is: 
+Objective value6826310.868728802
+NEW MP
+number of non-dominated paths: 15341
+number of dominated labels: 43699350
+The best label is: 
+number of non-dominated paths: 22453
+number of dominated labels: 43797957
+The best label is: 
+number of non-dominated paths: 19636
+number of dominated labels: 43932933
+The best label is: 
+number of non-dominated paths: 20626
+number of dominated labels: 44023072
+The best label is: 
+Objective value6829489.67191078
+NEW MP
+number of non-dominated paths: 19434
+number of dominated labels: 44160895
+The best label is: 
+number of non-dominated paths: 21682
+number of dominated labels: 44258072
+The best label is: 
+number of non-dominated paths: 19787
+number of dominated labels: 44396765
+The best label is: 
+number of non-dominated paths: 19896
+number of dominated labels: 44485929
+The best label is: 
+Objective value6830283.466407713
+NEW MP
+number of non-dominated paths: 20828
+number of dominated labels: 44627527
+The best label is: 
+number of non-dominated paths: 21754
+number of dominated labels: 44725091
+The best label is: 
+number of non-dominated paths: 20176
+number of dominated labels: 44862499
+The best label is: 
+number of non-dominated paths: 20122
+number of dominated labels: 44952056
+The best label is: 
+Objective value6843008.9556539
+NEW MP
+number of non-dominated paths: 21918
+number of dominated labels: 45098772
+The best label is: 
+number of non-dominated paths: 22148
+number of dominated labels: 45197885
+The best label is: 
+number of non-dominated paths: 21322
+number of dominated labels: 45347377
+The best label is: 
+number of non-dominated paths: 20335
+number of dominated labels: 45437786
+The best label is: 
+Objective value6846395.550870436
+NEW MP
+number of non-dominated paths: 18110
+number of dominated labels: 45570558
+The best label is: 
+number of non-dominated paths: 18213
+number of dominated labels: 45669143
+The best label is: 
+number of non-dominated paths: 18902
+number of dominated labels: 45802543
+The best label is: 
+number of non-dominated paths: 18707
+number of dominated labels: 45893203
+The best label is: 
+Objective value6847036.752423535
+NEW MP
+number of non-dominated paths: 19059
+number of dominated labels: 46026580
+The best label is: 
+number of non-dominated paths: 22366
+number of dominated labels: 46125326
+The best label is: 
+number of non-dominated paths: 20109
+number of dominated labels: 46258978
+The best label is: 
+number of non-dominated paths: 20646
+number of dominated labels: 46348925
+The best label is: 
+Objective value6847444.751235345
+NEW MP
+number of non-dominated paths: 21962
+number of dominated labels: 46494030
+The best label is: 
+number of non-dominated paths: 22528
+number of dominated labels: 46593121
+The best label is: 
+number of non-dominated paths: 21408
+number of dominated labels: 46733338
+The best label is: 
+number of non-dominated paths: 20626
+number of dominated labels: 46823475
+The best label is: 
+Objective value6859362.91861928
+NEW MP
+number of non-dominated paths: 21356
+number of dominated labels: 46962851
+The best label is: 
+number of non-dominated paths: 21235
+number of dominated labels: 47059340
+The best label is: 
+number of non-dominated paths: 20332
+number of dominated labels: 47196206
+The best label is: 
+number of non-dominated paths: 19432
+number of dominated labels: 47284414
+The best label is: 
+Objective value6861379.706296481
+NEW MP
+number of non-dominated paths: 22475
+number of dominated labels: 47425097
+The best label is: 
+number of non-dominated paths: 21667
+number of dominated labels: 47522766
+The best label is: 
+number of non-dominated paths: 21543
+number of dominated labels: 47663730
+The best label is: 
+number of non-dominated paths: 19885
+number of dominated labels: 47752995
+The best label is: 
+Objective value6861999.409913561
+NEW MP
+number of non-dominated paths: 22236
+number of dominated labels: 47892601
+The best label is: 
+number of non-dominated paths: 21783
+number of dominated labels: 47990085
+The best label is: 
+number of non-dominated paths: 20854
+number of dominated labels: 48125077
+The best label is: 
+number of non-dominated paths: 19748
+number of dominated labels: 48213901
+The best label is: 
+Objective value6863814.139754442
+NEW MP
+number of non-dominated paths: 20081
+number of dominated labels: 48347188
+The best label is: 
+number of non-dominated paths: 21621
+number of dominated labels: 48444182
+The best label is: 
+number of non-dominated paths: 20338
+number of dominated labels: 48573143
+The best label is: 
+number of non-dominated paths: 19653
+number of dominated labels: 48661644
+The best label is: 
+Objective value6874053.8689736
+NEW MP
+number of non-dominated paths: 21537
+number of dominated labels: 48802094
+The best label is: 
+number of non-dominated paths: 21794
+number of dominated labels: 48900107
+The best label is: 
+number of non-dominated paths: 20285
+number of dominated labels: 49036887
+The best label is: 
+number of non-dominated paths: 19818
+number of dominated labels: 49126096
+The best label is: 
+Objective value6875278.447937914
+NEW MP
+number of non-dominated paths: 23025
+number of dominated labels: 49267348
+The best label is: 
+number of non-dominated paths: 21677
+number of dominated labels: 49364831
+The best label is: 
+number of non-dominated paths: 21407
+number of dominated labels: 49501169
+The best label is: 
+number of non-dominated paths: 19637
+number of dominated labels: 49589844
+The best label is: 
+Objective value6878143.362922482
+NEW MP
+number of non-dominated paths: 22937
+number of dominated labels: 49724246
+The best label is: 
+number of non-dominated paths: 18376
+number of dominated labels: 49813156
+The best label is: 
+number of non-dominated paths: 22997
+number of dominated labels: 49948336
+The best label is: 
+number of non-dominated paths: 16153
+number of dominated labels: 50025421
+The best label is: 
+Objective value6878297.586542078
+NEW MP
+number of non-dominated paths: 22083
+number of dominated labels: 50153887
+The best label is: 
+number of non-dominated paths: 20266
+number of dominated labels: 50242923
+The best label is: 
+number of non-dominated paths: 20994
+number of dominated labels: 50369121
+The best label is: 
+number of non-dominated paths: 18537
+number of dominated labels: 50450015
+The best label is: 
+Objective value6894550.9600869
+NEW MP
+number of non-dominated paths: 22421
+number of dominated labels: 50587841
+The best label is: 
+number of non-dominated paths: 21356
+number of dominated labels: 50684678
+The best label is: 
+number of non-dominated paths: 21708
+number of dominated labels: 50818973
+The best label is: 
+number of non-dominated paths: 19478
+number of dominated labels: 50907442
+The best label is: 
+Objective value6900385.171972801
+NEW MP
+number of non-dominated paths: 15754
+number of dominated labels: 51044300
+The best label is: 
+number of non-dominated paths: 21271
+number of dominated labels: 51141600
+The best label is: 
+number of non-dominated paths: 20688
+number of dominated labels: 51283055
+The best label is: 
+number of non-dominated paths: 19382
+number of dominated labels: 51371915
+The best label is: 
+Objective value6903166.003999813
+NEW MP

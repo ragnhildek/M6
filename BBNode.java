@@ -18,7 +18,7 @@ public class BBNode {
 	//private BBNode rightChild;
 	private double objectiveValue;
 	private int nodeId;
-
+	int numberOfPickupsServed;
 	int[][] branchingMatrix; 
 	ArrayList<Double> lambdaValues;
 	Hashtable<Integer, Double> MPsolutionVarsBBnode; 
@@ -133,6 +133,7 @@ public class BBNode {
 		this.MPsolutionVarsBBnode = new Hashtable<Integer,Double>();
 		this.pickupNodesBranchedOn = new ArrayList<Integer>();
 		this.type = type;
+		this.numberOfPickupsServed = numberOfPickupsServed;
 		
 	//	this.cargoBranches = new Vector<Integer>();
 	//	this.branches = new Vector<Integer>();

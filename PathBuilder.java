@@ -22,7 +22,8 @@ public class PathBuilder {
 	public Preprocessing preprocess;
 	//public Vehicle vehicle;
 	private double zeroTol = 0.001;
-	private int numberOfDominatedLabels;
+	public int numberOfDominatedLabels;
+	public int numberOfPaths; 
 	int routeNumber = 1;
 //	public double[] dualVisitedPickupsCon;
 //	public Vector<double> dualOneVisitCon;
@@ -2094,6 +2095,7 @@ public class PathBuilder {
 		
 		// Creating the list of non-dominated labels
 		Vector<Label> list = new Vector<Label>();   
+		Vector<Label> labelsFound = new Vector<Label>();
 		// Initializing label
 		Label L = new Label();
 	//	L.bestLabelNumber = 0;
@@ -2139,8 +2141,10 @@ public class PathBuilder {
 		unprocessedQueue.add(L);
 		int counter = 0;
 		//Going through all unprocessed labels
-		while(!unprocessedQueue.isEmpty()) { 
-			
+		int labelsFoundCounter = 0;
+		while(!unprocessedQueue.isEmpty() ) { 
+		//	System.out.println(labelsFoundCounter);
+		//	System.out.println(unprocessedQueue.size());
 			Label label = unprocessedQueue.remove();
 		//	System.out.println("Remove from unprocessed "+label.toString());
 			counter++;
@@ -2354,6 +2358,10 @@ public class PathBuilder {
 				//	System.out.println(newLabel);
 					if(checkdominance(newLabel, unprocessedQueue, unprocessedAtNode.get(newLabel.node.number), processedAtNode.get(newLabel.node.number), bbNode)) {
 						list.add(newLabel);
+						if(newLabel.reducedCost > 0.0001) {
+							labelsFound.add(newLabel);
+							labelsFoundCounter++;
+						}
 					}
 				}
 				
@@ -2365,6 +2373,10 @@ public class PathBuilder {
 					//System.out.println(newLabel2);
 					if(checkdominance(newLabel2, unprocessedQueue, unprocessedAtNode.get(newLabel2.node.number), processedAtNode.get(newLabel2.node.number), bbNode)) {
 						list.add(newLabel2);
+						if(newLabel2.reducedCost > 0.0001) {
+							labelsFound.add(newLabel2);
+							labelsFoundCounter++;
+						}
 					}
 				}
 				
@@ -2375,6 +2387,10 @@ public class PathBuilder {
 				//	System.out.println(newLabel3);
 					if(checkdominance(newLabel3, unprocessedQueue, unprocessedAtNode.get(newLabel3.node.number), processedAtNode.get(newLabel3.node.number), bbNode)) {
 						list.add(newLabel3);
+						if(newLabel3.reducedCost > 0.0001) {
+							labelsFound.add(newLabel3);
+							labelsFoundCounter++;
+						}
 					}
 				}
 			}
@@ -2386,6 +2402,10 @@ public class PathBuilder {
 				//System.out.println(newLabel4);
 				if(checkdominance(newLabel4, unprocessedQueue, unprocessedAtNode.get(newLabel4.node.number), processedAtNode.get(newLabel4.node.number), bbNode)) {
 					list.add(newLabel4);
+					if(newLabel4.reducedCost > 0.0001) {
+						labelsFound.add(newLabel4);
+						labelsFoundCounter++;
+					}
 				}
 			}
 			
@@ -2405,6 +2425,10 @@ public class PathBuilder {
 					
 					if(checkdominance(newLabel5, unprocessedQueue, unprocessedAtNode.get(newLabel5.node.number), processedAtNode.get(newLabel5.node.number), bbNode)) {
 						list.add(newLabel5);
+						if(newLabel5.reducedCost > 0.0001) {
+							labelsFound.add(newLabel5);
+							labelsFoundCounter++;
+						}
 					}
 				}
 				
@@ -2415,16 +2439,26 @@ public class PathBuilder {
 					
 					if(checkdominance(newLabel6, unprocessedQueue, unprocessedAtNode.get(newLabel6.node.number), processedAtNode.get(newLabel6.node.number), bbNode)) {
 						list.add(newLabel6);
+						if(newLabel6.reducedCost > 0.0001) {
+							labelsFound.add(newLabel6);
+							labelsFoundCounter++;
+						}
 					}
 				}
 			}
 			// The label removed from unprocessed list is added to the processed list
 			processedAtNode.get(label.node.number).add(label); 
+			
+			//if(labelsFoundCounter >= 5) {
+			//	break;
+			//}
 		}
 		
 		//	System.out.println("Number of paths:" + processed.size());
 		System.out.println("number of non-dominated paths: "+list.size());
 		pw.println("number of non-dominated paths: "+list.size());
+		numberOfPaths += list.size();
+		System.out.println(numberOfPaths);
 		System.out.println("number of dominated labels: "+numberOfDominatedLabels);
 		pw.println("number of dominated labels: "+numberOfDominatedLabels);
 		System.out.println("The best label is:");
@@ -2435,7 +2469,8 @@ public class PathBuilder {
 		//System.out.println(i.toString());
 		//}
 		
-		return list;
+	//	return list;
+		return labelsFound;
 	}
 	
 	// Checks if L1 dominates L2
@@ -2603,15 +2638,15 @@ public class PathBuilder {
 	
 	
 	// Finds the non-dominated label with the best profit and returns it as the best solution
-		public ArrayList<Label> findBestLabel(Vector<Label> list, BBNode bbNode,  Hashtable<Integer,Label> pathList, Vehicle v) throws NullPointerException {
+		public ArrayList<Label> findBestLabel(Vector<Label> labelsFound, BBNode bbNode,  Hashtable<Integer,Label> pathList, Vehicle v) throws NullPointerException {
 			double currentBestRedCost =  0.0001;
-			
+			System.out.println(labelsFound.size());
 			//Label bestLabel = null;
-			PriorityQueue<Label> bestLabelQueue = new PriorityQueue<Label>(10000, new BestLabelComparator()); 
+			PriorityQueue<Label> bestLabelQueue = new PriorityQueue<Label>(1000, new BestLabelComparator()); 
 			ArrayList<Label> bestLabels = new ArrayList<Label>();
-			System.out.println(list);
-			for(Label i : list) {
-				if(i.reducedCost > currentBestRedCost) {
+			//System.out.println(list);
+			for(Label i : labelsFound) {
+			//	if(i.reducedCost > currentBestRedCost) {
 					boolean addLabel = true;
 					int pickupNumber = 2;
 					for(int pickup : bbNode.branchingMatrix[i.vehicle.number]) {
@@ -2629,20 +2664,21 @@ public class PathBuilder {
 					if (addLabel == true) {
 						bestLabelQueue.add(i);
 					}
+					
 					//System.out.println(i.reducedCost);
 					//currentBestRedCost = i.reducedCost;
 					//bestLabel = i;
-				}
-			}
+		//		}
+			}System.out.println(bestLabelQueue.size());
 		//	for(int i = 0 ; i < bestLabelQueue.size(); i ++) {
 		//		pw.println(i);
 		//		pw.println(bestLabelQueue.remove().reducedCost);
 		//	}
 			
 			
-			while(bestLabels.size()<Math.min(50, bestLabelQueue.size())) {
+			while(bestLabels.size()<Math.min(100, bestLabelQueue.size())) {
 				Label currentBestLabel = bestLabelQueue.remove();
-				
+			//	System.out.println(bestLabelQueue.size());
 				currentBestLabel.path = new Vector<Node>();
 				Label temp = currentBestLabel.predesessor;
 				while(temp!=null) {
@@ -2665,14 +2701,14 @@ public class PathBuilder {
 						break;
 					}
 				}
-				if(routeAlreadyExisting == false) {
+				if(! routeAlreadyExisting) {
 					for(Label label : bestLabels) {
 						if(label.path.equals(currentBestLabel.path) && label.reducedCost == currentBestLabel.reducedCost && label.time == currentBestLabel.time) {
 							routeAlreadyExisting = true;
 							break;
 						}
 					}
-					if(routeAlreadyExisting == false) {
+					if(! routeAlreadyExisting ) {
 						bestLabels.add(currentBestLabel);
 				//		pw.println("Current best " + currentBestLabel.toString());
 					}
