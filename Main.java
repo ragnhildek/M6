@@ -13,7 +13,7 @@ public class Main {
 		long startTime = System.nanoTime();
 	//	long startTime = System.currentTimeMillis();
 		
-		String datafile = "18B15R4V_java.txt";
+		String datafile = "1D10R3V8T20W.txt";
 		
 		File file = new File ("54P30R4V_java_results.txt");
 		FileWriter resultWriter = new FileWriter("All_Results.txt", true);

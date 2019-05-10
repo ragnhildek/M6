@@ -442,8 +442,10 @@ import gurobi.*;
 			double currentNumber = 0;
 			int numberOfPickupsServed = 0;
 			for(int key : bbNode.MPsolutionVarsBBnode.keySet()) {
-				currentNumber = ( bbNode.MPsolutionVarsBBnode.get(key) * pathList.get(key).pickupNodesVisited.size()) ;
-				numberOfPickupsServed += currentNumber;
+				if (key >= vehicles.size()) {
+					currentNumber = ( bbNode.MPsolutionVarsBBnode.get(key) * pathList.get(key).pickupNodesVisited.size()) ;
+					numberOfPickupsServed += currentNumber;
+				}
 			}
 			return numberOfPickupsServed;
 		} 
