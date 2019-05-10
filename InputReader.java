@@ -7,7 +7,7 @@ import java.util.Vector;
 
 
 public class InputReader {
-	public static void inputReader(String datafile, InstanceData inputdata, Vector<Node> nodesWithoutDepot, Vector<Node> pickupNodes, Vector<Node> deliveryNodes, Vector<Node>startDepots, Vector<Vehicle>vehicles) {
+	public static void inputReader(String datafile, InstanceData inputdata, Vector<Node> pickupNodes, Vector<Node> deliveryNodes, Vector<Node>startDepots, Vector<Vehicle>vehicles) {
 		try {
 			File file = new File(datafile);
 			FileReader reader = new FileReader(file);
@@ -59,9 +59,9 @@ public class InputReader {
 					hello.type = "DeliveryNode";
 					deliveryNodes.add(hello);
 				}
-				if(i>2) {
-					nodesWithoutDepot.add(hello);
-				}
+			//	if(i>2) {
+			//		nodesWithoutDepot.add(hello);
+			//	}
 				
 			}
 			

@@ -49,10 +49,10 @@ public class Main {
 		InstanceData inputdata = new InstanceData(datafile);
 		//PathBuilder builder = new PathBuilder(pickupNodes, deliveryNodes, nodes, depot,inputdata, pw, routes, vehicles);
 
-		InputReader.inputReader(datafile, inputdata, nodesWithoutDepot, pickupNodes, deliveryNodes, startDepots, vehicles);
+		InputReader.inputReader(datafile, inputdata, pickupNodes, deliveryNodes, startDepots, vehicles);
 	//	System.out.println(inputdata.times[2][18]);
 
-		GurobiInterface solver = new GurobiInterface(inputdata, deliveryNodes,  pickupNodes, nodesWithoutDepot, vehicles, dualVisitedPickupsCon, dualOneVisitCon, pw, fw);
+		GurobiInterface solver = new GurobiInterface(inputdata, deliveryNodes,  pickupNodes, vehicles, dualVisitedPickupsCon, dualOneVisitCon, pw, fw);
 		solver.columnGenerator();
 		//PathBuilder builder;
 		

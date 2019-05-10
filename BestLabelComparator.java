@@ -16,6 +16,4 @@ public class BestLabelComparator implements Comparator<Label>{
         }
         return 0;
     }	
-
-
 }

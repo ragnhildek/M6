@@ -1,5 +1,6 @@
 Objective value-0.0
 NEW MP
+ 
 number of non-dominated paths: 156
 number of dominated labels: 113
 The best label is: 
@@ -14,6 +15,7 @@ number of dominated labels: 691
 The best label is: 
 Objective value1971462.5195979998
 NEW MP
+ 
 number of non-dominated paths: 147
 number of dominated labels: 818
 The best label is: 
@@ -28,6 +30,7 @@ number of dominated labels: 1452
 The best label is: 
 Objective value1999725.9956854
 NEW MP
+ 
 number of non-dominated paths: 162
 number of dominated labels: 1567
 The best label is: 
@@ -42,6 +45,7 @@ number of dominated labels: 2184
 The best label is: 
 Objective value1999725.9956854
 NEW MP
+ 
 number of non-dominated paths: 159
 number of dominated labels: 2300
 The best label is: 
@@ -132,64 +136,27 @@ Node: 3, Location: 10 , Hjerkinn, Time: 10.330000000000002, Profit: 373469.47071
 Node: 2, Location: 7 ,  Kongsvinger, Time: 3.93, Profit: 381508.7383696, Reduced cost: 381508.7383696, unreachablePickupNodes: [2, 10, 14, 16], openNodes: [2], dailyDrivingTime: 3.93, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.93, workingTime: 3.93, totalDistance: 290.228, WeightCapacityUsed: 12.0, VolumeCapacityUsed: 22.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
-Total time to solve rootnode: 474
+Total time to solve rootnode: 515
   
 ---- ROOTNODE FINISHED ----
   
-186
-1.0
-0.5
-2
-10
-2.5
-0.5
-3
-368
-3.0
-0.5
-1
-170
-4.0
-1.0
-1
-257
-5.0
-0.5
-2
-345
-6.0
-0.5
-2
-245
-7.5
-0.5
-3
-number7.5
-2 0.5 2
-4 0.5 0
-12 0.5 0
-20 0.5 0
-26 0.5 2
-28 0.5 2
-MOST FRACTIONAL 2
-vehicle 2
+number6.0
+ 
+Branching on pickup node 2 and vehicle 2
+ 
   
 ---- BRANCHING ----
   
+ 
 BESTNODE: 0 1999725.9956854
 Branching matrix bestBBnode: 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-2 0.5 2
-4 0.5 0
-12 0.5 0
-20 0.5 0
-26 0.5 2
-28 0.5 2
-MOST FRACTIONAL 2
-vehicle 2
+ 
+Branching on pickup node 2 and vehicle 2
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 1
 Branching matrix left child: 
@@ -198,6 +165,7 @@ Branching matrix left child:
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 156
 number of dominated labels: 3041
 The best label is: 
@@ -212,6 +180,7 @@ number of dominated labels: 3596
 The best label is: 
 Objective value1998887.6556853997
 NEW MP
+ 
 number of non-dominated paths: 159
 number of dominated labels: 3712
 The best label is: 
@@ -303,6 +272,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 4419
 The best label is: 
@@ -317,6 +287,7 @@ number of dominated labels: 4993
 The best label is: 
 Objective value1984405.2562453996
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 5099
 The best label is: 
@@ -407,18 +378,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 1 1998887.6556853997
 Branching matrix bestBBnode: 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-4 0.5 0
-12 0.5 0
-20 0.5 0
-26 0.5 2
-MOST FRACTIONAL 4
-vehicle 0
+ 
+Branching on pickup node 4 and vehicle 0
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 3
 Branching matrix left child: 
@@ -427,6 +396,7 @@ Branching matrix left child:
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 5813
 The best label is: 
@@ -441,6 +411,7 @@ number of dominated labels: 6368
 The best label is: 
 Objective value1998778.1326235998
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 6451
 The best label is: 
@@ -543,6 +514,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 156
 number of dominated labels: 7168
 The best label is: 
@@ -557,6 +529,7 @@ number of dominated labels: 7602
 The best label is: 
 Objective value1998651.2126235995
 NEW MP
+ 
 number of non-dominated paths: 159
 number of dominated labels: 7718
 The best label is: 
@@ -636,21 +609,16 @@ Node: 3, Location: 10 , Hjerkinn, Time: 10.330000000000002, Profit: 373469.47071
 Node: 2, Location: 7 ,  Kongsvinger, Time: 3.93, Profit: 381508.7383696, Reduced cost: 381508.7383696, unreachablePickupNodes: [2, 10, 14, 16], openNodes: [2], dailyDrivingTime: 3.93, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.93, workingTime: 3.93, totalDistance: 290.228, WeightCapacityUsed: 12.0, VolumeCapacityUsed: 22.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 3 1998778.1326235998
 Branching matrix bestBBnode: 
 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-2 0.5 0
-4 0.5 2
-12 0.5 0
-18 0.5 0
-20 0.5 2
-26 0.5 2
-28 0.5 0
-MOST FRACTIONAL 2
-vehicle 0
+ 
+Branching on pickup node 2 and vehicle 0
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 5
 Branching matrix left child: 
@@ -659,6 +627,7 @@ Branching matrix left child:
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 8262
 The best label is: 
@@ -673,6 +642,7 @@ number of dominated labels: 8817
 The best label is: 
 Objective value1998651.2126236
 NEW MP
+ 
 number of non-dominated paths: 126
 number of dominated labels: 8890
 The best label is: 
@@ -773,6 +743,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 9573
 The best label is: 
@@ -787,6 +758,7 @@ number of dominated labels: 10124
 The best label is: 
 Objective value1998280.7160533997
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 10207
 The best label is: 
@@ -875,20 +847,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 5 1998651.2126236
 Branching matrix bestBBnode: 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-4 0.5 1
-12 0.5 0
-18 0.5 0
-20 0.5 1
-24 0.5 0
-26 0.5 2
-MOST FRACTIONAL 4
-vehicle 1
+ 
+Branching on pickup node 4 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 7
 Branching matrix left child: 
@@ -897,6 +865,7 @@ Branching matrix left child:
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 10872
 The best label is: 
@@ -911,6 +880,7 @@ number of dominated labels: 11371
 The best label is: 
 Objective value1982492.1331836
 NEW MP
+ 
 number of non-dominated paths: 126
 number of dominated labels: 11442
 The best label is: 
@@ -1013,6 +983,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 12065
 The best label is: 
@@ -1027,6 +998,7 @@ number of dominated labels: 12555
 The best label is: 
 Objective value1891632.4433104
 NEW MP
+ 
 number of non-dominated paths: 108
 number of dominated labels: 12641
 The best label is: 
@@ -1082,17 +1054,16 @@ Node: 3, Location: 10 , Hjerkinn, Time: 10.330000000000002, Profit: 373469.47071
 Node: 2, Location: 7 ,  Kongsvinger, Time: 3.93, Profit: 381508.7383696, Reduced cost: 381508.7383696, unreachablePickupNodes: [2, 10, 14, 16], openNodes: [2], dailyDrivingTime: 3.93, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.93, workingTime: 3.93, totalDistance: 290.228, WeightCapacityUsed: 12.0, VolumeCapacityUsed: 22.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 4 1998651.2126235995
 Branching matrix bestBBnode: 
 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
-12 0.5 0
-18 0.5 0
-26 0.5 2
-MOST FRACTIONAL 12
-vehicle 0
+ 
+Branching on pickup node 12 and vehicle 0
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 9
 Branching matrix left child: 
@@ -1101,6 +1072,7 @@ Branching matrix left child:
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 126
 number of dominated labels: 13230
 The best label is: 
@@ -1115,6 +1087,7 @@ number of dominated labels: 13664
 The best label is: 
 Objective value1970624.6196292
 NEW MP
+ 
 number of non-dominated paths: 126
 number of dominated labels: 13748
 The best label is: 
@@ -1184,6 +1157,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 156
 number of dominated labels: 14331
 The best label is: 
@@ -1198,6 +1172,7 @@ number of dominated labels: 14655
 The best label is: 
 Objective value1891632.4433104
 NEW MP
+ 
 number of non-dominated paths: 153
 number of dominated labels: 14775
 The best label is: 
@@ -1253,20 +1228,16 @@ Node: 3, Location: 10 , Hjerkinn, Time: 10.330000000000002, Profit: 373469.47071
 Node: 2, Location: 7 ,  Kongsvinger, Time: 3.93, Profit: 381508.7383696, Reduced cost: 381508.7383696, unreachablePickupNodes: [2, 10, 14, 16], openNodes: [2], dailyDrivingTime: 3.93, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.93, workingTime: 3.93, totalDistance: 290.228, WeightCapacityUsed: 12.0, VolumeCapacityUsed: 22.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 6 1998280.7160533997
 Branching matrix bestBBnode: 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-4 0.5 2
-12 0.5 1
-18 0.5 1
-20 0.5 2
-24 0.5 1
-26 0.5 2
-MOST FRACTIONAL 4
-vehicle 2
+ 
+Branching on pickup node 4 and vehicle 2
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 11
 Branching matrix left child: 
@@ -1275,6 +1246,7 @@ Branching matrix left child:
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 15201
 The best label is: 
@@ -1366,6 +1338,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 15798
 The best label is: 
@@ -1447,17 +1420,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 11 1998166.8950241995
 Branching matrix bestBBnode: 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-12 0.5 2
-18 0.5 2
-26 0.5 2
-MOST FRACTIONAL 12
-vehicle 2
+ 
+Branching on pickup node 12 and vehicle 2
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 13
 Branching matrix left child: 
@@ -1466,6 +1438,7 @@ Branching matrix left child:
 -1 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 16340
 The best label is: 
@@ -1566,6 +1539,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 111
 number of dominated labels: 16888
 The best label is: 
@@ -1623,18 +1597,16 @@ Node: 4, Location: 7 ,  Kongsvinger, Time: 19.62, Profit: 569070.221566, Reduced
 Node: 18, Location: 6 , T�nsberg, Time: 16.5, Profit: 238924.38165639996, Reduced cost: 238924.38165639996, unreachablePickupNodes: [18, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [18], dailyDrivingTime: 1.0, startTimeDailyRest: 4.5, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 1.0, workingTime: 1.0, totalDistance: 439.577, WeightCapacityUsed: 6.0, VolumeCapacityUsed: 21.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 13 1997779.0015157997
 Branching matrix bestBBnode: 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-12 0.5 1
-18 0.5 1
-24 0.5 1
-26 0.5 2
-MOST FRACTIONAL 12
-vehicle 1
+ 
+Branching on pickup node 12 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 15
 Branching matrix left child: 
@@ -1643,6 +1615,7 @@ Branching matrix left child:
 -1 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 17363
 The best label is: 
@@ -1710,6 +1683,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 111
 number of dominated labels: 17841
 The best label is: 
@@ -1798,19 +1772,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 16 1997779.0015157997
 Branching matrix bestBBnode: 
 1 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 
-4 0.5 1
-18 0.5 1
-20 0.5 1
-24 0.5 2
-26 0.5 2
-MOST FRACTIONAL 4
-vehicle 1
+ 
+Branching on pickup node 4 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 17
 Branching matrix left child: 
@@ -1819,6 +1790,7 @@ Branching matrix left child:
 -1 -1 0 0 0 -1 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 111
 number of dominated labels: 18337
 The best label is: 
@@ -1888,6 +1860,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 111
 number of dominated labels: 18777
 The best label is: 
@@ -1943,20 +1916,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 2 1984405.2562453996
 Branching matrix bestBBnode: 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-4 0.5 0
-10 0.5 1
-12 0.5 0
-14 0.5 1
-20 0.5 0
-24 0.5 1
-MOST FRACTIONAL 4
-vehicle 0
+ 
+Branching on pickup node 4 and vehicle 0
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 19
 Branching matrix left child: 
@@ -1965,6 +1934,7 @@ Branching matrix left child:
 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 19266
 The best label is: 
@@ -1979,6 +1949,7 @@ number of dominated labels: 19840
 The best label is: 
 Objective value1983667.0986459996
 NEW MP
+ 
 number of non-dominated paths: 126
 number of dominated labels: 19913
 The best label is: 
@@ -2081,6 +2052,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 20653
 The best label is: 
@@ -2162,18 +2134,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 20 1983780.9196751998
 Branching matrix bestBBnode: 
 -1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
-10 0.5 1
-12 0.5 0
-14 0.5 1
-18 0.5 0
-MOST FRACTIONAL 10
-vehicle 1
+ 
+Branching on pickup node 10 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 21
 Branching matrix left child: 
@@ -2182,6 +2152,7 @@ Branching matrix left child:
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 21207
 The best label is: 
@@ -2284,6 +2255,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 21688
 The best label is: 
@@ -2365,21 +2337,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 19 1983667.0986459996
 Branching matrix bestBBnode: 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-4 0.5 1
-10 0.5 1
-12 0.5 0
-14 0.5 1
-18 0.5 0
-20 0.5 1
-24 0.5 0
-MOST FRACTIONAL 4
-vehicle 1
+ 
+Branching on pickup node 4 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 23
 Branching matrix left child: 
@@ -2388,6 +2355,7 @@ Branching matrix left child:
 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 22125
 The best label is: 
@@ -2402,6 +2370,7 @@ number of dominated labels: 22643
 The best label is: 
 Objective value1983667.0986459996
 NEW MP
+ 
 number of non-dominated paths: 126
 number of dominated labels: 22716
 The best label is: 
@@ -2504,6 +2473,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 23367
 The best label is: 
@@ -2561,19 +2531,16 @@ Node: 14, Location: 37 ,  Stj�rdal, Time: 4.05, Profit: 239547.39173360003, Re
 Node: 10, Location: 22 , Meldal, Time: 2.3, Profit: 64631.66336239999, Reduced cost: -153067.52008919997, unreachablePickupNodes: [10, 2, 8, 26], openNodes: [10], dailyDrivingTime: 2.3, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.3, workingTime: 2.3, totalDistance: 156.782, WeightCapacityUsed: 5.0, VolumeCapacityUsed: 6.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -217699.18345159997, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 23 1983667.0986459996
 Branching matrix bestBBnode: 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-10 0.5 1
-12 0.5 0
-14 0.5 1
-18 0.5 0
-24 0.5 0
-MOST FRACTIONAL 10
-vehicle 1
+ 
+Branching on pickup node 10 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 25
 Branching matrix left child: 
@@ -2582,6 +2549,7 @@ Branching matrix left child:
 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 23944
 The best label is: 
@@ -2651,6 +2619,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 24459
 The best label is: 
@@ -2732,19 +2701,16 @@ Node: 4, Location: 7 ,  Kongsvinger, Time: 19.62, Profit: 569070.221566, Reduced
 Node: 18, Location: 6 , T�nsberg, Time: 16.5, Profit: 238924.38165639996, Reduced cost: 238924.38165639996, unreachablePickupNodes: [18, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [18], dailyDrivingTime: 1.0, startTimeDailyRest: 4.5, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 1.0, workingTime: 1.0, totalDistance: 439.577, WeightCapacityUsed: 6.0, VolumeCapacityUsed: 21.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 21 1983633.0479721995
 Branching matrix bestBBnode: 
 -1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
-10 0.5 3
-12 0.5 0
-14 0.5 3
-18 0.5 0
-24 0.5 1
-MOST FRACTIONAL 10
-vehicle 3
+ 
+Branching on pickup node 10 and vehicle 3
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 27
 Branching matrix left child: 
@@ -2753,6 +2719,7 @@ Branching matrix left child:
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 24996
 The best label is: 
@@ -2822,6 +2789,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 141
 number of dominated labels: 25403
 The best label is: 
@@ -2903,19 +2871,16 @@ Node: 14, Location: 37 ,  Stj�rdal, Time: 4.05, Profit: 239547.39173360003, Re
 Node: 10, Location: 22 , Meldal, Time: 2.3, Profit: 64631.66336239999, Reduced cost: -153067.52008919997, unreachablePickupNodes: [10, 2, 8, 26], openNodes: [10], dailyDrivingTime: 2.3, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.3, workingTime: 2.3, totalDistance: 156.782, WeightCapacityUsed: 5.0, VolumeCapacityUsed: 6.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -217699.18345159997, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 7 1982492.1331836
 Branching matrix bestBBnode: 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-10 0.5 1
-12 0.5 0
-14 0.5 1
-18 0.5 0
-24 0.5 0
-MOST FRACTIONAL 10
-vehicle 1
+ 
+Branching on pickup node 10 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 29
 Branching matrix left child: 
@@ -2924,6 +2889,7 @@ Branching matrix left child:
 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 25841
 The best label is: 
@@ -2993,6 +2959,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 123
 number of dominated labels: 26337
 The best label is: 
@@ -3074,18 +3041,16 @@ Node: 3, Location: 10 , Hjerkinn, Time: 10.330000000000002, Profit: 373469.47071
 Node: 2, Location: 7 ,  Kongsvinger, Time: 3.93, Profit: 381508.7383696, Reduced cost: 381508.7383696, unreachablePickupNodes: [2, 10, 14, 16], openNodes: [2], dailyDrivingTime: 3.93, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 3.93, workingTime: 3.93, totalDistance: 290.228, WeightCapacityUsed: 12.0, VolumeCapacityUsed: 22.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: 0.0, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 12 1982121.6366134
 Branching matrix bestBBnode: 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
-10 0.5 1
-12 0.5 1
-14 0.5 1
-18 0.5 1
-MOST FRACTIONAL 10
-vehicle 1
+ 
+Branching on pickup node 10 and vehicle 1
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 31
 Branching matrix left child: 
@@ -3094,6 +3059,7 @@ Branching matrix left child:
 -1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 26832
 The best label is: 
@@ -3196,6 +3162,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 27301
 The best label is: 
@@ -3277,19 +3244,16 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 31 1981973.7649103997
 Branching matrix bestBBnode: 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 
 -1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
-10 0.5 3
-12 0.5 1
-14 0.5 3
-18 0.5 1
-24 0.5 1
-MOST FRACTIONAL 10
-vehicle 3
+ 
+Branching on pickup node 10 and vehicle 3
+ 
 -------------- LEFT CHILD RESULT -------------------
 ID left child 33
 Branching matrix left child: 
@@ -3298,6 +3262,7 @@ Branching matrix left child:
 -1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 27760
 The best label is: 
@@ -3367,6 +3332,7 @@ lambda_1_1
 lambda_2_2
 lambda_3_3
 NEW MP
+ 
 number of non-dominated paths: 138
 number of dominated labels: 28155
 The best label is: 
@@ -3448,13 +3414,15 @@ Node: 14, Location: 37 ,  Stj�rdal, Time: 4.05, Profit: 239547.39173360003, Re
 Node: 10, Location: 22 , Meldal, Time: 2.3, Profit: 64631.66336239999, Reduced cost: -153067.52008919997, unreachablePickupNodes: [10, 2, 8, 26], openNodes: [10], dailyDrivingTime: 2.3, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 2.3, workingTime: 2.3, totalDistance: 156.782, WeightCapacityUsed: 5.0, VolumeCapacityUsed: 6.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -217699.18345159997, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
+ 
 BESTNODE: 27 1971800.2996292
 Branching matrix bestBBnode: 
 -1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 
 1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 
 -1 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 
-BESTNODE: 27 1971800.2996292
+
+BESTNODE has ID 27 and profit 1971800.2996292
  
 Vehicle 1 drives route 87
 Profit: 564513.3189364001
@@ -3492,22 +3460,6 @@ Node: 25, Location: 46 , Molde, Time: 25.63, Profit: 304404.9602323999, Reduced 
 Node: 24, Location: 7 ,  Kongsvinger, Time: 17.0, Profit: 315310.2783696, Reduced cost: 12655.513336000091, unreachablePickupNodes: [24, 2, 6, 8, 10, 14, 16, 22, 26, 30], openNodes: [24], dailyDrivingTime: 0.0, startTimeDailyRest: 6.0, numberDailyRests: 2, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 290.228, WeightCapacityUsed: 7.0, VolumeCapacityUsed: 20.0, Predessesor: 0
 Node: 0, Location: 38 , Grimsbu, Time: 0.0, Profit: 0.0, Reduced cost: -265564.28031000006, unreachablePickupNodes: [], openNodes: [], dailyDrivingTime: 0.0, startTimeDailyRest: 0.0, numberDailyRests: 1, StartTimeIntermediateBreak: 0.0, consecutiveDrivingTime: 0.0, workingTime: 0.0, totalDistance: 0.0, WeightCapacityUsed: 0.0, VolumeCapacityUsed: 0.0
  
-87
-3.0
-1.0
-3
-10
-6.0
-1.0
-3
-216
-7.0
-1.0
-1
-387
-8.0
-1.0
-1
-Total time in subproblem: 1309.0
-Total time in master problem 1.0
-Took 3075 milli seconds
+Total time in subproblem: 1296
+Total time in master problem 1
+Took 3016 milli seconds
